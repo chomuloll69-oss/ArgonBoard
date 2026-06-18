@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.keyboard.emoji;
+package helium314.keyboard.keyboard.emoji;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -26,35 +26,35 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager2.widget.ViewPager2;
 
-import com.bhuwan.argonboard.event.HapticEvent;
-import com.bhuwan.argonboard.keyboard.Key;
-import com.bhuwan.argonboard.keyboard.Keyboard;
-import com.bhuwan.argonboard.keyboard.KeyboardActionListener;
-import com.bhuwan.argonboard.keyboard.KeyboardId;
-import com.bhuwan.argonboard.keyboard.KeyboardLayoutSet;
-import com.bhuwan.argonboard.keyboard.KeyboardSwitcher;
-import com.bhuwan.argonboard.keyboard.KeyboardView;
-import com.bhuwan.argonboard.keyboard.MainKeyboardView;
-import com.bhuwan.argonboard.keyboard.PointerTracker;
-import com.bhuwan.argonboard.keyboard.internal.KeyDrawParams;
-import com.bhuwan.argonboard.keyboard.internal.KeyVisualAttributes;
-import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.EmojiParserKt;
-import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.KeyCode;
-import com.bhuwan.argonboard.latin.AudioAndHapticFeedbackManager;
-import com.bhuwan.argonboard.latin.dictionary.Dictionary;
-import com.bhuwan.argonboard.latin.dictionary.DictionaryFactory;
-import com.bhuwan.argonboard.latin.R;
-import com.bhuwan.argonboard.latin.RichInputMethodManager;
-import com.bhuwan.argonboard.latin.RichInputMethodSubtype;
-import com.bhuwan.argonboard.latin.SingleDictionaryFacilitator;
-import com.bhuwan.argonboard.latin.common.ColorType;
-import com.bhuwan.argonboard.latin.common.Colors;
-import com.bhuwan.argonboard.latin.settings.Settings;
-import com.bhuwan.argonboard.latin.settings.SettingsValues;
-import com.bhuwan.argonboard.latin.utils.DictionaryInfoUtils;
-import com.bhuwan.argonboard.latin.utils.ResourceUtils;
+import helium314.keyboard.event.HapticEvent;
+import helium314.keyboard.keyboard.Key;
+import helium314.keyboard.keyboard.Keyboard;
+import helium314.keyboard.keyboard.KeyboardActionListener;
+import helium314.keyboard.keyboard.KeyboardId;
+import helium314.keyboard.keyboard.KeyboardLayoutSet;
+import helium314.keyboard.keyboard.KeyboardSwitcher;
+import helium314.keyboard.keyboard.KeyboardView;
+import helium314.keyboard.keyboard.MainKeyboardView;
+import helium314.keyboard.keyboard.PointerTracker;
+import helium314.keyboard.keyboard.internal.KeyDrawParams;
+import helium314.keyboard.keyboard.internal.KeyVisualAttributes;
+import helium314.keyboard.keyboard.internal.keyboard_parser.EmojiParserKt;
+import helium314.keyboard.keyboard.internal.keyboard_parser.floris.KeyCode;
+import helium314.keyboard.latin.AudioAndHapticFeedbackManager;
+import helium314.keyboard.latin.dictionary.Dictionary;
+import helium314.keyboard.latin.dictionary.DictionaryFactory;
+import helium314.keyboard.latin.R;
+import helium314.keyboard.latin.RichInputMethodManager;
+import helium314.keyboard.latin.RichInputMethodSubtype;
+import helium314.keyboard.latin.SingleDictionaryFacilitator;
+import helium314.keyboard.latin.common.ColorType;
+import helium314.keyboard.latin.common.Colors;
+import helium314.keyboard.latin.settings.Settings;
+import helium314.keyboard.latin.settings.SettingsValues;
+import helium314.keyboard.latin.utils.DictionaryInfoUtils;
+import helium314.keyboard.latin.utils.ResourceUtils;
 
-import static com.bhuwan.argonboard.latin.common.Constants.NOT_A_COORDINATE;
+import static helium314.keyboard.latin.common.Constants.NOT_A_COORDINATE;
 
 /**
  * View class to implement Emoji palettes.

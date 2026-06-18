@@ -4,26 +4,26 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.keyboard;
+package helium314.keyboard.keyboard;
 
 import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.text.TextUtils;
 
-import com.bhuwan.argonboard.keyboard.internal.KeyDrawParams;
-import com.bhuwan.argonboard.keyboard.internal.KeySpecParser;
-import com.bhuwan.argonboard.keyboard.internal.KeyVisualAttributes;
-import com.bhuwan.argonboard.keyboard.internal.KeyboardIconsSet;
-import com.bhuwan.argonboard.keyboard.internal.KeyboardParams;
-import com.bhuwan.argonboard.keyboard.internal.PopupKeySpec;
-import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.KeyCode;
-import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.PopupSet;
-import com.bhuwan.argonboard.latin.common.Constants;
-import com.bhuwan.argonboard.latin.common.StringUtils;
-import com.bhuwan.argonboard.latin.utils.PopupKeysUtilsKt;
-import com.bhuwan.argonboard.latin.utils.ToolbarKey;
-import com.bhuwan.argonboard.latin.utils.ToolbarUtilsKt;
+import helium314.keyboard.keyboard.internal.KeyDrawParams;
+import helium314.keyboard.keyboard.internal.KeySpecParser;
+import helium314.keyboard.keyboard.internal.KeyVisualAttributes;
+import helium314.keyboard.keyboard.internal.KeyboardIconsSet;
+import helium314.keyboard.keyboard.internal.KeyboardParams;
+import helium314.keyboard.keyboard.internal.PopupKeySpec;
+import helium314.keyboard.keyboard.internal.keyboard_parser.floris.KeyCode;
+import helium314.keyboard.keyboard.internal.keyboard_parser.floris.PopupSet;
+import helium314.keyboard.latin.common.Constants;
+import helium314.keyboard.latin.common.StringUtils;
+import helium314.keyboard.latin.utils.PopupKeysUtilsKt;
+import helium314.keyboard.latin.utils.ToolbarKey;
+import helium314.keyboard.latin.utils.ToolbarUtilsKt;
 import kotlin.Pair;
 import kotlin.collections.ArraysKt;
 

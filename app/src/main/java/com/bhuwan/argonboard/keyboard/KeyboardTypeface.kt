@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
-package com.bhuwan.argonboard.keyboard
+package helium314.keyboard.keyboard
 
 import android.content.Context
 import android.graphics.Typeface
 import android.widget.TextView
 import androidx.compose.ui.text.font.FontFamily
-import com.bhuwan.argonboard.latin.common.isEmoji
-import com.bhuwan.argonboard.latin.settings.Settings
+import helium314.keyboard.latin.common.isEmoji
+import helium314.keyboard.latin.settings.Settings
 
 object KeyboardTypeface {
     private val lock = Any()

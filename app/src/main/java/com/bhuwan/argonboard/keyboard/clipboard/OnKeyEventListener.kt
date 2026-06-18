@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
-package com.bhuwan.argonboard.keyboard.clipboard
+package helium314.keyboard.keyboard.clipboard
 
 interface OnKeyEventListener {
 

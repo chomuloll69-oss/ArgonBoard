@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
-package com.bhuwan.argonboard.latin
+package helium314.keyboard.latin
 
 import android.annotation.SuppressLint
 import android.content.ClipDescription
@@ -10,11 +10,11 @@ import android.os.Build
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.content.FileProvider
-import com.bhuwan.argonboard.latin.common.ColorType
-import com.bhuwan.argonboard.latin.settings.Settings
-import com.bhuwan.argonboard.latin.utils.Log
+import helium314.keyboard.latin.common.ColorType
+import helium314.keyboard.latin.settings.Settings
+import helium314.keyboard.latin.utils.Log
 import androidx.core.view.inputmethod.InputContentInfoCompat
-import com.bhuwan.argonboard.latin.database.ClipboardDao
+import helium314.keyboard.latin.database.ClipboardDao
 import java.io.File
 
 class ClipboardHistoryEntry(

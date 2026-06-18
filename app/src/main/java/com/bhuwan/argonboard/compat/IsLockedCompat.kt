@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package com.bhuwan.argonboard.compat
+package helium314.keyboard.compat
 
 import android.app.KeyguardManager
 import android.content.Context

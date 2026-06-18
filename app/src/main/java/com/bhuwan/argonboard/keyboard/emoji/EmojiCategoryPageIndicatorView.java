@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.keyboard.emoji;
+package helium314.keyboard.keyboard.emoji;
 
 import android.content.Context;
 import android.graphics.Canvas;

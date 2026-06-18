@@ -4,9 +4,9 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.keyboard.internal;
+package helium314.keyboard.keyboard.internal;
 
-import com.bhuwan.argonboard.latin.common.ResizableIntArray;
+import helium314.keyboard.latin.common.ResizableIntArray;
 
 /**
  * This class holds drawing points to represent a gesture stroke on the screen.

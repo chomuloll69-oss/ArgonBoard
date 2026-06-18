@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package com.bhuwan.argonboard.settings
+package helium314.keyboard.settings
 
 import android.content.Context
 import androidx.annotation.StringRes
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Immutable
-import com.bhuwan.argonboard.latin.utils.JniUtils
-import com.bhuwan.argonboard.settings.screens.createAboutSettings
-import com.bhuwan.argonboard.settings.screens.createAdvancedSettings
-import com.bhuwan.argonboard.settings.screens.createAppearanceSettings
-import com.bhuwan.argonboard.settings.screens.createCorrectionSettings
-import com.bhuwan.argonboard.settings.screens.createGestureTypingSettings
-import com.bhuwan.argonboard.settings.screens.createLayoutSettings
-import com.bhuwan.argonboard.settings.screens.createPreferencesSettings
-import com.bhuwan.argonboard.settings.screens.createToolbarSettings
+import helium314.keyboard.latin.utils.JniUtils
+import helium314.keyboard.settings.screens.createAboutSettings
+import helium314.keyboard.settings.screens.createAdvancedSettings
+import helium314.keyboard.settings.screens.createAppearanceSettings
+import helium314.keyboard.settings.screens.createCorrectionSettings
+import helium314.keyboard.settings.screens.createGestureTypingSettings
+import helium314.keyboard.settings.screens.createLayoutSettings
+import helium314.keyboard.settings.screens.createPreferencesSettings
+import helium314.keyboard.settings.screens.createToolbarSettings
 
 class SettingsContainer(context: Context) {
     private val list = createSettings(context)

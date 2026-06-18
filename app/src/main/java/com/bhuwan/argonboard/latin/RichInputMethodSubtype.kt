@@ -3,22 +3,22 @@
  * modified
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
-package com.bhuwan.argonboard.latin
+package helium314.keyboard.latin
 
 import android.view.inputmethod.InputMethodSubtype
 import android.view.inputmethod.InputMethodSubtype.InputMethodSubtypeBuilder
-import com.bhuwan.argonboard.latin.common.Constants
-import com.bhuwan.argonboard.latin.common.Constants.Subtype.ExtraValue.KEYBOARD_LAYOUT_SET
-import com.bhuwan.argonboard.latin.common.LocaleUtils.constructLocale
-import com.bhuwan.argonboard.latin.utils.LayoutType
-import com.bhuwan.argonboard.latin.utils.LayoutUtilsCustom
-import com.bhuwan.argonboard.latin.utils.Log
-import com.bhuwan.argonboard.latin.utils.ScriptUtils
-import com.bhuwan.argonboard.latin.utils.ScriptUtils.script
-import com.bhuwan.argonboard.latin.utils.SubtypeLocaleUtils
-import com.bhuwan.argonboard.latin.utils.SubtypeSettings
-import com.bhuwan.argonboard.latin.utils.locale
-import com.bhuwan.argonboard.latin.utils.mainLayoutNameOrQwerty
+import helium314.keyboard.latin.common.Constants
+import helium314.keyboard.latin.common.Constants.Subtype.ExtraValue.KEYBOARD_LAYOUT_SET
+import helium314.keyboard.latin.common.LocaleUtils.constructLocale
+import helium314.keyboard.latin.utils.LayoutType
+import helium314.keyboard.latin.utils.LayoutUtilsCustom
+import helium314.keyboard.latin.utils.Log
+import helium314.keyboard.latin.utils.ScriptUtils
+import helium314.keyboard.latin.utils.ScriptUtils.script
+import helium314.keyboard.latin.utils.SubtypeLocaleUtils
+import helium314.keyboard.latin.utils.SubtypeSettings
+import helium314.keyboard.latin.utils.locale
+import helium314.keyboard.latin.utils.mainLayoutNameOrQwerty
 import java.util.Locale
 
 /**

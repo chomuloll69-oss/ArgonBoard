@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
-package com.bhuwan.argonboard.latin.utils
+package helium314.keyboard.latin.utils
 
 import android.content.Context
 import androidx.compose.material3.Text
@@ -9,14 +9,14 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.AnnotatedString
 import androidx.core.content.edit
-import com.bhuwan.argonboard.compat.locale
-import com.bhuwan.argonboard.latin.R
-import com.bhuwan.argonboard.latin.common.Links
-import com.bhuwan.argonboard.latin.common.LocaleUtils
-import com.bhuwan.argonboard.latin.common.LocaleUtils.constructLocale
-import com.bhuwan.argonboard.latin.settings.Defaults
-import com.bhuwan.argonboard.latin.settings.Settings
-import com.bhuwan.argonboard.settings.dialogs.ConfirmationDialog
+import helium314.keyboard.compat.locale
+import helium314.keyboard.latin.R
+import helium314.keyboard.latin.common.Links
+import helium314.keyboard.latin.common.LocaleUtils
+import helium314.keyboard.latin.common.LocaleUtils.constructLocale
+import helium314.keyboard.latin.settings.Defaults
+import helium314.keyboard.latin.settings.Settings
+import helium314.keyboard.settings.dialogs.ConfirmationDialog
 import java.io.File
 import java.util.Locale
 

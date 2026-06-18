@@ -1,8 +1,8 @@
-package com.bhuwan.argonboard.latin.utils
+package helium314.keyboard.latin.utils
 
 import android.content.Context
 import android.view.ContextThemeWrapper
-import com.bhuwan.argonboard.latin.R
+import helium314.keyboard.latin.R
 
 // todo: ideally the custom InputMethodPicker would be removed / replaced with compose dialog, then this can be removed
 fun getPlatformDialogThemeContext(context: Context): Context {

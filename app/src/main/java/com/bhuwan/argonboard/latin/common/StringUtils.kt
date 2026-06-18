@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
-package com.bhuwan.argonboard.latin.common
+package helium314.keyboard.latin.common
 
-import com.bhuwan.argonboard.latin.common.StringUtils.mightBeEmoji
-import com.bhuwan.argonboard.latin.common.StringUtils.newSingleCodePointString
-import com.bhuwan.argonboard.latin.settings.SpacingAndPunctuations
-import com.bhuwan.argonboard.latin.utils.ScriptUtils
-import com.bhuwan.argonboard.latin.utils.SpacedTokens
-import com.bhuwan.argonboard.latin.utils.SpannableStringUtils
-import com.bhuwan.argonboard.latin.utils.TextRange
+import helium314.keyboard.latin.common.StringUtils.mightBeEmoji
+import helium314.keyboard.latin.common.StringUtils.newSingleCodePointString
+import helium314.keyboard.latin.settings.SpacingAndPunctuations
+import helium314.keyboard.latin.utils.ScriptUtils
+import helium314.keyboard.latin.utils.SpacedTokens
+import helium314.keyboard.latin.utils.SpannableStringUtils
+import helium314.keyboard.latin.utils.TextRange
 import java.math.BigInteger
 import java.text.BreakIterator
 import java.util.Locale

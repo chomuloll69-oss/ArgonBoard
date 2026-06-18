@@ -4,11 +4,11 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.event
+package helium314.keyboard.event
 
 import android.text.SpannableStringBuilder
 import android.text.TextUtils
-import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.KeyCode
+import helium314.keyboard.keyboard.internal.keyboard_parser.floris.KeyCode
 import java.util.*
 
 /**

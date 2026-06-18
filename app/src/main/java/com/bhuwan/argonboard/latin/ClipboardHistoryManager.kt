@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
-package com.bhuwan.argonboard.latin
+package helium314.keyboard.latin
 
 import android.content.ClipData
 import android.content.ClipDescription
@@ -17,22 +17,22 @@ import android.view.inputmethod.EditorInfo
 import androidx.core.view.inputmethod.InputContentInfoCompat
 import androidx.core.view.isGone
 import androidx.core.view.isVisible
-import com.bhuwan.argonboard.keyboard.KeyboardTypeface
-import com.bhuwan.argonboard.compat.ClipboardManagerCompat
-import com.bhuwan.argonboard.event.Event
-import com.bhuwan.argonboard.event.HapticEvent
-import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.KeyCode
-import com.bhuwan.argonboard.latin.common.ColorType
-import com.bhuwan.argonboard.latin.common.Constants
-import com.bhuwan.argonboard.latin.common.isValidNumber
-import com.bhuwan.argonboard.latin.database.ClipboardDao
-import com.bhuwan.argonboard.latin.databinding.ClipboardSuggestionBinding
-import com.bhuwan.argonboard.latin.settings.Defaults
-import com.bhuwan.argonboard.latin.settings.Settings
-import com.bhuwan.argonboard.latin.utils.InputTypeUtils
-import com.bhuwan.argonboard.latin.utils.Log
-import com.bhuwan.argonboard.latin.utils.ToolbarKey
-import com.bhuwan.argonboard.latin.utils.prefs
+import helium314.keyboard.keyboard.KeyboardTypeface
+import helium314.keyboard.compat.ClipboardManagerCompat
+import helium314.keyboard.event.Event
+import helium314.keyboard.event.HapticEvent
+import helium314.keyboard.keyboard.internal.keyboard_parser.floris.KeyCode
+import helium314.keyboard.latin.common.ColorType
+import helium314.keyboard.latin.common.Constants
+import helium314.keyboard.latin.common.isValidNumber
+import helium314.keyboard.latin.database.ClipboardDao
+import helium314.keyboard.latin.databinding.ClipboardSuggestionBinding
+import helium314.keyboard.latin.settings.Defaults
+import helium314.keyboard.latin.settings.Settings
+import helium314.keyboard.latin.utils.InputTypeUtils
+import helium314.keyboard.latin.utils.Log
+import helium314.keyboard.latin.utils.ToolbarKey
+import helium314.keyboard.latin.utils.prefs
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
-package com.bhuwan.argonboard.latin
+package helium314.keyboard.latin
 
 import android.content.BroadcastReceiver
 import android.content.Context

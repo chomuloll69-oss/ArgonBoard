@@ -4,15 +4,15 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin.settings;
+package helium314.keyboard.latin.settings;
 
 import android.content.res.Resources;
 
-import com.bhuwan.argonboard.compat.ConfigurationCompatKt;
-import com.bhuwan.argonboard.latin.R;
-import com.bhuwan.argonboard.latin.common.Constants;
-import com.bhuwan.argonboard.latin.common.StringUtils;
-import com.bhuwan.argonboard.latin.common.StringUtilsKt;
+import helium314.keyboard.compat.ConfigurationCompatKt;
+import helium314.keyboard.latin.R;
+import helium314.keyboard.latin.common.Constants;
+import helium314.keyboard.latin.common.StringUtils;
+import helium314.keyboard.latin.common.StringUtilsKt;
 
 import java.util.Arrays;
 import java.util.List;

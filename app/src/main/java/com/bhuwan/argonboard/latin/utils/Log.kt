@@ -1,4 +1,4 @@
-package com.bhuwan.argonboard.latin.utils
+package helium314.keyboard.latin.utils
 
 import android.os.Build
 import java.time.LocalDateTime

@@ -4,10 +4,10 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin;
+package helium314.keyboard.latin;
 
 import android.content.Context;
-import com.bhuwan.argonboard.latin.utils.Log;
+import helium314.keyboard.latin.utils.Log;
 
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;

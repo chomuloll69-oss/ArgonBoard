@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
-package com.bhuwan.argonboard.keyboard.clipboard
+package helium314.keyboard.keyboard.clipboard
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
-import com.bhuwan.argonboard.latin.ClipboardHistoryManager
+import helium314.keyboard.latin.ClipboardHistoryManager
 import androidx.core.view.isVisible
 import androidx.core.view.isInvisible
 

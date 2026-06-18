@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package com.bhuwan.argonboard.latin.database
+package helium314.keyboard.latin.database
 
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 import androidx.core.database.getStringOrNull
 import androidx.core.database.sqlite.transaction
-import com.bhuwan.argonboard.latin.utils.GestureDataDao
-import com.bhuwan.argonboard.latin.utils.Log
+import helium314.keyboard.latin.utils.GestureDataDao
+import helium314.keyboard.latin.utils.Log
 import java.io.File
 
 class Database private constructor(context: Context, name: String = NAME) : SQLiteOpenHelper(context, name, null, VERSION) {

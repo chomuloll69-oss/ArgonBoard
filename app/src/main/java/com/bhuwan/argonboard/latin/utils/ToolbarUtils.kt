@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package com.bhuwan.argonboard.latin.utils
+package helium314.keyboard.latin.utils
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -8,13 +8,13 @@ import android.widget.ImageButton
 import android.widget.ImageView
 import androidx.core.content.edit
 import androidx.core.view.forEach
-import com.bhuwan.argonboard.keyboard.internal.KeyboardIconsSet
-import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.KeyCode
-import com.bhuwan.argonboard.latin.R
-import com.bhuwan.argonboard.latin.common.Constants.Separators
-import com.bhuwan.argonboard.latin.settings.Defaults
-import com.bhuwan.argonboard.latin.settings.Settings
-import com.bhuwan.argonboard.latin.utils.ToolbarKey.*
+import helium314.keyboard.keyboard.internal.KeyboardIconsSet
+import helium314.keyboard.keyboard.internal.keyboard_parser.floris.KeyCode
+import helium314.keyboard.latin.R
+import helium314.keyboard.latin.common.Constants.Separators
+import helium314.keyboard.latin.settings.Defaults
+import helium314.keyboard.latin.settings.Settings
+import helium314.keyboard.latin.utils.ToolbarKey.*
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

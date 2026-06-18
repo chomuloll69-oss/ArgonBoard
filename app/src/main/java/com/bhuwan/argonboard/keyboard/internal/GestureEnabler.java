@@ -4,9 +4,9 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.keyboard.internal;
+package helium314.keyboard.keyboard.internal;
 
-import com.bhuwan.argonboard.accessibility.AccessibilityUtils;
+import helium314.keyboard.accessibility.AccessibilityUtils;
 
 public final class GestureEnabler {
     /** True if we should handle gesture events. */

@@ -3,31 +3,31 @@
  * modified
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
-package com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris
+package helium314.keyboard.keyboard.internal.keyboard_parser.floris
 
 import android.view.inputmethod.EditorInfo
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.Transient
-import com.bhuwan.argonboard.keyboard.Key
-import com.bhuwan.argonboard.keyboard.KeyboardId
-import com.bhuwan.argonboard.keyboard.KeyboardTheme
-import com.bhuwan.argonboard.keyboard.internal.KeyboardCodesSet
-import com.bhuwan.argonboard.keyboard.internal.KeyboardIconsSet
-import com.bhuwan.argonboard.keyboard.internal.KeyboardParams
-import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.KeyCode.checkAndConvertCode
-import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.KeyLabel.convertFlorisLabel
-import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.KeyLabel.rtlLabel
-import com.bhuwan.argonboard.latin.RichInputMethodManager
-import com.bhuwan.argonboard.latin.common.Constants
-import com.bhuwan.argonboard.latin.common.LocaleUtils.constructLocale
-import com.bhuwan.argonboard.latin.common.StringUtils
-import com.bhuwan.argonboard.latin.settings.Settings
-import com.bhuwan.argonboard.latin.spellcheck.AndroidSpellCheckerService
-import com.bhuwan.argonboard.latin.utils.LayoutType
-import com.bhuwan.argonboard.latin.utils.Log
-import com.bhuwan.argonboard.latin.utils.ToolbarKey
-import com.bhuwan.argonboard.latin.utils.toolbarKeyStrings
+import helium314.keyboard.keyboard.Key
+import helium314.keyboard.keyboard.KeyboardId
+import helium314.keyboard.keyboard.KeyboardTheme
+import helium314.keyboard.keyboard.internal.KeyboardCodesSet
+import helium314.keyboard.keyboard.internal.KeyboardIconsSet
+import helium314.keyboard.keyboard.internal.KeyboardParams
+import helium314.keyboard.keyboard.internal.keyboard_parser.floris.KeyCode.checkAndConvertCode
+import helium314.keyboard.keyboard.internal.keyboard_parser.floris.KeyLabel.convertFlorisLabel
+import helium314.keyboard.keyboard.internal.keyboard_parser.floris.KeyLabel.rtlLabel
+import helium314.keyboard.latin.RichInputMethodManager
+import helium314.keyboard.latin.common.Constants
+import helium314.keyboard.latin.common.LocaleUtils.constructLocale
+import helium314.keyboard.latin.common.StringUtils
+import helium314.keyboard.latin.settings.Settings
+import helium314.keyboard.latin.spellcheck.AndroidSpellCheckerService
+import helium314.keyboard.latin.utils.LayoutType
+import helium314.keyboard.latin.utils.Log
+import helium314.keyboard.latin.utils.ToolbarKey
+import helium314.keyboard.latin.utils.toolbarKeyStrings
 
 // taken from FlorisBoard, modified (see also KeyData)
 

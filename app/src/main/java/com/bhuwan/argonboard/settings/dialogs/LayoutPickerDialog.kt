@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package com.bhuwan.argonboard.settings.dialogs
+package helium314.keyboard.settings.dialogs
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -32,28 +32,28 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.bhuwan.argonboard.keyboard.KeyboardSwitcher
-import com.bhuwan.argonboard.latin.R
-import com.bhuwan.argonboard.latin.common.Constants.Subtype.ExtraValue
-import com.bhuwan.argonboard.latin.settings.Defaults.default
-import com.bhuwan.argonboard.latin.settings.Settings
-import com.bhuwan.argonboard.latin.utils.LayoutType
-import com.bhuwan.argonboard.latin.utils.LayoutUtils
-import com.bhuwan.argonboard.latin.utils.LayoutUtilsCustom
-import com.bhuwan.argonboard.latin.utils.Log
-import com.bhuwan.argonboard.latin.utils.SubtypeSettings
-import com.bhuwan.argonboard.latin.utils.getActivity
-import com.bhuwan.argonboard.latin.utils.getStringResourceOrName
-import com.bhuwan.argonboard.latin.utils.prefs
-import com.bhuwan.argonboard.latin.utils.DeleteButton
-import com.bhuwan.argonboard.latin.utils.EditButton
-import com.bhuwan.argonboard.settings.Setting
-import com.bhuwan.argonboard.settings.SettingsActivity
-import com.bhuwan.argonboard.latin.utils.Theme
-import com.bhuwan.argonboard.settings.contentTextDirectionStyle
-import com.bhuwan.argonboard.settings.layoutFilePicker
-import com.bhuwan.argonboard.settings.layoutIntent
-import com.bhuwan.argonboard.latin.utils.previewDark
+import helium314.keyboard.keyboard.KeyboardSwitcher
+import helium314.keyboard.latin.R
+import helium314.keyboard.latin.common.Constants.Subtype.ExtraValue
+import helium314.keyboard.latin.settings.Defaults.default
+import helium314.keyboard.latin.settings.Settings
+import helium314.keyboard.latin.utils.LayoutType
+import helium314.keyboard.latin.utils.LayoutUtils
+import helium314.keyboard.latin.utils.LayoutUtilsCustom
+import helium314.keyboard.latin.utils.Log
+import helium314.keyboard.latin.utils.SubtypeSettings
+import helium314.keyboard.latin.utils.getActivity
+import helium314.keyboard.latin.utils.getStringResourceOrName
+import helium314.keyboard.latin.utils.prefs
+import helium314.keyboard.latin.utils.DeleteButton
+import helium314.keyboard.latin.utils.EditButton
+import helium314.keyboard.settings.Setting
+import helium314.keyboard.settings.SettingsActivity
+import helium314.keyboard.latin.utils.Theme
+import helium314.keyboard.settings.contentTextDirectionStyle
+import helium314.keyboard.settings.layoutFilePicker
+import helium314.keyboard.settings.layoutIntent
+import helium314.keyboard.latin.utils.previewDark
 
 @Composable
 fun LayoutPickerDialog(

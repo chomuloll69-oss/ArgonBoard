@@ -4,9 +4,9 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.keyboard.internal;
+package helium314.keyboard.keyboard.internal;
 
-import com.bhuwan.argonboard.latin.define.DebugFlags;
+import helium314.keyboard.latin.define.DebugFlags;
 
 public final class TouchPositionCorrection {
     private static final int TOUCH_POSITION_CORRECTION_RECORD_SIZE = 3;

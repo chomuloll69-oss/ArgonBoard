@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package com.bhuwan.argonboard.latin.utils
+package helium314.keyboard.latin.utils
 
 import android.content.Context
-import com.bhuwan.argonboard.latin.settings.Defaults
-import com.bhuwan.argonboard.latin.settings.Settings
+import helium314.keyboard.latin.settings.Defaults
+import helium314.keyboard.latin.settings.Settings
 import java.text.SimpleDateFormat
 import java.util.Calendar
 

@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package com.bhuwan.argonboard.settings.dialogs
+package helium314.keyboard.settings.dialogs
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -24,8 +24,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.bhuwan.argonboard.latin.utils.Theme
-import com.bhuwan.argonboard.latin.utils.previewDark
+import helium314.keyboard.latin.utils.Theme
+import helium314.keyboard.latin.utils.previewDark
 
 // modified version of ListPickerDialog for selecting multiple items
 @Composable

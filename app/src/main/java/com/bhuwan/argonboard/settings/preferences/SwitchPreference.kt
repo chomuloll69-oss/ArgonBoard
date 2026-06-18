@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package com.bhuwan.argonboard.settings.preferences
+package helium314.keyboard.settings.preferences
 
 import androidx.compose.material3.Switch
 import androidx.compose.runtime.Composable
@@ -11,17 +11,17 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
-import com.bhuwan.argonboard.latin.R
-import com.bhuwan.argonboard.latin.common.Links
-import com.bhuwan.argonboard.latin.utils.DictionaryInfoUtils
-import com.bhuwan.argonboard.latin.utils.Log
-import com.bhuwan.argonboard.latin.utils.getActivity
-import com.bhuwan.argonboard.latin.utils.htmlToAnnotated
-import com.bhuwan.argonboard.latin.utils.prefs
-import com.bhuwan.argonboard.latin.utils.withHtmlLink
-import com.bhuwan.argonboard.settings.Setting
-import com.bhuwan.argonboard.settings.SettingsActivity
-import com.bhuwan.argonboard.settings.dialogs.InfoDialog
+import helium314.keyboard.latin.R
+import helium314.keyboard.latin.common.Links
+import helium314.keyboard.latin.utils.DictionaryInfoUtils
+import helium314.keyboard.latin.utils.Log
+import helium314.keyboard.latin.utils.getActivity
+import helium314.keyboard.latin.utils.htmlToAnnotated
+import helium314.keyboard.latin.utils.prefs
+import helium314.keyboard.latin.utils.withHtmlLink
+import helium314.keyboard.settings.Setting
+import helium314.keyboard.settings.SettingsActivity
+import helium314.keyboard.settings.dialogs.InfoDialog
 import androidx.core.content.edit
 
 @Composable

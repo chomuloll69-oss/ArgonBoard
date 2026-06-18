@@ -4,14 +4,14 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin.utils;
+package helium314.keyboard.latin.utils;
 
 import android.view.inputmethod.InputMethodSubtype;
 
 import androidx.annotation.NonNull;
 
-import com.bhuwan.argonboard.latin.RichInputMethodSubtype;
-import com.bhuwan.argonboard.latin.settings.Settings;
+import helium314.keyboard.latin.RichInputMethodSubtype;
+import helium314.keyboard.latin.settings.Settings;
 
 import java.util.Collections;
 import java.util.List;

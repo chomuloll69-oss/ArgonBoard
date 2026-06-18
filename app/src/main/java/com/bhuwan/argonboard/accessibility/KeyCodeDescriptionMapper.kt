@@ -4,20 +4,20 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.accessibility
+package helium314.keyboard.accessibility
 
 import android.content.Context
 import android.text.TextUtils
-import com.bhuwan.argonboard.latin.utils.Log
+import helium314.keyboard.latin.utils.Log
 import android.util.SparseIntArray
 import android.view.inputmethod.EditorInfo
-import com.bhuwan.argonboard.keyboard.Key
-import com.bhuwan.argonboard.keyboard.Keyboard
-import com.bhuwan.argonboard.keyboard.KeyboardId
-import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.KeyCode
-import com.bhuwan.argonboard.latin.R
-import com.bhuwan.argonboard.latin.common.Constants
-import com.bhuwan.argonboard.latin.common.StringUtils
+import helium314.keyboard.keyboard.Key
+import helium314.keyboard.keyboard.Keyboard
+import helium314.keyboard.keyboard.KeyboardId
+import helium314.keyboard.keyboard.internal.keyboard_parser.floris.KeyCode
+import helium314.keyboard.latin.R
+import helium314.keyboard.latin.common.Constants
+import helium314.keyboard.latin.common.StringUtils
 
 internal class KeyCodeDescriptionMapper private constructor() {
     // Sparse array of spoken description resource IDs indexed by key codes

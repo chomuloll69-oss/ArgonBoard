@@ -3,9 +3,9 @@
  * modified
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
-package com.bhuwan.argonboard.latin.common
+package helium314.keyboard.latin.common
 
-import com.bhuwan.argonboard.latin.WordComposer
+import helium314.keyboard.latin.WordComposer
 import kotlin.random.Random
 
 /** An immutable class that encapsulates a snapshot of word composition data. */

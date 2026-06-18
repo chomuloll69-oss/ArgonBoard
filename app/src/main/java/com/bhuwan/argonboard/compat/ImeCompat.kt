@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-3.0-only
 @file:Suppress("DEPRECATION")
 
-package com.bhuwan.argonboard.compat
+package helium314.keyboard.compat
 
 import android.inputmethodservice.InputMethodService
 import android.os.Build
 import android.view.inputmethod.InputMethodInfo
 import android.view.inputmethod.InputMethodSubtype
-import com.bhuwan.argonboard.latin.RichInputMethodManager
-import com.bhuwan.argonboard.latin.settings.Settings
+import helium314.keyboard.latin.RichInputMethodManager
+import helium314.keyboard.latin.settings.Settings
 
 object ImeCompat {
     fun InputMethodService.switchInputMethod(): Boolean {

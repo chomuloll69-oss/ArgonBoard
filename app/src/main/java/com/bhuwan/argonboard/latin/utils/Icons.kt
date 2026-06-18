@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package com.bhuwan.argonboard.latin.utils
+package helium314.keyboard.latin.utils
 
 import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.Column
@@ -16,7 +16,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.LayoutDirection
-import com.bhuwan.argonboard.latin.R
+import helium314.keyboard.latin.R
 
 @Composable
 fun NextScreenIcon() {

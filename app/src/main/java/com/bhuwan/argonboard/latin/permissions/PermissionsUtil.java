@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin.permissions;
+package helium314.keyboard.latin.permissions;
 
 import android.content.Context;
 import android.content.pm.PackageManager;

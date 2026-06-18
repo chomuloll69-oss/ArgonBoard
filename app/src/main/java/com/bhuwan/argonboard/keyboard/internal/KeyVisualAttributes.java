@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.keyboard.internal;
+package helium314.keyboard.keyboard.internal;
 
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
@@ -13,11 +13,11 @@ import android.util.SparseIntArray;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.bhuwan.argonboard.latin.R;
-import com.bhuwan.argonboard.latin.common.ColorType;
-import com.bhuwan.argonboard.latin.common.Colors;
-import com.bhuwan.argonboard.latin.settings.Settings;
-import com.bhuwan.argonboard.latin.utils.ResourceUtils;
+import helium314.keyboard.latin.R;
+import helium314.keyboard.latin.common.ColorType;
+import helium314.keyboard.latin.common.Colors;
+import helium314.keyboard.latin.settings.Settings;
+import helium314.keyboard.latin.utils.ResourceUtils;
 
 public final class KeyVisualAttributes {
     @Nullable

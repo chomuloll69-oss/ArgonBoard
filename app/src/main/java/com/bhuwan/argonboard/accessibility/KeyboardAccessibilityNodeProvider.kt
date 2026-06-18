@@ -4,11 +4,11 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.accessibility
+package helium314.keyboard.accessibility
 
 import android.graphics.Rect
 import android.os.Bundle
-import com.bhuwan.argonboard.latin.utils.Log
+import helium314.keyboard.latin.utils.Log
 import android.view.View
 import android.view.accessibility.AccessibilityEvent
 import android.view.accessibility.AccessibilityRecord
@@ -16,11 +16,11 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.accessibility.AccessibilityEventCompat
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat
 import androidx.core.view.accessibility.AccessibilityNodeProviderCompat
-import com.bhuwan.argonboard.keyboard.Key
-import com.bhuwan.argonboard.keyboard.Keyboard
-import com.bhuwan.argonboard.keyboard.KeyboardView
-import com.bhuwan.argonboard.latin.common.CoordinateUtils
-import com.bhuwan.argonboard.latin.settings.Settings
+import helium314.keyboard.keyboard.Key
+import helium314.keyboard.keyboard.Keyboard
+import helium314.keyboard.keyboard.KeyboardView
+import helium314.keyboard.latin.common.CoordinateUtils
+import helium314.keyboard.latin.settings.Settings
 
 /**
  * Exposes a virtual view sub-tree for [KeyboardView] and generates

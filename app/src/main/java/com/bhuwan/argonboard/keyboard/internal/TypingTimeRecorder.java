@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.keyboard.internal;
+package helium314.keyboard.keyboard.internal;
 
 public final class TypingTimeRecorder {
     private final int mStaticTimeThresholdAfterFastTyping; // msec

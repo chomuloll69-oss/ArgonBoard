@@ -4,14 +4,14 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.accessibility
+package helium314.keyboard.accessibility
 
 import android.graphics.Rect
-import com.bhuwan.argonboard.latin.utils.Log
+import helium314.keyboard.latin.utils.Log
 import android.view.MotionEvent
-import com.bhuwan.argonboard.keyboard.KeyDetector
-import com.bhuwan.argonboard.keyboard.PopupKeysKeyboardView
-import com.bhuwan.argonboard.keyboard.PointerTracker
+import helium314.keyboard.keyboard.KeyDetector
+import helium314.keyboard.keyboard.PopupKeysKeyboardView
+import helium314.keyboard.keyboard.PointerTracker
 
 /**
  * This class represents a delegate that can be registered in [PopupKeysKeyboardView] to

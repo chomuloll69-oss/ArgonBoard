@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
-package com.bhuwan.argonboard.latin.utils
+package helium314.keyboard.latin.utils
 
 import android.app.AlertDialog
 import android.os.IBinder
@@ -11,11 +11,11 @@ import android.text.style.RelativeSizeSpan
 import android.view.WindowManager
 import android.view.inputmethod.InputMethodInfo
 import android.view.inputmethod.InputMethodSubtype
-import com.bhuwan.argonboard.compat.ImeCompat.switchInputMethodAndSubtype
-import com.bhuwan.argonboard.latin.LatinIME
-import com.bhuwan.argonboard.latin.R
-import com.bhuwan.argonboard.latin.RichInputMethodManager
-import com.bhuwan.argonboard.latin.utils.SubtypeLocaleUtils.displayName
+import helium314.keyboard.compat.ImeCompat.switchInputMethodAndSubtype
+import helium314.keyboard.latin.LatinIME
+import helium314.keyboard.latin.R
+import helium314.keyboard.latin.RichInputMethodManager
+import helium314.keyboard.latin.utils.SubtypeLocaleUtils.displayName
 
 // similar to what showSubtypePicker does in https://github.com/rkkr/simple-keyboard/blob/master/app/src/main/java/rkr/simplekeyboard/inputmethod/latin/RichInputMethodManager.java
 fun createInputMethodPickerDialog(latinIme: LatinIME, richImm: RichInputMethodManager, windowToken: IBinder): AlertDialog {

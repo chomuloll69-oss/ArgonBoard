@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.keyboard.internal;
+package helium314.keyboard.keyboard.internal;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -13,7 +13,7 @@ import android.graphics.Path;
 import android.graphics.Rect;
 import android.os.SystemClock;
 
-import com.bhuwan.argonboard.latin.common.ResizableIntArray;
+import helium314.keyboard.latin.common.ResizableIntArray;
 
 /**
  * This class holds drawing points to represent a gesture trail. The gesture trail may contain

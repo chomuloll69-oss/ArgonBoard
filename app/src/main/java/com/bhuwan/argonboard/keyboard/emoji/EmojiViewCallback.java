@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
-package com.bhuwan.argonboard.keyboard.emoji;
+package helium314.keyboard.keyboard.emoji;
 
-import com.bhuwan.argonboard.keyboard.Key;
+import helium314.keyboard.keyboard.Key;
 
 /**
  * Interface to handle callbacks from child elements

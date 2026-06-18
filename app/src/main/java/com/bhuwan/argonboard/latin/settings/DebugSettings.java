@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin.settings;
+package helium314.keyboard.latin.settings;
 
 /**
  * Debug settings for the application.

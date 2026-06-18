@@ -4,15 +4,15 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin.touchinputconsumer;
+package helium314.keyboard.latin.touchinputconsumer;
 
 import android.view.inputmethod.EditorInfo;
 
-import com.bhuwan.argonboard.keyboard.Keyboard;
-import com.bhuwan.argonboard.latin.DictionaryFacilitator;
-import com.bhuwan.argonboard.latin.SuggestedWords;
-import com.bhuwan.argonboard.latin.common.InputPointers;
-import com.bhuwan.argonboard.latin.inputlogic.PrivateCommandPerformer;
+import helium314.keyboard.keyboard.Keyboard;
+import helium314.keyboard.latin.DictionaryFacilitator;
+import helium314.keyboard.latin.SuggestedWords;
+import helium314.keyboard.latin.common.InputPointers;
+import helium314.keyboard.latin.inputlogic.PrivateCommandPerformer;
 
 import java.util.Locale;
 

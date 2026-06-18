@@ -4,10 +4,10 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.keyboard.internal;
+package helium314.keyboard.keyboard.internal;
 
-import com.bhuwan.argonboard.latin.common.Constants;
-import com.bhuwan.argonboard.latin.common.InputPointers;
+import helium314.keyboard.latin.common.Constants;
+import helium314.keyboard.latin.common.InputPointers;
 
 /**
  * This class arbitrates batch input.

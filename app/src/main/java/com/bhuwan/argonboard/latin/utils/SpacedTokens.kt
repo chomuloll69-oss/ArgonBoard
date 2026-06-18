@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
-package com.bhuwan.argonboard.latin.utils
+package helium314.keyboard.latin.utils
 
 /**
  * Tokenizes strings by groupings of non-space characters, making them iterable. Note that letters,

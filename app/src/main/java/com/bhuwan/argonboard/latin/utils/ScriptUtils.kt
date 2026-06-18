@@ -3,7 +3,7 @@
  * modified
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
-package com.bhuwan.argonboard.latin.utils
+package helium314.keyboard.latin.utils
 
 import java.util.Locale
 

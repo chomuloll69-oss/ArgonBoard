@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin.spellcheck;
+package helium314.keyboard.latin.spellcheck;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -17,24 +17,24 @@ import android.view.textservice.SuggestionsInfo;
 
 import androidx.annotation.NonNull;
 
-import com.bhuwan.argonboard.keyboard.Keyboard;
-import com.bhuwan.argonboard.keyboard.KeyboardId;
-import com.bhuwan.argonboard.keyboard.KeyboardLayoutSet;
-import com.bhuwan.argonboard.latin.DictionaryFacilitator;
-import com.bhuwan.argonboard.latin.DictionaryFacilitatorLruCache;
-import com.bhuwan.argonboard.latin.InputAttributes;
-import com.bhuwan.argonboard.latin.NgramContext;
-import com.bhuwan.argonboard.latin.R;
-import com.bhuwan.argonboard.latin.RichInputMethodSubtype;
-import com.bhuwan.argonboard.latin.SuggestedWords;
-import com.bhuwan.argonboard.latin.common.ComposedData;
-import com.bhuwan.argonboard.latin.settings.Defaults;
-import com.bhuwan.argonboard.latin.settings.Settings;
-import com.bhuwan.argonboard.latin.settings.SettingsValuesForSuggestion;
-import com.bhuwan.argonboard.latin.utils.KtxKt;
-import com.bhuwan.argonboard.latin.utils.SubtypeSettings;
-import com.bhuwan.argonboard.latin.utils.SubtypeUtilsAdditional;
-import com.bhuwan.argonboard.latin.utils.SuggestionResults;
+import helium314.keyboard.keyboard.Keyboard;
+import helium314.keyboard.keyboard.KeyboardId;
+import helium314.keyboard.keyboard.KeyboardLayoutSet;
+import helium314.keyboard.latin.DictionaryFacilitator;
+import helium314.keyboard.latin.DictionaryFacilitatorLruCache;
+import helium314.keyboard.latin.InputAttributes;
+import helium314.keyboard.latin.NgramContext;
+import helium314.keyboard.latin.R;
+import helium314.keyboard.latin.RichInputMethodSubtype;
+import helium314.keyboard.latin.SuggestedWords;
+import helium314.keyboard.latin.common.ComposedData;
+import helium314.keyboard.latin.settings.Defaults;
+import helium314.keyboard.latin.settings.Settings;
+import helium314.keyboard.latin.settings.SettingsValuesForSuggestion;
+import helium314.keyboard.latin.utils.KtxKt;
+import helium314.keyboard.latin.utils.SubtypeSettings;
+import helium314.keyboard.latin.utils.SubtypeUtilsAdditional;
+import helium314.keyboard.latin.utils.SuggestionResults;
 
 import java.util.Locale;
 import java.util.concurrent.ConcurrentHashMap;

@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.keyboard;
+package helium314.keyboard.keyboard;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -32,34 +32,34 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.bhuwan.argonboard.event.Event;
-import com.bhuwan.argonboard.keyboard.KeyboardLayoutSet.KeyboardLayoutSetException;
-import com.bhuwan.argonboard.keyboard.clipboard.ClipboardHistoryView;
-import com.bhuwan.argonboard.keyboard.emoji.EmojiPalettesView;
-import com.bhuwan.argonboard.keyboard.internal.KeyboardState;
-import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.EmojiParserKt;
-import com.bhuwan.argonboard.latin.utils.FloatingKeyboardUtils;
-import com.bhuwan.argonboard.latin.InputView;
-import com.bhuwan.argonboard.latin.KeyboardWrapperView;
-import com.bhuwan.argonboard.latin.LatinIME;
-import com.bhuwan.argonboard.latin.R;
-import com.bhuwan.argonboard.latin.RichInputMethodManager;
-import com.bhuwan.argonboard.latin.RichInputMethodSubtype;
-import com.bhuwan.argonboard.latin.WordComposer;
-import com.bhuwan.argonboard.latin.settings.Settings;
-import com.bhuwan.argonboard.latin.settings.SettingsKt;
-import com.bhuwan.argonboard.latin.settings.SettingsValues;
-import com.bhuwan.argonboard.latin.suggestions.SuggestionStripView;
-import com.bhuwan.argonboard.latin.utils.CapsModeUtils;
-import com.bhuwan.argonboard.latin.utils.FoldableUtils;
-import com.bhuwan.argonboard.latin.utils.KtxKt;
-import com.bhuwan.argonboard.latin.utils.LanguageOnSpacebarUtils;
-import com.bhuwan.argonboard.latin.utils.Log;
-import com.bhuwan.argonboard.latin.utils.RecapitalizeMode;
-import com.bhuwan.argonboard.latin.utils.ResourceUtils;
-import com.bhuwan.argonboard.latin.utils.ScriptUtils;
-import com.bhuwan.argonboard.latin.utils.SubtypeUtilsAdditional;
-import com.bhuwan.argonboard.latin.utils.ToolbarMode;
+import helium314.keyboard.event.Event;
+import helium314.keyboard.keyboard.KeyboardLayoutSet.KeyboardLayoutSetException;
+import helium314.keyboard.keyboard.clipboard.ClipboardHistoryView;
+import helium314.keyboard.keyboard.emoji.EmojiPalettesView;
+import helium314.keyboard.keyboard.internal.KeyboardState;
+import helium314.keyboard.keyboard.internal.keyboard_parser.EmojiParserKt;
+import helium314.keyboard.latin.utils.FloatingKeyboardUtils;
+import helium314.keyboard.latin.InputView;
+import helium314.keyboard.latin.KeyboardWrapperView;
+import helium314.keyboard.latin.LatinIME;
+import helium314.keyboard.latin.R;
+import helium314.keyboard.latin.RichInputMethodManager;
+import helium314.keyboard.latin.RichInputMethodSubtype;
+import helium314.keyboard.latin.WordComposer;
+import helium314.keyboard.latin.settings.Settings;
+import helium314.keyboard.latin.settings.SettingsKt;
+import helium314.keyboard.latin.settings.SettingsValues;
+import helium314.keyboard.latin.suggestions.SuggestionStripView;
+import helium314.keyboard.latin.utils.CapsModeUtils;
+import helium314.keyboard.latin.utils.FoldableUtils;
+import helium314.keyboard.latin.utils.KtxKt;
+import helium314.keyboard.latin.utils.LanguageOnSpacebarUtils;
+import helium314.keyboard.latin.utils.Log;
+import helium314.keyboard.latin.utils.RecapitalizeMode;
+import helium314.keyboard.latin.utils.ResourceUtils;
+import helium314.keyboard.latin.utils.ScriptUtils;
+import helium314.keyboard.latin.utils.SubtypeUtilsAdditional;
+import helium314.keyboard.latin.utils.ToolbarMode;
 
 public final class KeyboardSwitcher implements KeyboardState.SwitchActions {
     private static final String TAG = KeyboardSwitcher.class.getSimpleName();

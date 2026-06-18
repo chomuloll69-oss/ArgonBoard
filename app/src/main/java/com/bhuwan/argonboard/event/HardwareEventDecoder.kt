@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.event
+package helium314.keyboard.event
 
 import android.view.KeyEvent
 

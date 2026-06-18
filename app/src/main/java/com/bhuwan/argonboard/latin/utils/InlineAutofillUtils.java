@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.bhuwan.argonboard.latin.utils;
+package helium314.keyboard.latin.utils;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -42,10 +42,10 @@ import androidx.autofill.inline.v1.InlineSuggestionUi.Style;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.bhuwan.argonboard.latin.R;
-import com.bhuwan.argonboard.latin.common.ColorType;
-import com.bhuwan.argonboard.latin.common.Colors;
-import com.bhuwan.argonboard.latin.settings.Settings;
+import helium314.keyboard.latin.R;
+import helium314.keyboard.latin.common.ColorType;
+import helium314.keyboard.latin.common.Colors;
+import helium314.keyboard.latin.settings.Settings;
 
 @SuppressLint("RestrictedApi")
 @RequiresApi(api = Build.VERSION_CODES.R)

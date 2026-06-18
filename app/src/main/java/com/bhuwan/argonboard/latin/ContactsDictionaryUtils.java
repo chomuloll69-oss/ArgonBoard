@@ -4,10 +4,10 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin;
+package helium314.keyboard.latin;
 
-import com.bhuwan.argonboard.latin.common.Constants;
-import com.bhuwan.argonboard.latin.utils.ScriptUtils;
+import helium314.keyboard.latin.common.Constants;
+import helium314.keyboard.latin.utils.ScriptUtils;
 
 import java.util.Locale;
 

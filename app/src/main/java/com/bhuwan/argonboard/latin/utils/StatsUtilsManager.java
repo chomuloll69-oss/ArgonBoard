@@ -5,12 +5,12 @@
  */
 
 
-package com.bhuwan.argonboard.latin.utils;
+package helium314.keyboard.latin.utils;
 
 import android.content.Context;
 
-import com.bhuwan.argonboard.latin.DictionaryFacilitator;
-import com.bhuwan.argonboard.latin.settings.SettingsValues;
+import helium314.keyboard.latin.DictionaryFacilitator;
+import helium314.keyboard.latin.settings.SettingsValues;
 
 @SuppressWarnings("unused")
 public class StatsUtilsManager {

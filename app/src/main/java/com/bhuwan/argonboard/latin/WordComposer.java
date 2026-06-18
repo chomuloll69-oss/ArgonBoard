@@ -4,20 +4,20 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin;
+package helium314.keyboard.latin;
 
 import androidx.annotation.NonNull;
 
-import com.bhuwan.argonboard.event.CombinerChain;
-import com.bhuwan.argonboard.event.Event;
-import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.KeyCode;
-import com.bhuwan.argonboard.latin.SuggestedWords.SuggestedWordInfo;
-import com.bhuwan.argonboard.latin.common.ComposedData;
-import com.bhuwan.argonboard.latin.common.CoordinateUtils;
-import com.bhuwan.argonboard.latin.common.InputPointers;
-import com.bhuwan.argonboard.latin.common.StringUtils;
-import com.bhuwan.argonboard.latin.define.DebugFlags;
-import com.bhuwan.argonboard.latin.define.DecoderSpecificConstants;
+import helium314.keyboard.event.CombinerChain;
+import helium314.keyboard.event.Event;
+import helium314.keyboard.keyboard.internal.keyboard_parser.floris.KeyCode;
+import helium314.keyboard.latin.SuggestedWords.SuggestedWordInfo;
+import helium314.keyboard.latin.common.ComposedData;
+import helium314.keyboard.latin.common.CoordinateUtils;
+import helium314.keyboard.latin.common.InputPointers;
+import helium314.keyboard.latin.common.StringUtils;
+import helium314.keyboard.latin.define.DebugFlags;
+import helium314.keyboard.latin.define.DecoderSpecificConstants;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -4,14 +4,14 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin.utils;
+package helium314.keyboard.latin.utils;
 
 import android.view.inputmethod.InputMethodSubtype;
 
-import com.bhuwan.argonboard.latin.DictionaryFacilitator;
-import com.bhuwan.argonboard.latin.RichInputMethodManager;
-import com.bhuwan.argonboard.latin.SuggestedWords;
-import com.bhuwan.argonboard.latin.settings.SettingsValues;
+import helium314.keyboard.latin.DictionaryFacilitator;
+import helium314.keyboard.latin.RichInputMethodManager;
+import helium314.keyboard.latin.SuggestedWords;
+import helium314.keyboard.latin.settings.SettingsValues;
 
 @SuppressWarnings("unused")
 public final class StatsUtils {

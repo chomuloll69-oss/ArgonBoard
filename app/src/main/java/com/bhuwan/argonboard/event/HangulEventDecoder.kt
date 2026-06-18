@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
-package com.bhuwan.argonboard.event
+package helium314.keyboard.event
 
 import android.view.KeyEvent
-import com.bhuwan.argonboard.latin.RichInputMethodSubtype
+import helium314.keyboard.latin.RichInputMethodSubtype
 
-import com.bhuwan.argonboard.event.HangulCombiner.HangulJamo
+import helium314.keyboard.event.HangulCombiner.HangulJamo
 
 object HangulEventDecoder {
 

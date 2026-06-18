@@ -1,4 +1,4 @@
-package com.bhuwan.argonboard.compat
+package helium314.keyboard.compat
 
 import android.content.res.Configuration
 import android.os.Build

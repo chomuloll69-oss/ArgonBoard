@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package com.bhuwan.argonboard.settings.screens.gesturedata
+package helium314.keyboard.settings.screens.gesturedata
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -66,18 +66,18 @@ import androidx.compose.ui.text.intl.Locale
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.LifecycleResumeEffect
-import com.bhuwan.argonboard.latin.R
-import com.bhuwan.argonboard.latin.common.Links
-import com.bhuwan.argonboard.latin.common.decapitalize
-import com.bhuwan.argonboard.latin.utils.GestureData
-import com.bhuwan.argonboard.latin.utils.GestureDataDao
-import com.bhuwan.argonboard.latin.utils.GestureDataGatheringSettings
-import com.bhuwan.argonboard.latin.utils.GestureDataInfo
-import com.bhuwan.argonboard.latin.utils.Theme
-import com.bhuwan.argonboard.latin.utils.previewDark
-import com.bhuwan.argonboard.settings.dialogs.ConfirmationDialog
-import com.bhuwan.argonboard.settings.dialogs.InfoDialog
-import com.bhuwan.argonboard.settings.dialogs.ThreeButtonAlertDialog
+import helium314.keyboard.latin.R
+import helium314.keyboard.latin.common.Links
+import helium314.keyboard.latin.common.decapitalize
+import helium314.keyboard.latin.utils.GestureData
+import helium314.keyboard.latin.utils.GestureDataDao
+import helium314.keyboard.latin.utils.GestureDataGatheringSettings
+import helium314.keyboard.latin.utils.GestureDataInfo
+import helium314.keyboard.latin.utils.Theme
+import helium314.keyboard.latin.utils.previewDark
+import helium314.keyboard.settings.dialogs.ConfirmationDialog
+import helium314.keyboard.settings.dialogs.InfoDialog
+import helium314.keyboard.settings.dialogs.ThreeButtonAlertDialog
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

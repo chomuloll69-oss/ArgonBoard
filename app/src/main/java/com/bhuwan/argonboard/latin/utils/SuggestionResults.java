@@ -4,11 +4,11 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin.utils;
+package helium314.keyboard.latin.utils;
 
 import androidx.annotation.Nullable;
-import com.bhuwan.argonboard.latin.SuggestedWords.SuggestedWordInfo;
-import com.bhuwan.argonboard.latin.define.ProductionFlags;
+import helium314.keyboard.latin.SuggestedWords.SuggestedWordInfo;
+import helium314.keyboard.latin.define.ProductionFlags;
 
 import java.util.ArrayList;
 import java.util.Collection;

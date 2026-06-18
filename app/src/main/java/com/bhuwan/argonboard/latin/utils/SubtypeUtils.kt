@@ -1,21 +1,21 @@
-package com.bhuwan.argonboard.latin.utils
+package helium314.keyboard.latin.utils
 
 import android.content.SharedPreferences
 import android.content.res.Resources
 import android.os.Build
 import android.view.inputmethod.InputMethodSubtype
-import com.bhuwan.argonboard.latin.R
-import com.bhuwan.argonboard.latin.RichInputMethodManager
-import com.bhuwan.argonboard.latin.RichInputMethodSubtype
-import com.bhuwan.argonboard.latin.common.Constants.Separators
-import com.bhuwan.argonboard.latin.common.Constants.Subtype.ExtraValue
-import com.bhuwan.argonboard.latin.common.Constants.Subtype.ExtraValue.KEYBOARD_LAYOUT_SET
-import com.bhuwan.argonboard.latin.common.LocaleUtils.constructLocale
-import com.bhuwan.argonboard.latin.common.LocaleUtils.isGoodMatch
-import com.bhuwan.argonboard.latin.settings.Defaults
-import com.bhuwan.argonboard.latin.settings.Settings
-import com.bhuwan.argonboard.latin.settings.SettingsSubtype.Companion.getExtraValueOf
-import com.bhuwan.argonboard.latin.utils.SubtypeSettings.isEnabled
+import helium314.keyboard.latin.R
+import helium314.keyboard.latin.RichInputMethodManager
+import helium314.keyboard.latin.RichInputMethodSubtype
+import helium314.keyboard.latin.common.Constants.Separators
+import helium314.keyboard.latin.common.Constants.Subtype.ExtraValue
+import helium314.keyboard.latin.common.Constants.Subtype.ExtraValue.KEYBOARD_LAYOUT_SET
+import helium314.keyboard.latin.common.LocaleUtils.constructLocale
+import helium314.keyboard.latin.common.LocaleUtils.isGoodMatch
+import helium314.keyboard.latin.settings.Defaults
+import helium314.keyboard.latin.settings.Settings
+import helium314.keyboard.latin.settings.SettingsSubtype.Companion.getExtraValueOf
+import helium314.keyboard.latin.utils.SubtypeSettings.isEnabled
 import org.xmlpull.v1.XmlPullParser
 import java.util.Locale
 

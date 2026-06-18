@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin.utils;
+package helium314.keyboard.latin.utils;
 
 import android.content.Context;
 import android.content.res.Configuration;
@@ -19,8 +19,8 @@ import android.view.WindowInsets;
 import android.view.WindowManager;
 import android.view.WindowMetrics;
 
-import com.bhuwan.argonboard.latin.R;
-import com.bhuwan.argonboard.latin.settings.SettingsValues;
+import helium314.keyboard.latin.R;
+import helium314.keyboard.latin.settings.SettingsValues;
 
 public final class ResourceUtils {
 

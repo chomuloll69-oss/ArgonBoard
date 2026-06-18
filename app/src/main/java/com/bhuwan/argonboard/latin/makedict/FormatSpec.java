@@ -4,11 +4,11 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin.makedict;
+package helium314.keyboard.latin.makedict;
 
 import androidx.annotation.NonNull;
 
-import com.bhuwan.argonboard.latin.define.DecoderSpecificConstants;
+import helium314.keyboard.latin.define.DecoderSpecificConstants;
 
 import java.util.Date;
 import java.util.HashMap;

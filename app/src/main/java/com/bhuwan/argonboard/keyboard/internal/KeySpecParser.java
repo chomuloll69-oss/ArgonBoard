@@ -4,12 +4,12 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.keyboard.internal;
+package helium314.keyboard.keyboard.internal;
 
-import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.KeyCode;
-import com.bhuwan.argonboard.latin.common.Constants;
-import com.bhuwan.argonboard.latin.common.StringUtils;
-import com.bhuwan.argonboard.latin.define.DebugFlags;
+import helium314.keyboard.keyboard.internal.keyboard_parser.floris.KeyCode;
+import helium314.keyboard.latin.common.Constants;
+import helium314.keyboard.latin.common.StringUtils;
+import helium314.keyboard.latin.define.DebugFlags;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

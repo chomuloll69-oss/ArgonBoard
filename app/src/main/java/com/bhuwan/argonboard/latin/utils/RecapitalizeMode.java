@@ -1,8 +1,8 @@
-package com.bhuwan.argonboard.latin.utils;
+package helium314.keyboard.latin.utils;
 
 import java.util.Locale;
 
-import com.bhuwan.argonboard.latin.common.StringUtils;
+import helium314.keyboard.latin.common.StringUtils;
 
 public enum RecapitalizeMode {
     ORIGINAL_MIXED_CASE {

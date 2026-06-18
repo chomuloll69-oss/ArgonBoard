@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package com.bhuwan.argonboard.keyboard
+package helium314.keyboard.keyboard
 
 import android.text.InputType
 import android.util.SparseArray
@@ -8,27 +8,27 @@ import android.view.inputmethod.InputMethodSubtype
 import androidx.core.util.forEach
 import androidx.core.view.inputmethod.EditorInfoCompat
 import androidx.core.view.inputmethod.InputContentInfoCompat
-import com.bhuwan.argonboard.event.Event
-import com.bhuwan.argonboard.event.HangulEventDecoder
-import com.bhuwan.argonboard.event.HapticEvent
-import com.bhuwan.argonboard.event.HardwareEventDecoder
-import com.bhuwan.argonboard.event.HardwareKeyboardEventDecoder
-import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.KeyCode
-import com.bhuwan.argonboard.latin.AudioAndHapticFeedbackManager
-import com.bhuwan.argonboard.latin.EmojiAltPhysicalKeyDetector
-import com.bhuwan.argonboard.latin.LatinIME
-import com.bhuwan.argonboard.latin.RichInputMethodManager
-import com.bhuwan.argonboard.latin.common.Constants
-import com.bhuwan.argonboard.latin.common.InputPointers
-import com.bhuwan.argonboard.latin.common.combiningRange
-import com.bhuwan.argonboard.latin.common.moveStepsToCharCount
-import com.bhuwan.argonboard.latin.define.ProductionFlags
-import com.bhuwan.argonboard.latin.inputlogic.InputLogic
-import com.bhuwan.argonboard.latin.settings.Settings
-import com.bhuwan.argonboard.latin.utils.GestureDataGatheringSettings
-import com.bhuwan.argonboard.latin.utils.BackgroundGatheringCache
-import com.bhuwan.argonboard.latin.utils.SubtypeSettings
-import com.bhuwan.argonboard.latin.utils.prefs
+import helium314.keyboard.event.Event
+import helium314.keyboard.event.HangulEventDecoder
+import helium314.keyboard.event.HapticEvent
+import helium314.keyboard.event.HardwareEventDecoder
+import helium314.keyboard.event.HardwareKeyboardEventDecoder
+import helium314.keyboard.keyboard.internal.keyboard_parser.floris.KeyCode
+import helium314.keyboard.latin.AudioAndHapticFeedbackManager
+import helium314.keyboard.latin.EmojiAltPhysicalKeyDetector
+import helium314.keyboard.latin.LatinIME
+import helium314.keyboard.latin.RichInputMethodManager
+import helium314.keyboard.latin.common.Constants
+import helium314.keyboard.latin.common.InputPointers
+import helium314.keyboard.latin.common.combiningRange
+import helium314.keyboard.latin.common.moveStepsToCharCount
+import helium314.keyboard.latin.define.ProductionFlags
+import helium314.keyboard.latin.inputlogic.InputLogic
+import helium314.keyboard.latin.settings.Settings
+import helium314.keyboard.latin.utils.GestureDataGatheringSettings
+import helium314.keyboard.latin.utils.BackgroundGatheringCache
+import helium314.keyboard.latin.utils.SubtypeSettings
+import helium314.keyboard.latin.utils.prefs
 import kotlin.math.abs
 
 class KeyboardActionListenerImpl(private val latinIME: LatinIME, private val inputLogic: InputLogic) : KeyboardActionListener {

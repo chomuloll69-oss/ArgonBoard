@@ -4,14 +4,14 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin.utils;
+package helium314.keyboard.latin.utils;
 
 import androidx.annotation.NonNull;
 
-import com.bhuwan.argonboard.latin.NgramContext;
-import com.bhuwan.argonboard.latin.NgramContext.WordInfo;
-import com.bhuwan.argonboard.latin.define.DecoderSpecificConstants;
-import com.bhuwan.argonboard.latin.settings.SpacingAndPunctuations;
+import helium314.keyboard.latin.NgramContext;
+import helium314.keyboard.latin.NgramContext.WordInfo;
+import helium314.keyboard.latin.define.DecoderSpecificConstants;
+import helium314.keyboard.latin.settings.SpacingAndPunctuations;
 
 import java.util.Arrays;
 import java.util.regex.Pattern;

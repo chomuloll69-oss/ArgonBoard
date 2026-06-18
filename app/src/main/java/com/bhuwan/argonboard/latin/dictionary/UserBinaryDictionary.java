@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin.dictionary;
+package helium314.keyboard.latin.dictionary;
 
 import android.content.Context;
 import android.database.ContentObserver;
@@ -16,8 +16,8 @@ import android.text.TextUtils;
 
 import com.android.inputmethod.latin.BinaryDictionary;
 
-import com.bhuwan.argonboard.latin.utils.Log;
-import com.bhuwan.argonboard.latin.utils.SubtypeLocaleUtils;
+import helium314.keyboard.latin.utils.Log;
+import helium314.keyboard.latin.utils.SubtypeLocaleUtils;
 
 import java.io.File;
 import java.util.Arrays;

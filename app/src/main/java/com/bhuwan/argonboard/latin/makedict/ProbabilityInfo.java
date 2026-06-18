@@ -4,10 +4,10 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin.makedict;
+package helium314.keyboard.latin.makedict;
 
 import com.android.inputmethod.latin.BinaryDictionary;
-import com.bhuwan.argonboard.latin.utils.CombinedFormatUtils;
+import helium314.keyboard.latin.utils.CombinedFormatUtils;
 
 import java.util.Arrays;
 

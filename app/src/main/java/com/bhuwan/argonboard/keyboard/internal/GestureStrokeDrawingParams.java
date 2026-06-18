@@ -4,11 +4,11 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.keyboard.internal;
+package helium314.keyboard.keyboard.internal;
 
 import android.content.res.TypedArray;
 
-import com.bhuwan.argonboard.latin.R;
+import helium314.keyboard.latin.R;
 
 /** This class holds parameters to control how a gesture stroke is sampled and drawn on the screen. */
 public final class GestureStrokeDrawingParams {

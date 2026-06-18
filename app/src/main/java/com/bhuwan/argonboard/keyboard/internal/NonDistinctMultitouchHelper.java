@@ -4,15 +4,15 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.keyboard.internal;
+package helium314.keyboard.keyboard.internal;
 
-import com.bhuwan.argonboard.latin.utils.Log;
+import helium314.keyboard.latin.utils.Log;
 import android.view.MotionEvent;
 
-import com.bhuwan.argonboard.keyboard.Key;
-import com.bhuwan.argonboard.keyboard.KeyDetector;
-import com.bhuwan.argonboard.keyboard.PointerTracker;
-import com.bhuwan.argonboard.latin.common.CoordinateUtils;
+import helium314.keyboard.keyboard.Key;
+import helium314.keyboard.keyboard.KeyDetector;
+import helium314.keyboard.keyboard.PointerTracker;
+import helium314.keyboard.latin.common.CoordinateUtils;
 
 public final class NonDistinctMultitouchHelper {
     private static final String TAG = NonDistinctMultitouchHelper.class.getSimpleName();

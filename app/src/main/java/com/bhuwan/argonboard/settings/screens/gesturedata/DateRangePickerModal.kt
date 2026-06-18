@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Apache-2.0
-package com.bhuwan.argonboard.settings.screens.gesturedata
+package helium314.keyboard.settings.screens.gesturedata
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
@@ -16,7 +16,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.bhuwan.argonboard.latin.R
+import helium314.keyboard.latin.R
 
 // copied from https://developer.android.com/develop/ui/compose/components/datepickers, thus Apache-2.0
 @OptIn(ExperimentalMaterial3Api::class)

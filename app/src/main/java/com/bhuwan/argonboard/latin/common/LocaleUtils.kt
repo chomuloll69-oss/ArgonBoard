@@ -3,16 +3,16 @@
  * modified
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
-package com.bhuwan.argonboard.latin.common
+package helium314.keyboard.latin.common
 
 import android.content.res.Resources
-import com.bhuwan.argonboard.compat.locale
-import com.bhuwan.argonboard.latin.R
-import com.bhuwan.argonboard.latin.RichInputMethodSubtype
-import com.bhuwan.argonboard.latin.utils.ScriptUtils.script
-import com.bhuwan.argonboard.latin.utils.SubtypeLocaleUtils
-import com.bhuwan.argonboard.latin.utils.getSecondaryLocales
-import com.bhuwan.argonboard.latin.utils.runInLocale
+import helium314.keyboard.compat.locale
+import helium314.keyboard.latin.R
+import helium314.keyboard.latin.RichInputMethodSubtype
+import helium314.keyboard.latin.utils.ScriptUtils.script
+import helium314.keyboard.latin.utils.SubtypeLocaleUtils
+import helium314.keyboard.latin.utils.getSecondaryLocales
+import helium314.keyboard.latin.utils.runInLocale
 import java.util.Locale
 
 /**

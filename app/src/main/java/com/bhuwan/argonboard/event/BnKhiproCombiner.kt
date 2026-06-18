@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
-package com.bhuwan.argonboard.event
+package helium314.keyboard.event
 
-import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.KeyCode
-import com.bhuwan.argonboard.latin.common.Constants
-import com.bhuwan.argonboard.latin.settings.Settings
-import com.bhuwan.argonboard.latin.utils.Log
+import helium314.keyboard.keyboard.internal.keyboard_parser.floris.KeyCode
+import helium314.keyboard.latin.common.Constants
+import helium314.keyboard.latin.settings.Settings
+import helium314.keyboard.latin.utils.Log
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.util.ArrayList

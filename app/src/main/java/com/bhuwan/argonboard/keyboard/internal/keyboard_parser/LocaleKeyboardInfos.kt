@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package com.bhuwan.argonboard.keyboard.internal.keyboard_parser
+package helium314.keyboard.keyboard.internal.keyboard_parser
 
 import android.content.Context
-import com.bhuwan.argonboard.keyboard.Key
-import com.bhuwan.argonboard.keyboard.KeyboardId
-import com.bhuwan.argonboard.keyboard.internal.KeyboardParams
-import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.KeyData
-import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.toTextKey
-import com.bhuwan.argonboard.latin.R
-import com.bhuwan.argonboard.latin.common.splitOnFirstSpacesOnly
-import com.bhuwan.argonboard.latin.common.splitOnWhitespace
-import com.bhuwan.argonboard.latin.settings.Settings
-import com.bhuwan.argonboard.latin.utils.SpacedTokens
-import com.bhuwan.argonboard.latin.utils.SubtypeLocaleUtils
+import helium314.keyboard.keyboard.Key
+import helium314.keyboard.keyboard.KeyboardId
+import helium314.keyboard.keyboard.internal.KeyboardParams
+import helium314.keyboard.keyboard.internal.keyboard_parser.floris.KeyData
+import helium314.keyboard.keyboard.internal.keyboard_parser.floris.toTextKey
+import helium314.keyboard.latin.R
+import helium314.keyboard.latin.common.splitOnFirstSpacesOnly
+import helium314.keyboard.latin.common.splitOnWhitespace
+import helium314.keyboard.latin.settings.Settings
+import helium314.keyboard.latin.utils.SpacedTokens
+import helium314.keyboard.latin.utils.SubtypeLocaleUtils
 import java.io.InputStream
 import java.util.Locale
 

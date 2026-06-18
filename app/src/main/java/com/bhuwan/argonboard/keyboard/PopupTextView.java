@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.keyboard;
+package helium314.keyboard.keyboard;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -12,12 +12,12 @@ import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.TextView;
-import com.bhuwan.argonboard.keyboard.emoji.EmojiViewCallback;
-import com.bhuwan.argonboard.keyboard.internal.KeyDrawParams;
-import com.bhuwan.argonboard.latin.R;
-import com.bhuwan.argonboard.latin.common.ColorType;
-import com.bhuwan.argonboard.latin.common.CoordinateUtils;
-import com.bhuwan.argonboard.latin.settings.Settings;
+import helium314.keyboard.keyboard.emoji.EmojiViewCallback;
+import helium314.keyboard.keyboard.internal.KeyDrawParams;
+import helium314.keyboard.latin.R;
+import helium314.keyboard.latin.common.ColorType;
+import helium314.keyboard.latin.common.CoordinateUtils;
+import helium314.keyboard.latin.settings.Settings;
 
 
 /**

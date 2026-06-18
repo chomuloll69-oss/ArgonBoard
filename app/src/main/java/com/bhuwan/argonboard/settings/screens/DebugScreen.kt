@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package com.bhuwan.argonboard.settings.screens
+package helium314.keyboard.settings.screens
 
 import android.content.Context
 import android.content.Intent
@@ -10,22 +10,22 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
-import com.bhuwan.argonboard.keyboard.KeyboardSwitcher
-import com.bhuwan.argonboard.latin.BuildConfig
-import com.bhuwan.argonboard.latin.DictionaryDumpBroadcastReceiver
-import com.bhuwan.argonboard.latin.DictionaryFacilitator
-import com.bhuwan.argonboard.latin.R
-import com.bhuwan.argonboard.latin.settings.DebugSettings
-import com.bhuwan.argonboard.latin.settings.Defaults
-import com.bhuwan.argonboard.latin.utils.prefs
-import com.bhuwan.argonboard.settings.Setting
-import com.bhuwan.argonboard.settings.preferences.Preference
-import com.bhuwan.argonboard.settings.SearchSettingsScreen
-import com.bhuwan.argonboard.settings.preferences.SwitchPreference
-import com.bhuwan.argonboard.latin.utils.Theme
-import com.bhuwan.argonboard.settings.initPreview
-import com.bhuwan.argonboard.settings.preferences.PreferenceCategory
-import com.bhuwan.argonboard.latin.utils.previewDark
+import helium314.keyboard.keyboard.KeyboardSwitcher
+import helium314.keyboard.latin.BuildConfig
+import helium314.keyboard.latin.DictionaryDumpBroadcastReceiver
+import helium314.keyboard.latin.DictionaryFacilitator
+import helium314.keyboard.latin.R
+import helium314.keyboard.latin.settings.DebugSettings
+import helium314.keyboard.latin.settings.Defaults
+import helium314.keyboard.latin.utils.prefs
+import helium314.keyboard.settings.Setting
+import helium314.keyboard.settings.preferences.Preference
+import helium314.keyboard.settings.SearchSettingsScreen
+import helium314.keyboard.settings.preferences.SwitchPreference
+import helium314.keyboard.latin.utils.Theme
+import helium314.keyboard.settings.initPreview
+import helium314.keyboard.settings.preferences.PreferenceCategory
+import helium314.keyboard.latin.utils.previewDark
 import androidx.core.content.edit
 
 @Composable

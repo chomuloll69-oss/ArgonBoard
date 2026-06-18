@@ -1,12 +1,12 @@
-package com.bhuwan.argonboard.keyboard.emoji
+package helium314.keyboard.keyboard.emoji
 
 import android.content.Context
 import android.graphics.Paint
 import android.os.Build
 import androidx.core.content.edit
-import com.bhuwan.argonboard.keyboard.KeyboardTypeface
-import com.bhuwan.argonboard.latin.settings.Settings
-import com.bhuwan.argonboard.latin.utils.prefs
+import helium314.keyboard.keyboard.KeyboardTypeface
+import helium314.keyboard.latin.settings.Settings
+import helium314.keyboard.latin.utils.prefs
 
 object SupportedEmojis {
     private val unsupportedEmojis = hashSetOf<String>()

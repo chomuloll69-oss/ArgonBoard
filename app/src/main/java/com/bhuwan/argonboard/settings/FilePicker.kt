@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package com.bhuwan.argonboard.settings
+package helium314.keyboard.settings
 
 import android.app.Activity
 import android.content.Intent
@@ -16,12 +16,12 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
-import com.bhuwan.argonboard.latin.R
-import com.bhuwan.argonboard.latin.common.FileUtils
-import com.bhuwan.argonboard.latin.utils.LayoutUtilsCustom
-import com.bhuwan.argonboard.latin.utils.getActivity
-import com.bhuwan.argonboard.settings.dialogs.InfoDialog
-import com.bhuwan.argonboard.settings.dialogs.NewDictionaryDialog
+import helium314.keyboard.latin.R
+import helium314.keyboard.latin.common.FileUtils
+import helium314.keyboard.latin.utils.LayoutUtilsCustom
+import helium314.keyboard.latin.utils.getActivity
+import helium314.keyboard.settings.dialogs.InfoDialog
+import helium314.keyboard.settings.dialogs.NewDictionaryDialog
 import java.io.File
 import java.util.Locale
 

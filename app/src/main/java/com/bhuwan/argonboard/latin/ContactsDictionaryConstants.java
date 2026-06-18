@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin;
+package helium314.keyboard.latin;
 
 import android.provider.BaseColumns;
 import android.provider.ContactsContract.Contacts;

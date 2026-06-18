@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package com.bhuwan.argonboard.latin.utils
+package helium314.keyboard.latin.utils
 
-import com.bhuwan.argonboard.keyboard.Key
-import com.bhuwan.argonboard.keyboard.internal.KeySpecParser
-import com.bhuwan.argonboard.keyboard.internal.KeyboardParams
-import com.bhuwan.argonboard.keyboard.internal.PopupKeySpec
-import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.KeyLabel.rtlLabel
-import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.PopupSet
-import com.bhuwan.argonboard.latin.common.Constants.Separators
+import helium314.keyboard.keyboard.Key
+import helium314.keyboard.keyboard.internal.KeySpecParser
+import helium314.keyboard.keyboard.internal.KeyboardParams
+import helium314.keyboard.keyboard.internal.PopupKeySpec
+import helium314.keyboard.keyboard.internal.keyboard_parser.floris.KeyLabel.rtlLabel
+import helium314.keyboard.keyboard.internal.keyboard_parser.floris.PopupSet
+import helium314.keyboard.latin.common.Constants.Separators
 
 const val POPUP_KEYS_NUMBER = "number"
 private const val POPUP_KEYS_LANGUAGE_PRIORITY = "language_priority"

@@ -4,13 +4,13 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin;
+package helium314.keyboard.latin;
 
 import android.text.TextUtils;
 
-import com.bhuwan.argonboard.event.Event;
-import com.bhuwan.argonboard.latin.common.InputPointers;
-import com.bhuwan.argonboard.latin.define.DecoderSpecificConstants;
+import helium314.keyboard.event.Event;
+import helium314.keyboard.latin.common.InputPointers;
+import helium314.keyboard.latin.define.DecoderSpecificConstants;
 
 import java.util.ArrayList;
 

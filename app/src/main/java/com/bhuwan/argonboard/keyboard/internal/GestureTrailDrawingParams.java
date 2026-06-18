@@ -4,13 +4,13 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.keyboard.internal;
+package helium314.keyboard.keyboard.internal;
 
 import android.content.res.TypedArray;
 
-import com.bhuwan.argonboard.latin.R;
-import com.bhuwan.argonboard.latin.common.ColorType;
-import com.bhuwan.argonboard.latin.settings.Settings;
+import helium314.keyboard.latin.R;
+import helium314.keyboard.latin.common.ColorType;
+import helium314.keyboard.latin.settings.Settings;
 
 /**
  * This class holds parameters to control how a gesture trail is drawn and animated on the screen.

@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin.spellcheck;
+package helium314.keyboard.latin.spellcheck;
 
 import android.service.textservice.SpellCheckerService.Session;
 

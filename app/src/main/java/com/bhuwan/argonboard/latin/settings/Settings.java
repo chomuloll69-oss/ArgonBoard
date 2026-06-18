@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin.settings;
+package helium314.keyboard.latin.settings;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -22,28 +22,28 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 
-import com.bhuwan.argonboard.compat.ConfigurationCompatKt;
-import com.bhuwan.argonboard.keyboard.KeyboardActionListener;
-import com.bhuwan.argonboard.keyboard.internal.PopupKeySpec;
-import com.bhuwan.argonboard.latin.AudioAndHapticFeedbackManager;
-import com.bhuwan.argonboard.latin.InputAttributes;
-import com.bhuwan.argonboard.latin.PunctuationSuggestions;
-import com.bhuwan.argonboard.latin.R;
-import com.bhuwan.argonboard.latin.RichInputMethodManager;
-import com.bhuwan.argonboard.latin.RichInputMethodSubtype;
-import com.bhuwan.argonboard.latin.common.StringUtils;
-import com.bhuwan.argonboard.latin.utils.DeviceProtectedUtils;
-import com.bhuwan.argonboard.latin.utils.FoldableUtils;
-import com.bhuwan.argonboard.latin.utils.KtxKt;
-import com.bhuwan.argonboard.latin.utils.LayoutType;
-import com.bhuwan.argonboard.latin.utils.Log;
-import com.bhuwan.argonboard.latin.utils.ResourceUtils;
-import com.bhuwan.argonboard.latin.utils.RunInLocaleKt;
-import com.bhuwan.argonboard.latin.utils.StatsUtils;
-import com.bhuwan.argonboard.latin.utils.SubtypeSettings;
-import com.bhuwan.argonboard.latin.utils.ToolbarKey;
-import com.bhuwan.argonboard.latin.utils.ToolbarUtilsKt;
-import com.bhuwan.argonboard.latin.utils.ToolbarMode;
+import helium314.keyboard.compat.ConfigurationCompatKt;
+import helium314.keyboard.keyboard.KeyboardActionListener;
+import helium314.keyboard.keyboard.internal.PopupKeySpec;
+import helium314.keyboard.latin.AudioAndHapticFeedbackManager;
+import helium314.keyboard.latin.InputAttributes;
+import helium314.keyboard.latin.PunctuationSuggestions;
+import helium314.keyboard.latin.R;
+import helium314.keyboard.latin.RichInputMethodManager;
+import helium314.keyboard.latin.RichInputMethodSubtype;
+import helium314.keyboard.latin.common.StringUtils;
+import helium314.keyboard.latin.utils.DeviceProtectedUtils;
+import helium314.keyboard.latin.utils.FoldableUtils;
+import helium314.keyboard.latin.utils.KtxKt;
+import helium314.keyboard.latin.utils.LayoutType;
+import helium314.keyboard.latin.utils.Log;
+import helium314.keyboard.latin.utils.ResourceUtils;
+import helium314.keyboard.latin.utils.RunInLocaleKt;
+import helium314.keyboard.latin.utils.StatsUtils;
+import helium314.keyboard.latin.utils.SubtypeSettings;
+import helium314.keyboard.latin.utils.ToolbarKey;
+import helium314.keyboard.latin.utils.ToolbarUtilsKt;
+import helium314.keyboard.latin.utils.ToolbarMode;
 
 import java.io.File;
 import java.util.Arrays;

@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package com.bhuwan.argonboard.latin
+package helium314.keyboard.latin
 
 import android.content.Context
 import android.util.LruCache
-import com.bhuwan.argonboard.keyboard.Keyboard
-import com.bhuwan.argonboard.keyboard.KeyboardSwitcher
-import com.bhuwan.argonboard.keyboard.emoji.SupportedEmojis
-import com.bhuwan.argonboard.latin.DictionaryFacilitator.DictionaryInitializationListener
-import com.bhuwan.argonboard.latin.common.ComposedData
-import com.bhuwan.argonboard.latin.dictionary.Dictionary
-import com.bhuwan.argonboard.latin.dictionary.DictionaryStats
-import com.bhuwan.argonboard.latin.makedict.WordProperty
-import com.bhuwan.argonboard.latin.settings.SettingsValuesForSuggestion
-import com.bhuwan.argonboard.latin.utils.SuggestionResults
+import helium314.keyboard.keyboard.Keyboard
+import helium314.keyboard.keyboard.KeyboardSwitcher
+import helium314.keyboard.keyboard.emoji.SupportedEmojis
+import helium314.keyboard.latin.DictionaryFacilitator.DictionaryInitializationListener
+import helium314.keyboard.latin.common.ComposedData
+import helium314.keyboard.latin.dictionary.Dictionary
+import helium314.keyboard.latin.dictionary.DictionaryStats
+import helium314.keyboard.latin.makedict.WordProperty
+import helium314.keyboard.latin.settings.SettingsValuesForSuggestion
+import helium314.keyboard.latin.utils.SuggestionResults
 import java.util.Locale
 import java.util.concurrent.TimeUnit
 

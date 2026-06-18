@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package com.bhuwan.argonboard.settings.screens
+package helium314.keyboard.settings.screens
 
 import android.content.ContentResolver
 import android.content.Context
@@ -35,11 +35,11 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
-import com.bhuwan.argonboard.latin.R
-import com.bhuwan.argonboard.latin.common.LocaleUtils.localizedDisplayName
-import com.bhuwan.argonboard.settings.DropDownField
-import com.bhuwan.argonboard.settings.SearchScreen
-import com.bhuwan.argonboard.settings.dialogs.ThreeButtonAlertDialog
+import helium314.keyboard.latin.R
+import helium314.keyboard.latin.common.LocaleUtils.localizedDisplayName
+import helium314.keyboard.settings.DropDownField
+import helium314.keyboard.settings.SearchScreen
+import helium314.keyboard.settings.dialogs.ThreeButtonAlertDialog
 import java.util.Locale
 
 @Composable

@@ -4,28 +4,28 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.keyboard;
+package helium314.keyboard.keyboard;
 
 import android.content.Context;
 import android.text.InputType;
 import android.view.inputmethod.EditorInfo;
 
-import com.bhuwan.argonboard.keyboard.internal.KeyboardBuilder;
-import com.bhuwan.argonboard.keyboard.internal.KeyboardIconsSet;
-import com.bhuwan.argonboard.keyboard.internal.KeyboardParams;
-import com.bhuwan.argonboard.keyboard.internal.UniqueKeysCache;
-import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.LayoutParser;
-import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.LocaleKeyboardInfos;
-import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.LocaleKeyboardInfosKt;
-import com.bhuwan.argonboard.latin.RichInputMethodManager;
-import com.bhuwan.argonboard.latin.RichInputMethodSubtype;
-import com.bhuwan.argonboard.latin.settings.Settings;
-import com.bhuwan.argonboard.latin.utils.DictionaryInfoUtils;
-import com.bhuwan.argonboard.latin.utils.InputTypeUtils;
-import com.bhuwan.argonboard.latin.utils.Log;
-import com.bhuwan.argonboard.latin.utils.ResourceUtils;
-import com.bhuwan.argonboard.latin.utils.ScriptUtils;
-import com.bhuwan.argonboard.latin.utils.SubtypeLocaleUtils;
+import helium314.keyboard.keyboard.internal.KeyboardBuilder;
+import helium314.keyboard.keyboard.internal.KeyboardIconsSet;
+import helium314.keyboard.keyboard.internal.KeyboardParams;
+import helium314.keyboard.keyboard.internal.UniqueKeysCache;
+import helium314.keyboard.keyboard.internal.keyboard_parser.LayoutParser;
+import helium314.keyboard.keyboard.internal.keyboard_parser.LocaleKeyboardInfos;
+import helium314.keyboard.keyboard.internal.keyboard_parser.LocaleKeyboardInfosKt;
+import helium314.keyboard.latin.RichInputMethodManager;
+import helium314.keyboard.latin.RichInputMethodSubtype;
+import helium314.keyboard.latin.settings.Settings;
+import helium314.keyboard.latin.utils.DictionaryInfoUtils;
+import helium314.keyboard.latin.utils.InputTypeUtils;
+import helium314.keyboard.latin.utils.Log;
+import helium314.keyboard.latin.utils.ResourceUtils;
+import helium314.keyboard.latin.utils.ScriptUtils;
+import helium314.keyboard.latin.utils.SubtypeLocaleUtils;
 
 import java.lang.ref.SoftReference;
 import java.util.HashMap;

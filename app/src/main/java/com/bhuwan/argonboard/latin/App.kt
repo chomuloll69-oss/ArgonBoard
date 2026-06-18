@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
-package com.bhuwan.argonboard.latin
+package helium314.keyboard.latin
 
 import android.app.Application
 import android.os.Build
-import com.bhuwan.argonboard.keyboard.emoji.SupportedEmojis
-import com.bhuwan.argonboard.latin.define.DebugFlags
-import com.bhuwan.argonboard.latin.settings.Defaults
-import com.bhuwan.argonboard.latin.settings.Settings
-import com.bhuwan.argonboard.latin.utils.FoldableUtils
-import com.bhuwan.argonboard.latin.utils.LayoutUtilsCustom
-import com.bhuwan.argonboard.latin.utils.Log
-import com.bhuwan.argonboard.latin.utils.SubtypeSettings
-import com.bhuwan.argonboard.latin.utils.prefs
-import com.bhuwan.argonboard.latin.utils.upgradeToolbarPrefs
+import helium314.keyboard.keyboard.emoji.SupportedEmojis
+import helium314.keyboard.latin.define.DebugFlags
+import helium314.keyboard.latin.settings.Defaults
+import helium314.keyboard.latin.settings.Settings
+import helium314.keyboard.latin.utils.FoldableUtils
+import helium314.keyboard.latin.utils.LayoutUtilsCustom
+import helium314.keyboard.latin.utils.Log
+import helium314.keyboard.latin.utils.SubtypeSettings
+import helium314.keyboard.latin.utils.prefs
+import helium314.keyboard.latin.utils.upgradeToolbarPrefs
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package com.bhuwan.argonboard.settings.screens
+package helium314.keyboard.settings.screens
 
 import android.content.Context
 import androidx.compose.material3.Surface
@@ -12,23 +12,23 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
-import com.bhuwan.argonboard.latin.R
-import com.bhuwan.argonboard.latin.settings.Settings
-import com.bhuwan.argonboard.latin.utils.LayoutType
-import com.bhuwan.argonboard.latin.utils.LayoutType.Companion.displayNameId
-import com.bhuwan.argonboard.latin.utils.LayoutUtilsCustom
-import com.bhuwan.argonboard.latin.utils.Log
-import com.bhuwan.argonboard.latin.utils.getActivity
-import com.bhuwan.argonboard.latin.utils.getStringResourceOrName
-import com.bhuwan.argonboard.latin.utils.prefs
-import com.bhuwan.argonboard.settings.SearchSettingsScreen
-import com.bhuwan.argonboard.settings.Setting
-import com.bhuwan.argonboard.settings.SettingsActivity
-import com.bhuwan.argonboard.latin.utils.Theme
-import com.bhuwan.argonboard.settings.dialogs.LayoutPickerDialog
-import com.bhuwan.argonboard.settings.initPreview
-import com.bhuwan.argonboard.settings.preferences.Preference
-import com.bhuwan.argonboard.latin.utils.previewDark
+import helium314.keyboard.latin.R
+import helium314.keyboard.latin.settings.Settings
+import helium314.keyboard.latin.utils.LayoutType
+import helium314.keyboard.latin.utils.LayoutType.Companion.displayNameId
+import helium314.keyboard.latin.utils.LayoutUtilsCustom
+import helium314.keyboard.latin.utils.Log
+import helium314.keyboard.latin.utils.getActivity
+import helium314.keyboard.latin.utils.getStringResourceOrName
+import helium314.keyboard.latin.utils.prefs
+import helium314.keyboard.settings.SearchSettingsScreen
+import helium314.keyboard.settings.Setting
+import helium314.keyboard.settings.SettingsActivity
+import helium314.keyboard.latin.utils.Theme
+import helium314.keyboard.settings.dialogs.LayoutPickerDialog
+import helium314.keyboard.settings.initPreview
+import helium314.keyboard.settings.preferences.Preference
+import helium314.keyboard.latin.utils.previewDark
 
 @Composable
 fun SecondaryLayoutScreen(

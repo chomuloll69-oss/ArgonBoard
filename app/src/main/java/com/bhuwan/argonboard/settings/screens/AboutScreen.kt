@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package com.bhuwan.argonboard.settings.screens
+package helium314.keyboard.settings.screens
 
 import android.app.Activity
 import android.app.AlertDialog
@@ -22,23 +22,23 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.net.toUri
-import com.bhuwan.argonboard.latin.BuildConfig
-import com.bhuwan.argonboard.latin.R
-import com.bhuwan.argonboard.latin.common.Links
-import com.bhuwan.argonboard.latin.settings.DebugSettings
-import com.bhuwan.argonboard.latin.settings.Defaults
-import com.bhuwan.argonboard.latin.utils.Log
-import com.bhuwan.argonboard.latin.utils.SpannableStringUtils
-import com.bhuwan.argonboard.latin.utils.getActivity
-import com.bhuwan.argonboard.latin.utils.prefs
-import com.bhuwan.argonboard.settings.SettingsContainer
-import com.bhuwan.argonboard.settings.SettingsWithoutKey
-import com.bhuwan.argonboard.settings.Setting
-import com.bhuwan.argonboard.settings.preferences.Preference
-import com.bhuwan.argonboard.settings.SearchSettingsScreen
-import com.bhuwan.argonboard.settings.SettingsActivity
-import com.bhuwan.argonboard.latin.utils.Theme
-import com.bhuwan.argonboard.latin.utils.previewDark
+import helium314.keyboard.latin.BuildConfig
+import helium314.keyboard.latin.R
+import helium314.keyboard.latin.common.Links
+import helium314.keyboard.latin.settings.DebugSettings
+import helium314.keyboard.latin.settings.Defaults
+import helium314.keyboard.latin.utils.Log
+import helium314.keyboard.latin.utils.SpannableStringUtils
+import helium314.keyboard.latin.utils.getActivity
+import helium314.keyboard.latin.utils.prefs
+import helium314.keyboard.settings.SettingsContainer
+import helium314.keyboard.settings.SettingsWithoutKey
+import helium314.keyboard.settings.Setting
+import helium314.keyboard.settings.preferences.Preference
+import helium314.keyboard.settings.SearchSettingsScreen
+import helium314.keyboard.settings.SettingsActivity
+import helium314.keyboard.latin.utils.Theme
+import helium314.keyboard.latin.utils.previewDark
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.text.SimpleDateFormat

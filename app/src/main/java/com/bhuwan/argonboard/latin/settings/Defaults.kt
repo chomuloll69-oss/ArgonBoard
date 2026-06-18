@@ -1,21 +1,21 @@
-package com.bhuwan.argonboard.latin.settings
+package helium314.keyboard.latin.settings
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.os.Build
 import android.util.TypedValue
 import android.view.Gravity
-import com.bhuwan.argonboard.keyboard.KeyboardActionListener
-import com.bhuwan.argonboard.keyboard.KeyboardTheme
-import com.bhuwan.argonboard.latin.BuildConfig
-import com.bhuwan.argonboard.latin.common.Constants.Separators
-import com.bhuwan.argonboard.latin.common.Constants.Subtype.ExtraValue
-import com.bhuwan.argonboard.latin.utils.LayoutType
-import com.bhuwan.argonboard.latin.utils.POPUP_KEYS_LABEL_DEFAULT
-import com.bhuwan.argonboard.latin.utils.POPUP_KEYS_ORDER_DEFAULT
-import com.bhuwan.argonboard.latin.utils.defaultClipboardToolbarPref
-import com.bhuwan.argonboard.latin.utils.defaultPinnedToolbarPref
-import com.bhuwan.argonboard.latin.utils.defaultToolbarPref
+import helium314.keyboard.keyboard.KeyboardActionListener
+import helium314.keyboard.keyboard.KeyboardTheme
+import helium314.keyboard.latin.BuildConfig
+import helium314.keyboard.latin.common.Constants.Separators
+import helium314.keyboard.latin.common.Constants.Subtype.ExtraValue
+import helium314.keyboard.latin.utils.LayoutType
+import helium314.keyboard.latin.utils.POPUP_KEYS_LABEL_DEFAULT
+import helium314.keyboard.latin.utils.POPUP_KEYS_ORDER_DEFAULT
+import helium314.keyboard.latin.utils.defaultClipboardToolbarPref
+import helium314.keyboard.latin.utils.defaultPinnedToolbarPref
+import helium314.keyboard.latin.utils.defaultToolbarPref
 
 object Defaults {
     fun initDynamicDefaults(context: Context) {

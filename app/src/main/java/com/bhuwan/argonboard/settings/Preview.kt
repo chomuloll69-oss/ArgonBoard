@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package com.bhuwan.argonboard.settings
+package helium314.keyboard.settings
 
 import android.content.Context
-import com.bhuwan.argonboard.keyboard.internal.KeyboardIconsSet
-import com.bhuwan.argonboard.latin.settings.Settings
-import com.bhuwan.argonboard.latin.utils.SubtypeSettings
+import helium314.keyboard.keyboard.internal.KeyboardIconsSet
+import helium314.keyboard.latin.settings.Settings
+import helium314.keyboard.latin.utils.SubtypeSettings
 
 // file is meant for making compose previews work
 

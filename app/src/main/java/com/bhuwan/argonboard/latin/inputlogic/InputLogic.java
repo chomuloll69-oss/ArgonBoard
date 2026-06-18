@@ -4,9 +4,9 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin.inputlogic;
+package helium314.keyboard.latin.inputlogic;
 
-import static com.bhuwan.argonboard.latin.common.SuggestionSpanUtilsKt.getTextWithSuggestionSpan;
+import static helium314.keyboard.latin.common.SuggestionSpanUtilsKt.getTextWithSuggestionSpan;
 
 import android.graphics.Color;
 import android.os.SystemClock;
@@ -24,49 +24,49 @@ import android.view.inputmethod.EditorInfo;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.bhuwan.argonboard.event.Event;
-import com.bhuwan.argonboard.event.InputTransaction;
-import com.bhuwan.argonboard.keyboard.Keyboard;
-import com.bhuwan.argonboard.keyboard.KeyboardLayoutSet;
-import com.bhuwan.argonboard.keyboard.KeyboardSwitcher;
-import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.KeyCode;
-import com.bhuwan.argonboard.latin.dictionary.Dictionary;
-import com.bhuwan.argonboard.latin.DictionaryFacilitator;
-import com.bhuwan.argonboard.latin.dictionary.DictionaryFactory;
-import com.bhuwan.argonboard.latin.LastComposedWord;
-import com.bhuwan.argonboard.latin.LatinIME;
-import com.bhuwan.argonboard.latin.NgramContext;
-import com.bhuwan.argonboard.latin.RichInputConnection;
-import com.bhuwan.argonboard.latin.SingleDictionaryFacilitator;
-import com.bhuwan.argonboard.latin.Suggest;
-import com.bhuwan.argonboard.latin.Suggest.OnGetSuggestedWordsCallback;
-import com.bhuwan.argonboard.latin.SuggestedWords;
-import com.bhuwan.argonboard.latin.SuggestedWords.SuggestedWordInfo;
-import com.bhuwan.argonboard.latin.WordComposer;
-import com.bhuwan.argonboard.latin.common.Constants;
-import com.bhuwan.argonboard.latin.common.InputPointers;
-import com.bhuwan.argonboard.latin.common.StringUtils;
-import com.bhuwan.argonboard.latin.common.StringUtilsKt;
-import com.bhuwan.argonboard.latin.common.SuggestionSpanUtilsKt;
-import com.bhuwan.argonboard.latin.define.DebugFlags;
-import com.bhuwan.argonboard.latin.settings.Settings;
-import com.bhuwan.argonboard.latin.settings.SettingsValues;
-import com.bhuwan.argonboard.latin.settings.SpacingAndPunctuations;
-import com.bhuwan.argonboard.latin.suggestions.SuggestionStripViewAccessor;
-import com.bhuwan.argonboard.latin.utils.AsyncResultHolder;
-import com.bhuwan.argonboard.latin.utils.DictionaryInfoUtils;
-import com.bhuwan.argonboard.latin.utils.GestureDataGatheringKt;
-import com.bhuwan.argonboard.latin.utils.InputTypeUtils;
-import com.bhuwan.argonboard.latin.utils.IntentUtils;
-import com.bhuwan.argonboard.latin.utils.Log;
-import com.bhuwan.argonboard.latin.utils.BackgroundGatheringCache;
-import com.bhuwan.argonboard.latin.utils.RecapitalizeMode;
-import com.bhuwan.argonboard.latin.utils.RecapitalizeStatus;
-import com.bhuwan.argonboard.latin.utils.ScriptUtils;
-import com.bhuwan.argonboard.latin.utils.StatsUtils;
-import com.bhuwan.argonboard.latin.utils.TextPlacement;
-import com.bhuwan.argonboard.latin.utils.TextRange;
-import com.bhuwan.argonboard.latin.utils.TimestampKt;
+import helium314.keyboard.event.Event;
+import helium314.keyboard.event.InputTransaction;
+import helium314.keyboard.keyboard.Keyboard;
+import helium314.keyboard.keyboard.KeyboardLayoutSet;
+import helium314.keyboard.keyboard.KeyboardSwitcher;
+import helium314.keyboard.keyboard.internal.keyboard_parser.floris.KeyCode;
+import helium314.keyboard.latin.dictionary.Dictionary;
+import helium314.keyboard.latin.DictionaryFacilitator;
+import helium314.keyboard.latin.dictionary.DictionaryFactory;
+import helium314.keyboard.latin.LastComposedWord;
+import helium314.keyboard.latin.LatinIME;
+import helium314.keyboard.latin.NgramContext;
+import helium314.keyboard.latin.RichInputConnection;
+import helium314.keyboard.latin.SingleDictionaryFacilitator;
+import helium314.keyboard.latin.Suggest;
+import helium314.keyboard.latin.Suggest.OnGetSuggestedWordsCallback;
+import helium314.keyboard.latin.SuggestedWords;
+import helium314.keyboard.latin.SuggestedWords.SuggestedWordInfo;
+import helium314.keyboard.latin.WordComposer;
+import helium314.keyboard.latin.common.Constants;
+import helium314.keyboard.latin.common.InputPointers;
+import helium314.keyboard.latin.common.StringUtils;
+import helium314.keyboard.latin.common.StringUtilsKt;
+import helium314.keyboard.latin.common.SuggestionSpanUtilsKt;
+import helium314.keyboard.latin.define.DebugFlags;
+import helium314.keyboard.latin.settings.Settings;
+import helium314.keyboard.latin.settings.SettingsValues;
+import helium314.keyboard.latin.settings.SpacingAndPunctuations;
+import helium314.keyboard.latin.suggestions.SuggestionStripViewAccessor;
+import helium314.keyboard.latin.utils.AsyncResultHolder;
+import helium314.keyboard.latin.utils.DictionaryInfoUtils;
+import helium314.keyboard.latin.utils.GestureDataGatheringKt;
+import helium314.keyboard.latin.utils.InputTypeUtils;
+import helium314.keyboard.latin.utils.IntentUtils;
+import helium314.keyboard.latin.utils.Log;
+import helium314.keyboard.latin.utils.BackgroundGatheringCache;
+import helium314.keyboard.latin.utils.RecapitalizeMode;
+import helium314.keyboard.latin.utils.RecapitalizeStatus;
+import helium314.keyboard.latin.utils.ScriptUtils;
+import helium314.keyboard.latin.utils.StatsUtils;
+import helium314.keyboard.latin.utils.TextPlacement;
+import helium314.keyboard.latin.utils.TextRange;
+import helium314.keyboard.latin.utils.TimestampKt;
 
 import java.util.ArrayList;
 import java.util.Locale;
@@ -276,7 +276,7 @@ public final class InputLogic {
      * @param settingsValues the current values of the settings.
      * @param suggestionInfo the suggestion info.
      * @param keyboardShiftState the shift state of the keyboard, as returned by
-     *     {@link com.bhuwan.argonboard.keyboard.KeyboardSwitcher#getKeyboardShiftMode()}
+     *     {@link helium314.keyboard.keyboard.KeyboardSwitcher#getKeyboardShiftMode()}
      * @return the complete transaction object
      */
     // Called from {@link SuggestionStripView} through the {@link SuggestionStripView#Listener}
@@ -461,7 +461,7 @@ public final class InputLogic {
      * @param settingsValues the current settings values.
      * @param event the event to handle.
      * @param keyboardShiftMode the current shift mode of the keyboard, as returned by
-     *     {@link com.bhuwan.argonboard.keyboard.KeyboardSwitcher#getKeyboardShiftMode()}
+     *     {@link helium314.keyboard.keyboard.KeyboardSwitcher#getKeyboardShiftMode()}
      * @return the complete transaction object
      */
     public InputTransaction onCodeInput(final SettingsValues settingsValues,
@@ -2164,10 +2164,10 @@ public final class InputLogic {
     }
 
     /**
-     * Make a {@link com.bhuwan.argonboard.latin.SuggestedWords} object containing a typed word
+     * Make a {@link helium314.keyboard.latin.SuggestedWords} object containing a typed word
      * and obsolete suggestions.
-     * See {@link com.bhuwan.argonboard.latin.SuggestedWords#getTypedWordAndPreviousSuggestions(
-     *      SuggestedWordInfo, com.bhuwan.argonboard.latin.SuggestedWords)}.
+     * See {@link helium314.keyboard.latin.SuggestedWords#getTypedWordAndPreviousSuggestions(
+     *      SuggestedWordInfo, helium314.keyboard.latin.SuggestedWords)}.
      * @param typedWordInfo The typed word as a SuggestedWordInfo.
      * @param previousSuggestedWords The previously suggested words.
      * @return Obsolete suggestions with the newly typed word.

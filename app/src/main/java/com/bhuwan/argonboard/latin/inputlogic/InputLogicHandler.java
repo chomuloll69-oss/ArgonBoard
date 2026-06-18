@@ -4,15 +4,15 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin.inputlogic;
+package helium314.keyboard.latin.inputlogic;
 
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.Message;
 
-import com.bhuwan.argonboard.latin.LatinIME;
-import com.bhuwan.argonboard.latin.SuggestedWords;
-import com.bhuwan.argonboard.latin.common.InputPointers;
+import helium314.keyboard.latin.LatinIME;
+import helium314.keyboard.latin.SuggestedWords;
+import helium314.keyboard.latin.common.InputPointers;
 
 /**
  * A helper to manage deferred tasks for the input logic.

@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin.inputlogic;
+package helium314.keyboard.latin.inputlogic;
 
 /**
  * Class for managing space states.

@@ -1,4 +1,4 @@
-package com.bhuwan.argonboard.latin.utils
+package helium314.keyboard.latin.utils
 
 import android.R
 import android.annotation.SuppressLint

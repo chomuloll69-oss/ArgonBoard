@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package com.bhuwan.argonboard.settings.preferences
+package helium314.keyboard.settings.preferences
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.fadeIn
@@ -32,14 +32,14 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.bhuwan.argonboard.latin.R
-import com.bhuwan.argonboard.latin.settings.createPrefKeyForBooleanSettings
-import com.bhuwan.argonboard.latin.utils.FoldableUtils
-import com.bhuwan.argonboard.latin.utils.prefs
-import com.bhuwan.argonboard.latin.utils.Theme
-import com.bhuwan.argonboard.settings.WithSmallTitle
-import com.bhuwan.argonboard.settings.dialogs.ThreeButtonAlertDialog
-import com.bhuwan.argonboard.latin.utils.previewDark
+import helium314.keyboard.latin.R
+import helium314.keyboard.latin.settings.createPrefKeyForBooleanSettings
+import helium314.keyboard.latin.utils.FoldableUtils
+import helium314.keyboard.latin.utils.prefs
+import helium314.keyboard.latin.utils.Theme
+import helium314.keyboard.settings.WithSmallTitle
+import helium314.keyboard.settings.dialogs.ThreeButtonAlertDialog
+import helium314.keyboard.latin.utils.previewDark
 import androidx.core.content.edit
 
 // actual key for each setting is baseKey with one _true/_false appended per dimension (need to keep order!)

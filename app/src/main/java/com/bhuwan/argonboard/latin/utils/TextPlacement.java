@@ -1,4 +1,4 @@
-package com.bhuwan.argonboard.latin.utils;
+package helium314.keyboard.latin.utils;
 
 public final class TextPlacement {
     public String text;

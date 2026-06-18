@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin;
+package helium314.keyboard.latin;
 
 import android.content.Context;
 import android.util.LruCache;
@@ -12,12 +12,12 @@ import android.util.LruCache;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.bhuwan.argonboard.keyboard.Keyboard;
-import com.bhuwan.argonboard.latin.common.ComposedData;
-import com.bhuwan.argonboard.latin.dictionary.Dictionary;
-import com.bhuwan.argonboard.latin.dictionary.DictionaryStats;
-import com.bhuwan.argonboard.latin.settings.SettingsValuesForSuggestion;
-import com.bhuwan.argonboard.latin.utils.SuggestionResults;
+import helium314.keyboard.keyboard.Keyboard;
+import helium314.keyboard.latin.common.ComposedData;
+import helium314.keyboard.latin.dictionary.Dictionary;
+import helium314.keyboard.latin.dictionary.DictionaryStats;
+import helium314.keyboard.latin.settings.SettingsValuesForSuggestion;
+import helium314.keyboard.latin.utils.SuggestionResults;
 
 import java.util.List;
 import java.util.Locale;

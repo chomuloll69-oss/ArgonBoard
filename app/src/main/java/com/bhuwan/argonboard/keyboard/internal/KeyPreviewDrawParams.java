@@ -4,12 +4,12 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.keyboard.internal;
+package helium314.keyboard.keyboard.internal;
 
 import android.content.res.TypedArray;
 import android.view.View;
 
-import com.bhuwan.argonboard.latin.R;
+import helium314.keyboard.latin.R;
 
 public final class KeyPreviewDrawParams {
     // XML attributes of {@link MainKeyboardView}.

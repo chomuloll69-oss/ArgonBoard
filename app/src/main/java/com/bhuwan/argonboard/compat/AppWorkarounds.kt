@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package com.bhuwan.argonboard.compat
+package helium314.keyboard.compat
 
 import android.text.InputType
 import android.view.inputmethod.EditorInfo
-import com.bhuwan.argonboard.latin.utils.InputTypeUtils
+import helium314.keyboard.latin.utils.InputTypeUtils
 
 object AppWorkarounds {
     fun adjustInputType(inputType: Int, packageName: String?): Int {

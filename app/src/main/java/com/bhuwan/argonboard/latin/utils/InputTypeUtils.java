@@ -4,11 +4,11 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin.utils;
+package helium314.keyboard.latin.utils;
 
 import android.text.InputType;
 import android.view.inputmethod.EditorInfo;
-import com.bhuwan.argonboard.compat.AppWorkarounds;
+import helium314.keyboard.compat.AppWorkarounds;
 
 public final class InputTypeUtils implements InputType {
     private static final int WEB_TEXT_PASSWORD_INPUT_TYPE = TYPE_CLASS_TEXT | TYPE_TEXT_VARIATION_WEB_PASSWORD;

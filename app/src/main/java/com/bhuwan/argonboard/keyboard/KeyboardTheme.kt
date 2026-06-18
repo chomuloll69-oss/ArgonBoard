@@ -3,7 +3,7 @@
  * modified
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
-package com.bhuwan.argonboard.keyboard
+package helium314.keyboard.keyboard
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -14,20 +14,20 @@ import android.util.TypedValue
 import android.view.ContextThemeWrapper
 import androidx.core.content.ContextCompat
 import androidx.core.content.edit
-import com.bhuwan.argonboard.latin.R
-import com.bhuwan.argonboard.latin.common.AllColors
-import com.bhuwan.argonboard.latin.common.ColorType
-import com.bhuwan.argonboard.latin.common.Colors
-import com.bhuwan.argonboard.latin.common.DefaultColors
-import com.bhuwan.argonboard.latin.common.DynamicColors
-import com.bhuwan.argonboard.latin.settings.Defaults
-import com.bhuwan.argonboard.latin.settings.Settings
-import com.bhuwan.argonboard.latin.utils.ResourceUtils
-import com.bhuwan.argonboard.latin.utils.brightenOrDarken
-import com.bhuwan.argonboard.latin.utils.isBrightColor
-import com.bhuwan.argonboard.latin.utils.isGoodContrast
-import com.bhuwan.argonboard.latin.utils.prefs
-import com.bhuwan.argonboard.settings.SettingsActivity
+import helium314.keyboard.latin.R
+import helium314.keyboard.latin.common.AllColors
+import helium314.keyboard.latin.common.ColorType
+import helium314.keyboard.latin.common.Colors
+import helium314.keyboard.latin.common.DefaultColors
+import helium314.keyboard.latin.common.DynamicColors
+import helium314.keyboard.latin.settings.Defaults
+import helium314.keyboard.latin.settings.Settings
+import helium314.keyboard.latin.utils.ResourceUtils
+import helium314.keyboard.latin.utils.brightenOrDarken
+import helium314.keyboard.latin.utils.isBrightColor
+import helium314.keyboard.latin.utils.isGoodContrast
+import helium314.keyboard.latin.utils.prefs
+import helium314.keyboard.settings.SettingsActivity
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 import java.util.EnumMap

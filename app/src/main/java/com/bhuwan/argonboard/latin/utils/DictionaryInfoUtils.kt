@@ -3,19 +3,19 @@
  * modified
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
-package com.bhuwan.argonboard.latin.utils
+package helium314.keyboard.latin.utils
 
 import android.content.Context
 import android.text.TextUtils
 import com.android.inputmethod.latin.utils.BinaryDictionaryUtils
-import com.bhuwan.argonboard.latin.dictionary.Dictionary
-import com.bhuwan.argonboard.latin.common.FileUtils
-import com.bhuwan.argonboard.latin.common.LocaleUtils.constructLocale
-import com.bhuwan.argonboard.latin.common.loopOverCodePoints
-import com.bhuwan.argonboard.latin.define.DecoderSpecificConstants
-import com.bhuwan.argonboard.latin.makedict.DictionaryHeader
-import com.bhuwan.argonboard.latin.makedict.UnsupportedFormatException
-import com.bhuwan.argonboard.latin.settings.SpacingAndPunctuations
+import helium314.keyboard.latin.dictionary.Dictionary
+import helium314.keyboard.latin.common.FileUtils
+import helium314.keyboard.latin.common.LocaleUtils.constructLocale
+import helium314.keyboard.latin.common.loopOverCodePoints
+import helium314.keyboard.latin.define.DecoderSpecificConstants
+import helium314.keyboard.latin.makedict.DictionaryHeader
+import helium314.keyboard.latin.makedict.UnsupportedFormatException
+import helium314.keyboard.latin.settings.SpacingAndPunctuations
 import java.io.File
 import java.io.IOException
 import java.util.Locale

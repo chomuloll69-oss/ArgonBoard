@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.bhuwan.argonboard.latin.common;
+package helium314.keyboard.latin.common;
 
 import android.content.Context;
 import android.net.Uri;
@@ -17,7 +17,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.concurrent.CountDownLatch;
 
-import com.bhuwan.argonboard.latin.utils.ExecutorUtils;
+import helium314.keyboard.latin.utils.ExecutorUtils;
 
 /**
  * A simple class to help with removing directories recursively.
