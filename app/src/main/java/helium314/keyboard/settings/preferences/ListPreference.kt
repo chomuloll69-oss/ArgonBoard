@@ -1,4 +1,4 @@
-package helium314.keyboard.settings.preferences
+package com.bhuwan.argonboard.settings.preferences
 
 import android.content.SharedPreferences
 import androidx.compose.material3.Text
@@ -9,9 +9,9 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
 import androidx.core.content.edit
-import helium314.keyboard.latin.utils.prefs
-import helium314.keyboard.settings.Setting
-import helium314.keyboard.settings.dialogs.ListPickerDialog
+import com.bhuwan.argonboard.latin.utils.prefs
+import com.bhuwan.argonboard.settings.Setting
+import com.bhuwan.argonboard.settings.dialogs.ListPickerDialog
 
 @Composable
 /** [items] are displayString to value */

@@ -4,14 +4,14 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.latin.personalization;
+package com.bhuwan.argonboard.latin.personalization;
 
 import android.content.Context;
-import helium314.keyboard.latin.utils.Log;
+import com.bhuwan.argonboard.latin.utils.Log;
 
 import androidx.annotation.NonNull;
 
-import helium314.keyboard.latin.common.FileUtils;
+import com.bhuwan.argonboard.latin.common.FileUtils;
 
 import java.io.File;
 import java.io.FilenameFilter;

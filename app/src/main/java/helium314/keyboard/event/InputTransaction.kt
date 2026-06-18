@@ -3,9 +3,9 @@
  * modified
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
-package helium314.keyboard.event
+package com.bhuwan.argonboard.event
 
-import helium314.keyboard.latin.settings.SettingsValues
+import com.bhuwan.argonboard.latin.settings.SettingsValues
 
 /** An object encapsulating a single transaction for input. */
 class InputTransaction(

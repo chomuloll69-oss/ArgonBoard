@@ -4,9 +4,9 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.keyboard;
+package com.bhuwan.argonboard.keyboard;
 
-import static helium314.keyboard.keyboard.KeyboardTheme.STYLE_ROUNDED;
+import static com.bhuwan.argonboard.keyboard.KeyboardTheme.STYLE_ROUNDED;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -27,19 +27,19 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import helium314.keyboard.keyboard.emoji.EmojiPageKeyboardView;
-import helium314.keyboard.keyboard.internal.KeyDrawParams;
-import helium314.keyboard.keyboard.internal.KeyVisualAttributes;
-import helium314.keyboard.keyboard.internal.keyboard_parser.floris.KeyCode;
-import helium314.keyboard.latin.R;
-import helium314.keyboard.latin.common.ColorType;
-import helium314.keyboard.latin.common.Colors;
-import helium314.keyboard.latin.common.Constants;
-import helium314.keyboard.latin.common.StringUtilsKt;
-import helium314.keyboard.latin.settings.Settings;
-import helium314.keyboard.latin.suggestions.MoreSuggestions;
-import helium314.keyboard.latin.suggestions.MoreSuggestionsView;
-import helium314.keyboard.latin.utils.TypefaceUtils;
+import com.bhuwan.argonboard.keyboard.emoji.EmojiPageKeyboardView;
+import com.bhuwan.argonboard.keyboard.internal.KeyDrawParams;
+import com.bhuwan.argonboard.keyboard.internal.KeyVisualAttributes;
+import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.KeyCode;
+import com.bhuwan.argonboard.latin.R;
+import com.bhuwan.argonboard.latin.common.ColorType;
+import com.bhuwan.argonboard.latin.common.Colors;
+import com.bhuwan.argonboard.latin.common.Constants;
+import com.bhuwan.argonboard.latin.common.StringUtilsKt;
+import com.bhuwan.argonboard.latin.settings.Settings;
+import com.bhuwan.argonboard.latin.suggestions.MoreSuggestions;
+import com.bhuwan.argonboard.latin.suggestions.MoreSuggestionsView;
+import com.bhuwan.argonboard.latin.utils.TypefaceUtils;
 
 import java.util.HashSet;
 

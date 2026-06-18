@@ -1,9 +1,9 @@
-package helium314.keyboard
+package com.bhuwan.argonboard
 
 import android.view.textservice.SuggestionsInfo
 import android.view.textservice.TextInfo
-import helium314.keyboard.latin.spellcheck.AndroidSpellCheckerService
-import helium314.keyboard.latin.spellcheck.AndroidSpellCheckerSession
+import com.bhuwan.argonboard.latin.spellcheck.AndroidSpellCheckerService
+import com.bhuwan.argonboard.latin.spellcheck.AndroidSpellCheckerSession
 import org.junit.runner.RunWith
 import org.robolectric.Robolectric
 import org.robolectric.RobolectricTestRunner

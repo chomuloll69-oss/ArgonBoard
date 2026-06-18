@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.keyboard.internal;
+package com.bhuwan.argonboard.keyboard.internal;
 
 import android.text.TextUtils;
 import android.util.SparseIntArray;
@@ -12,11 +12,11 @@ import android.util.SparseIntArray;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import helium314.keyboard.keyboard.Key;
-import helium314.keyboard.keyboard.internal.keyboard_parser.floris.KeyCode;
-import helium314.keyboard.latin.common.CollectionUtils;
-import helium314.keyboard.latin.common.Constants;
-import helium314.keyboard.latin.common.StringUtils;
+import com.bhuwan.argonboard.keyboard.Key;
+import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.KeyCode;
+import com.bhuwan.argonboard.latin.common.CollectionUtils;
+import com.bhuwan.argonboard.latin.common.Constants;
+import com.bhuwan.argonboard.latin.common.StringUtils;
 
 import java.util.ArrayList;
 import java.util.HashSet;

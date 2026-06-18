@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package helium314.keyboard.settings.screens
+package com.bhuwan.argonboard.settings.screens
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.WindowInsets
@@ -16,18 +16,18 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
-import helium314.keyboard.latin.R
-import helium314.keyboard.latin.utils.JniUtils
-import helium314.keyboard.latin.utils.SubtypeLocaleUtils.displayName
-import helium314.keyboard.latin.utils.SubtypeSettings
-import helium314.keyboard.latin.utils.NextScreenIcon
-import helium314.keyboard.settings.SearchSettingsScreen
-import helium314.keyboard.latin.utils.Theme
-import helium314.keyboard.settings.initPreview
-import helium314.keyboard.settings.preferences.Preference
-import helium314.keyboard.latin.utils.previewDark
-import helium314.keyboard.settings.screens.gesturedata.END_DATE_EPOCH_MILLIS
-import helium314.keyboard.settings.screens.gesturedata.TWO_WEEKS_IN_MILLIS
+import com.bhuwan.argonboard.latin.R
+import com.bhuwan.argonboard.latin.utils.JniUtils
+import com.bhuwan.argonboard.latin.utils.SubtypeLocaleUtils.displayName
+import com.bhuwan.argonboard.latin.utils.SubtypeSettings
+import com.bhuwan.argonboard.latin.utils.NextScreenIcon
+import com.bhuwan.argonboard.settings.SearchSettingsScreen
+import com.bhuwan.argonboard.latin.utils.Theme
+import com.bhuwan.argonboard.settings.initPreview
+import com.bhuwan.argonboard.settings.preferences.Preference
+import com.bhuwan.argonboard.latin.utils.previewDark
+import com.bhuwan.argonboard.settings.screens.gesturedata.END_DATE_EPOCH_MILLIS
+import com.bhuwan.argonboard.settings.screens.gesturedata.TWO_WEEKS_IN_MILLIS
 
 @Composable
 fun MainSettingsScreen(

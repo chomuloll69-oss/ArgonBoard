@@ -4,25 +4,25 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.keyboard.emoji;
+package com.bhuwan.argonboard.keyboard.emoji;
 
-import static helium314.keyboard.keyboard.internal.keyboard_parser.EmojiParserKt.EMOJI_HINT_LABEL;
+import static com.bhuwan.argonboard.keyboard.internal.keyboard_parser.EmojiParserKt.EMOJI_HINT_LABEL;
 
 import android.content.SharedPreferences;
 import android.text.TextUtils;
 
-import helium314.keyboard.latin.common.Constants;
-import helium314.keyboard.latin.settings.Defaults;
-import helium314.keyboard.latin.utils.Log;
+import com.bhuwan.argonboard.latin.common.Constants;
+import com.bhuwan.argonboard.latin.settings.Defaults;
+import com.bhuwan.argonboard.latin.utils.Log;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import helium314.keyboard.keyboard.Key;
-import helium314.keyboard.keyboard.Keyboard;
-import helium314.keyboard.keyboard.internal.PopupKeySpec;
-import helium314.keyboard.latin.settings.Settings;
-import helium314.keyboard.latin.utils.JsonUtils;
+import com.bhuwan.argonboard.keyboard.Key;
+import com.bhuwan.argonboard.keyboard.Keyboard;
+import com.bhuwan.argonboard.keyboard.internal.PopupKeySpec;
+import com.bhuwan.argonboard.latin.settings.Settings;
+import com.bhuwan.argonboard.latin.utils.JsonUtils;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

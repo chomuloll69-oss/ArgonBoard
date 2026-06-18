@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package helium314.keyboard.latin.utils
+package com.bhuwan.argonboard.latin.utils
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -14,14 +14,14 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.core.content.edit
-import helium314.keyboard.keyboard.KeyboardSwitcher
-import helium314.keyboard.latin.R
-import helium314.keyboard.latin.common.Constants.Separators
-import helium314.keyboard.latin.settings.Settings
-import helium314.keyboard.settings.SettingsDestination
-import helium314.keyboard.settings.dialogs.ThreeButtonAlertDialog
-import helium314.keyboard.settings.screens.gesturedata.END_DATE_EPOCH_MILLIS
-import helium314.keyboard.settings.screens.gesturedata.TWO_WEEKS_IN_MILLIS
+import com.bhuwan.argonboard.keyboard.KeyboardSwitcher
+import com.bhuwan.argonboard.latin.R
+import com.bhuwan.argonboard.latin.common.Constants.Separators
+import com.bhuwan.argonboard.latin.settings.Settings
+import com.bhuwan.argonboard.settings.SettingsDestination
+import com.bhuwan.argonboard.settings.dialogs.ThreeButtonAlertDialog
+import com.bhuwan.argonboard.settings.screens.gesturedata.END_DATE_EPOCH_MILLIS
+import com.bhuwan.argonboard.settings.screens.gesturedata.TWO_WEEKS_IN_MILLIS
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import kotlinx.serialization.json.Json

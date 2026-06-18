@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.keyboard.emoji;
+package com.bhuwan.argonboard.keyboard.emoji;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -15,8 +15,8 @@ import android.graphics.PorterDuffXfermode;
 import android.os.Handler;
 import android.util.AttributeSet;
 import android.widget.LinearLayout;
-import helium314.keyboard.keyboard.PopupTextView;
-import helium314.keyboard.latin.utils.Log;
+import com.bhuwan.argonboard.keyboard.PopupTextView;
+import com.bhuwan.argonboard.latin.utils.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -29,19 +29,19 @@ import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import helium314.keyboard.accessibility.AccessibilityUtils;
-import helium314.keyboard.accessibility.KeyboardAccessibilityDelegate;
-import helium314.keyboard.keyboard.Key;
-import helium314.keyboard.keyboard.KeyDetector;
-import helium314.keyboard.keyboard.Keyboard;
-import helium314.keyboard.keyboard.KeyboardView;
-import helium314.keyboard.keyboard.PopupKeysKeyboard;
-import helium314.keyboard.keyboard.PopupKeysKeyboardView;
-import helium314.keyboard.keyboard.PopupKeysPanel;
-import helium314.keyboard.keyboard.internal.PopupKeySpec;
-import helium314.keyboard.latin.R;
-import helium314.keyboard.latin.common.CoordinateUtils;
-import helium314.keyboard.latin.settings.Settings;
+import com.bhuwan.argonboard.accessibility.AccessibilityUtils;
+import com.bhuwan.argonboard.accessibility.KeyboardAccessibilityDelegate;
+import com.bhuwan.argonboard.keyboard.Key;
+import com.bhuwan.argonboard.keyboard.KeyDetector;
+import com.bhuwan.argonboard.keyboard.Keyboard;
+import com.bhuwan.argonboard.keyboard.KeyboardView;
+import com.bhuwan.argonboard.keyboard.PopupKeysKeyboard;
+import com.bhuwan.argonboard.keyboard.PopupKeysKeyboardView;
+import com.bhuwan.argonboard.keyboard.PopupKeysPanel;
+import com.bhuwan.argonboard.keyboard.internal.PopupKeySpec;
+import com.bhuwan.argonboard.latin.R;
+import com.bhuwan.argonboard.latin.common.CoordinateUtils;
+import com.bhuwan.argonboard.latin.settings.Settings;
 
 import java.util.WeakHashMap;
 

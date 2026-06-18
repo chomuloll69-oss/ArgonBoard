@@ -1,12 +1,12 @@
-package helium314.keyboard.latin.utils
+package com.bhuwan.argonboard.latin.utils
 
 import android.content.Context
-import helium314.keyboard.keyboard.internal.keyboard_parser.floris.SimplePopups
-import helium314.keyboard.keyboard.internal.keyboard_parser.getOrCreate
-import helium314.keyboard.latin.R
-import helium314.keyboard.latin.settings.Defaults.default
-import helium314.keyboard.latin.utils.LayoutType.Companion.folder
-import helium314.keyboard.latin.utils.ScriptUtils.script
+import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.SimplePopups
+import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.getOrCreate
+import com.bhuwan.argonboard.latin.R
+import com.bhuwan.argonboard.latin.settings.Defaults.default
+import com.bhuwan.argonboard.latin.utils.LayoutType.Companion.folder
+import com.bhuwan.argonboard.latin.utils.ScriptUtils.script
 import java.io.File
 import java.util.Locale
 

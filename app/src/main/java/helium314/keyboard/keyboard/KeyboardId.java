@@ -4,22 +4,22 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.keyboard;
+package com.bhuwan.argonboard.keyboard;
 
 import android.text.InputType;
 import android.text.TextUtils;
 import android.view.inputmethod.EditorInfo;
 
-import helium314.keyboard.compat.EditorInfoCompatUtils;
-import helium314.keyboard.latin.RichInputMethodSubtype;
-import helium314.keyboard.latin.WordComposer;
-import helium314.keyboard.latin.utils.InputTypeUtils;
+import com.bhuwan.argonboard.compat.EditorInfoCompatUtils;
+import com.bhuwan.argonboard.latin.RichInputMethodSubtype;
+import com.bhuwan.argonboard.latin.WordComposer;
+import com.bhuwan.argonboard.latin.utils.InputTypeUtils;
 
 import java.util.Arrays;
 import java.util.Locale;
 import java.util.Objects;
 
-import static helium314.keyboard.latin.common.Constants.Subtype.ExtraValue.KEYBOARD_LAYOUT_SET;
+import static com.bhuwan.argonboard.latin.common.Constants.Subtype.ExtraValue.KEYBOARD_LAYOUT_SET;
 
 /**
  * Unique identifier for each keyboard type.

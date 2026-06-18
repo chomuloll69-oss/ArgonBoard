@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.latin;
+package com.bhuwan.argonboard.latin;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -16,13 +16,13 @@ import android.widget.FrameLayout;
 
 import androidx.core.view.ViewKt;
 
-import helium314.keyboard.accessibility.AccessibilityUtils;
-import helium314.keyboard.keyboard.MainKeyboardView;
-import helium314.keyboard.latin.common.ColorType;
-import helium314.keyboard.latin.settings.Settings;
-import helium314.keyboard.latin.suggestions.MoreSuggestionsView;
-import helium314.keyboard.latin.suggestions.SuggestionStripView;
-import helium314.keyboard.latin.utils.FloatingKeyboardUtils;
+import com.bhuwan.argonboard.accessibility.AccessibilityUtils;
+import com.bhuwan.argonboard.keyboard.MainKeyboardView;
+import com.bhuwan.argonboard.latin.common.ColorType;
+import com.bhuwan.argonboard.latin.settings.Settings;
+import com.bhuwan.argonboard.latin.suggestions.MoreSuggestionsView;
+import com.bhuwan.argonboard.latin.suggestions.SuggestionStripView;
+import com.bhuwan.argonboard.latin.utils.FloatingKeyboardUtils;
 import kotlin.Unit;
 
 

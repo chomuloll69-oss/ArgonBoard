@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
-package helium314.keyboard.latin.utils
+package com.bhuwan.argonboard.latin.utils
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -10,17 +10,17 @@ import android.view.inputmethod.InputMethodSubtype
 import android.widget.Toast
 import androidx.core.app.LocaleManagerCompat
 import androidx.core.content.edit
-import helium314.keyboard.compat.locale
-import helium314.keyboard.keyboard.KeyboardSwitcher
-import helium314.keyboard.latin.RichInputMethodManager
-import helium314.keyboard.latin.common.Constants.Separators
-import helium314.keyboard.latin.common.LocaleUtils
-import helium314.keyboard.latin.define.DebugFlags
-import helium314.keyboard.latin.settings.Defaults
-import helium314.keyboard.latin.settings.Settings
-import helium314.keyboard.latin.settings.SettingsSubtype
-import helium314.keyboard.latin.settings.SettingsSubtype.Companion.toSettingsSubtype
-import helium314.keyboard.latin.utils.ScriptUtils.script
+import com.bhuwan.argonboard.compat.locale
+import com.bhuwan.argonboard.keyboard.KeyboardSwitcher
+import com.bhuwan.argonboard.latin.RichInputMethodManager
+import com.bhuwan.argonboard.latin.common.Constants.Separators
+import com.bhuwan.argonboard.latin.common.LocaleUtils
+import com.bhuwan.argonboard.latin.define.DebugFlags
+import com.bhuwan.argonboard.latin.settings.Defaults
+import com.bhuwan.argonboard.latin.settings.Settings
+import com.bhuwan.argonboard.latin.settings.SettingsSubtype
+import com.bhuwan.argonboard.latin.settings.SettingsSubtype.Companion.toSettingsSubtype
+import com.bhuwan.argonboard.latin.utils.ScriptUtils.script
 import java.util.Locale
 
 object SubtypeSettings {

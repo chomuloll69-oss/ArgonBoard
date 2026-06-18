@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package helium314.keyboard.settings.screens
+package com.bhuwan.argonboard.settings.screens
 
 import android.content.Context
 import android.content.Intent
@@ -26,26 +26,26 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import helium314.keyboard.latin.dictionary.Dictionary
-import helium314.keyboard.latin.R
-import helium314.keyboard.latin.common.Links
-import helium314.keyboard.latin.common.LocaleUtils
-import helium314.keyboard.latin.common.LocaleUtils.localizedDisplayName
-import helium314.keyboard.latin.common.splitOnWhitespace
-import helium314.keyboard.latin.utils.DictionaryInfoUtils
-import helium314.keyboard.latin.utils.SubtypeLocaleUtils
-import helium314.keyboard.latin.utils.SubtypeSettings
-import helium314.keyboard.latin.utils.getDictionaryLocales
-import helium314.keyboard.latin.utils.htmlToAnnotated
-import helium314.keyboard.latin.utils.locale
-import helium314.keyboard.latin.utils.withHtmlLink
-import helium314.keyboard.settings.SearchScreen
-import helium314.keyboard.latin.utils.Theme
-import helium314.keyboard.settings.dialogs.ConfirmationDialog
-import helium314.keyboard.settings.dialogs.DictionaryDialog
-import helium314.keyboard.settings.dictionaryFilePicker
-import helium314.keyboard.settings.initPreview
-import helium314.keyboard.latin.utils.previewDark
+import com.bhuwan.argonboard.latin.dictionary.Dictionary
+import com.bhuwan.argonboard.latin.R
+import com.bhuwan.argonboard.latin.common.Links
+import com.bhuwan.argonboard.latin.common.LocaleUtils
+import com.bhuwan.argonboard.latin.common.LocaleUtils.localizedDisplayName
+import com.bhuwan.argonboard.latin.common.splitOnWhitespace
+import com.bhuwan.argonboard.latin.utils.DictionaryInfoUtils
+import com.bhuwan.argonboard.latin.utils.SubtypeLocaleUtils
+import com.bhuwan.argonboard.latin.utils.SubtypeSettings
+import com.bhuwan.argonboard.latin.utils.getDictionaryLocales
+import com.bhuwan.argonboard.latin.utils.htmlToAnnotated
+import com.bhuwan.argonboard.latin.utils.locale
+import com.bhuwan.argonboard.latin.utils.withHtmlLink
+import com.bhuwan.argonboard.settings.SearchScreen
+import com.bhuwan.argonboard.latin.utils.Theme
+import com.bhuwan.argonboard.settings.dialogs.ConfirmationDialog
+import com.bhuwan.argonboard.settings.dialogs.DictionaryDialog
+import com.bhuwan.argonboard.settings.dictionaryFilePicker
+import com.bhuwan.argonboard.settings.initPreview
+import com.bhuwan.argonboard.latin.utils.previewDark
 import java.io.File
 import java.util.Locale
 

@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.keyboard;
+package com.bhuwan.argonboard.keyboard;
 
 import static java.lang.Math.abs;
 
@@ -16,28 +16,28 @@ import android.view.MotionEvent;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import helium314.keyboard.event.HapticEvent;
-import helium314.keyboard.keyboard.internal.BatchInputArbiter;
-import helium314.keyboard.keyboard.internal.BatchInputArbiter.BatchInputArbiterListener;
-import helium314.keyboard.keyboard.internal.BogusMoveEventDetector;
-import helium314.keyboard.keyboard.internal.DrawingProxy;
-import helium314.keyboard.keyboard.internal.GestureEnabler;
-import helium314.keyboard.keyboard.internal.GestureStrokeDrawingParams;
-import helium314.keyboard.keyboard.internal.GestureStrokeDrawingPoints;
-import helium314.keyboard.keyboard.internal.GestureStrokeRecognitionParams;
-import helium314.keyboard.keyboard.internal.PointerTrackerQueue;
-import helium314.keyboard.keyboard.internal.TimerProxy;
-import helium314.keyboard.keyboard.internal.TypingTimeRecorder;
-import helium314.keyboard.keyboard.internal.keyboard_parser.floris.KeyCode;
-import helium314.keyboard.latin.R;
-import helium314.keyboard.latin.common.Constants;
-import helium314.keyboard.latin.common.CoordinateUtils;
-import helium314.keyboard.latin.common.InputPointers;
-import helium314.keyboard.latin.define.DebugFlags;
-import helium314.keyboard.latin.settings.Settings;
-import helium314.keyboard.latin.settings.SettingsValues;
-import helium314.keyboard.latin.utils.KtxKt;
-import helium314.keyboard.latin.utils.Log;
+import com.bhuwan.argonboard.event.HapticEvent;
+import com.bhuwan.argonboard.keyboard.internal.BatchInputArbiter;
+import com.bhuwan.argonboard.keyboard.internal.BatchInputArbiter.BatchInputArbiterListener;
+import com.bhuwan.argonboard.keyboard.internal.BogusMoveEventDetector;
+import com.bhuwan.argonboard.keyboard.internal.DrawingProxy;
+import com.bhuwan.argonboard.keyboard.internal.GestureEnabler;
+import com.bhuwan.argonboard.keyboard.internal.GestureStrokeDrawingParams;
+import com.bhuwan.argonboard.keyboard.internal.GestureStrokeDrawingPoints;
+import com.bhuwan.argonboard.keyboard.internal.GestureStrokeRecognitionParams;
+import com.bhuwan.argonboard.keyboard.internal.PointerTrackerQueue;
+import com.bhuwan.argonboard.keyboard.internal.TimerProxy;
+import com.bhuwan.argonboard.keyboard.internal.TypingTimeRecorder;
+import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.KeyCode;
+import com.bhuwan.argonboard.latin.R;
+import com.bhuwan.argonboard.latin.common.Constants;
+import com.bhuwan.argonboard.latin.common.CoordinateUtils;
+import com.bhuwan.argonboard.latin.common.InputPointers;
+import com.bhuwan.argonboard.latin.define.DebugFlags;
+import com.bhuwan.argonboard.latin.settings.Settings;
+import com.bhuwan.argonboard.latin.settings.SettingsValues;
+import com.bhuwan.argonboard.latin.utils.KtxKt;
+import com.bhuwan.argonboard.latin.utils.Log;
 
 import java.util.ArrayList;
 import java.util.Locale;

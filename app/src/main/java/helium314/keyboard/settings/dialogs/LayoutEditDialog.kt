@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package helium314.keyboard.settings.dialogs
+package com.bhuwan.argonboard.settings.dialogs
 
 import android.widget.Toast
 import androidx.compose.foundation.layout.WindowInsets
@@ -23,20 +23,20 @@ import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.DialogProperties
-import helium314.keyboard.keyboard.KeyboardSwitcher
-import helium314.keyboard.latin.R
-import helium314.keyboard.latin.utils.LayoutType
-import helium314.keyboard.latin.utils.LayoutUtilsCustom
-import helium314.keyboard.latin.utils.Log
-import helium314.keyboard.latin.utils.SubtypeSettings
-import helium314.keyboard.latin.utils.getActivity
-import helium314.keyboard.latin.utils.getStringResourceOrName
-import helium314.keyboard.latin.utils.CloseIcon
-import helium314.keyboard.settings.SettingsActivity
-import helium314.keyboard.latin.utils.Theme
-import helium314.keyboard.settings.contentTextDirectionStyle
-import helium314.keyboard.settings.initPreview
-import helium314.keyboard.latin.utils.previewDark
+import com.bhuwan.argonboard.keyboard.KeyboardSwitcher
+import com.bhuwan.argonboard.latin.R
+import com.bhuwan.argonboard.latin.utils.LayoutType
+import com.bhuwan.argonboard.latin.utils.LayoutUtilsCustom
+import com.bhuwan.argonboard.latin.utils.Log
+import com.bhuwan.argonboard.latin.utils.SubtypeSettings
+import com.bhuwan.argonboard.latin.utils.getActivity
+import com.bhuwan.argonboard.latin.utils.getStringResourceOrName
+import com.bhuwan.argonboard.latin.utils.CloseIcon
+import com.bhuwan.argonboard.settings.SettingsActivity
+import com.bhuwan.argonboard.latin.utils.Theme
+import com.bhuwan.argonboard.settings.contentTextDirectionStyle
+import com.bhuwan.argonboard.settings.initPreview
+import com.bhuwan.argonboard.latin.utils.previewDark
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay

@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package helium314.keyboard.settings
+package com.bhuwan.argonboard.settings
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.animation.AnimatedVisibility
@@ -48,11 +48,11 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
-import helium314.keyboard.latin.R
-import helium314.keyboard.latin.utils.BackButton
-import helium314.keyboard.latin.utils.CloseIcon
-import helium314.keyboard.latin.utils.SearchIcon
-import helium314.keyboard.settings.preferences.PreferenceCategory
+import com.bhuwan.argonboard.latin.R
+import com.bhuwan.argonboard.latin.utils.BackButton
+import com.bhuwan.argonboard.latin.utils.CloseIcon
+import com.bhuwan.argonboard.latin.utils.SearchIcon
+import com.bhuwan.argonboard.settings.preferences.PreferenceCategory
 
 @Composable
 fun SearchSettingsScreen(

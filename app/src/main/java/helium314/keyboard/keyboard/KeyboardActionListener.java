@@ -4,15 +4,15 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.keyboard;
+package com.bhuwan.argonboard.keyboard;
 
 import android.view.KeyEvent;
 
 import androidx.core.view.inputmethod.InputContentInfoCompat;
 
-import helium314.keyboard.event.HapticEvent;
-import helium314.keyboard.latin.common.Constants;
-import helium314.keyboard.latin.common.InputPointers;
+import com.bhuwan.argonboard.event.HapticEvent;
+import com.bhuwan.argonboard.latin.common.Constants;
+import com.bhuwan.argonboard.latin.common.InputPointers;
 
 public interface KeyboardActionListener {
     /**

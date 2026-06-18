@@ -1,11 +1,11 @@
-package helium314.keyboard
+package com.bhuwan.argonboard
 
 import androidx.test.core.app.ApplicationProvider
-import helium314.keyboard.latin.App
-import helium314.keyboard.latin.BuildConfig
-import helium314.keyboard.latin.common.Links
-import helium314.keyboard.latin.common.LocaleUtils.constructLocale
-import helium314.keyboard.latin.utils.getKnownDictionariesForLocale
+import com.bhuwan.argonboard.latin.App
+import com.bhuwan.argonboard.latin.BuildConfig
+import com.bhuwan.argonboard.latin.common.Links
+import com.bhuwan.argonboard.latin.common.LocaleUtils.constructLocale
+import com.bhuwan.argonboard.latin.utils.getKnownDictionariesForLocale
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import java.io.File

@@ -3,16 +3,16 @@
  * modified
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
-package helium314.keyboard.keyboard.emoji
+package com.bhuwan.argonboard.keyboard.emoji
 
 import android.content.res.Resources
 import android.view.View
 import android.widget.LinearLayout
 import androidx.viewpager2.widget.ViewPager2
-import helium314.keyboard.keyboard.internal.KeyboardParams
-import helium314.keyboard.latin.R
-import helium314.keyboard.latin.settings.Settings
-import helium314.keyboard.latin.utils.ResourceUtils
+import com.bhuwan.argonboard.keyboard.internal.KeyboardParams
+import com.bhuwan.argonboard.latin.R
+import com.bhuwan.argonboard.latin.settings.Settings
+import com.bhuwan.argonboard.latin.utils.ResourceUtils
 
 internal class EmojiLayoutParams(res: Resources) {
     private val emojiListBottomMargin: Int

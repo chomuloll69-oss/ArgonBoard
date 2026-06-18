@@ -4,16 +4,16 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.latin.define
+package com.bhuwan.argonboard.latin.define
 
 import android.content.Context
 import android.os.Build
-import helium314.keyboard.latin.BuildConfig
-import helium314.keyboard.latin.settings.DebugSettings
-import helium314.keyboard.latin.settings.Defaults
-import helium314.keyboard.latin.utils.DeviceProtectedUtils
-import helium314.keyboard.latin.utils.Log
-import helium314.keyboard.latin.utils.prefs
+import com.bhuwan.argonboard.latin.BuildConfig
+import com.bhuwan.argonboard.latin.settings.DebugSettings
+import com.bhuwan.argonboard.latin.settings.Defaults
+import com.bhuwan.argonboard.latin.utils.DeviceProtectedUtils
+import com.bhuwan.argonboard.latin.utils.Log
+import com.bhuwan.argonboard.latin.utils.prefs
 import java.io.File
 import java.io.PrintWriter
 import java.io.StringWriter

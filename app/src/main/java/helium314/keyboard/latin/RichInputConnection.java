@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.latin;
+package com.bhuwan.argonboard.latin;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
@@ -17,11 +17,11 @@ import android.text.SpannableStringBuilder;
 import android.text.TextUtils;
 import android.text.style.CharacterStyle;
 
-import helium314.keyboard.keyboard.KeyboardSwitcher;
-import helium314.keyboard.latin.common.ConstantsKt;
-import helium314.keyboard.latin.define.DebugFlags;
-import helium314.keyboard.latin.settings.Settings;
-import helium314.keyboard.latin.utils.Log;
+import com.bhuwan.argonboard.keyboard.KeyboardSwitcher;
+import com.bhuwan.argonboard.latin.common.ConstantsKt;
+import com.bhuwan.argonboard.latin.define.DebugFlags;
+import com.bhuwan.argonboard.latin.settings.Settings;
+import com.bhuwan.argonboard.latin.utils.Log;
 import android.view.KeyEvent;
 import android.view.inputmethod.CompletionInfo;
 import android.view.inputmethod.CorrectionInfo;
@@ -36,17 +36,17 @@ import androidx.annotation.Nullable;
 import androidx.core.view.inputmethod.InputConnectionCompat;
 import androidx.core.view.inputmethod.InputContentInfoCompat;
 
-import helium314.keyboard.latin.common.Constants;
-import helium314.keyboard.latin.common.StringUtils;
-import helium314.keyboard.latin.common.StringUtilsKt;
-import helium314.keyboard.latin.common.UnicodeSurrogate;
-import helium314.keyboard.latin.inputlogic.PrivateCommandPerformer;
-import helium314.keyboard.latin.settings.SpacingAndPunctuations;
-import helium314.keyboard.latin.utils.CapsModeUtils;
-import helium314.keyboard.latin.utils.DebugLogUtils;
-import helium314.keyboard.latin.utils.NgramContextUtils;
-import helium314.keyboard.latin.utils.StatsUtils;
-import helium314.keyboard.latin.utils.TextRange;
+import com.bhuwan.argonboard.latin.common.Constants;
+import com.bhuwan.argonboard.latin.common.StringUtils;
+import com.bhuwan.argonboard.latin.common.StringUtilsKt;
+import com.bhuwan.argonboard.latin.common.UnicodeSurrogate;
+import com.bhuwan.argonboard.latin.inputlogic.PrivateCommandPerformer;
+import com.bhuwan.argonboard.latin.settings.SpacingAndPunctuations;
+import com.bhuwan.argonboard.latin.utils.CapsModeUtils;
+import com.bhuwan.argonboard.latin.utils.DebugLogUtils;
+import com.bhuwan.argonboard.latin.utils.NgramContextUtils;
+import com.bhuwan.argonboard.latin.utils.StatsUtils;
+import com.bhuwan.argonboard.latin.utils.TextRange;
 
 import java.util.concurrent.TimeUnit;
 
@@ -344,7 +344,7 @@ public final class RichInputConnection implements PrivateCommandPerformer {
                 final int spanFlags = mTempObjectForCommitText.getSpanFlags(span);
                 // We have to adjust the end of the span to include an additional character.
                 // This is to avoid splitting a unicode surrogate pair.
-                // See helium314.keyboard.latin.common.Constants.UnicodeSurrogate
+                // See com.bhuwan.argonboard.latin.common.Constants.UnicodeSurrogate
                 // See https://b.corp.google.com/issues/19255233
                 if (0 < spanEnd && spanEnd < mTempObjectForCommitText.length()) {
                     final char spanEndChar = mTempObjectForCommitText.charAt(spanEnd - 1);

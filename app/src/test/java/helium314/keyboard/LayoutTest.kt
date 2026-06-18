@@ -1,6 +1,6 @@
-package helium314.keyboard
+package com.bhuwan.argonboard
 
-import helium314.keyboard.latin.utils.LayoutType
+import com.bhuwan.argonboard.latin.utils.LayoutType
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

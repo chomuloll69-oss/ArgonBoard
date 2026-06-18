@@ -4,14 +4,14 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.keyboard.internal;
+package com.bhuwan.argonboard.keyboard.internal;
 
 import android.graphics.Typeface;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import helium314.keyboard.latin.utils.ResourceUtils;
+import com.bhuwan.argonboard.latin.utils.ResourceUtils;
 
 public final class KeyDrawParams {
     @NonNull

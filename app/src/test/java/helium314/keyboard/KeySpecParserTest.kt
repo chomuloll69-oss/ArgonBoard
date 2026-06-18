@@ -1,7 +1,7 @@
-package helium314.keyboard
+package com.bhuwan.argonboard
 
-import helium314.keyboard.keyboard.internal.KeySpecParser
-import helium314.keyboard.keyboard.internal.keyboard_parser.floris.KeyCode
+import com.bhuwan.argonboard.keyboard.internal.KeySpecParser
+import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.KeyCode
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

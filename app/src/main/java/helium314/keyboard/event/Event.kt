@@ -4,11 +4,11 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.event
+package com.bhuwan.argonboard.event
 
-import helium314.keyboard.latin.SuggestedWords.SuggestedWordInfo
-import helium314.keyboard.latin.common.Constants
-import helium314.keyboard.latin.common.StringUtils
+import com.bhuwan.argonboard.latin.SuggestedWords.SuggestedWordInfo
+import com.bhuwan.argonboard.latin.common.Constants
+import com.bhuwan.argonboard.latin.common.StringUtils
 
 /**
  * Class representing a generic input event as handled by Latin IME.

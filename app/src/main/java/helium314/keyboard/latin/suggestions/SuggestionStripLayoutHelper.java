@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.latin.suggestions;
+package com.bhuwan.argonboard.latin.suggestions;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -36,18 +36,18 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import helium314.keyboard.accessibility.AccessibilityUtils;
-import helium314.keyboard.keyboard.KeyboardTypeface;
-import helium314.keyboard.latin.PunctuationSuggestions;
-import helium314.keyboard.latin.R;
-import helium314.keyboard.latin.SuggestedWords;
-import helium314.keyboard.latin.SuggestedWords.SuggestedWordInfo;
-import helium314.keyboard.latin.common.ColorType;
-import helium314.keyboard.latin.common.Colors;
-import helium314.keyboard.latin.settings.Settings;
-import helium314.keyboard.latin.settings.SettingsValues;
-import helium314.keyboard.latin.utils.ResourceUtils;
-import helium314.keyboard.latin.utils.ViewLayoutUtils;
+import com.bhuwan.argonboard.accessibility.AccessibilityUtils;
+import com.bhuwan.argonboard.keyboard.KeyboardTypeface;
+import com.bhuwan.argonboard.latin.PunctuationSuggestions;
+import com.bhuwan.argonboard.latin.R;
+import com.bhuwan.argonboard.latin.SuggestedWords;
+import com.bhuwan.argonboard.latin.SuggestedWords.SuggestedWordInfo;
+import com.bhuwan.argonboard.latin.common.ColorType;
+import com.bhuwan.argonboard.latin.common.Colors;
+import com.bhuwan.argonboard.latin.settings.Settings;
+import com.bhuwan.argonboard.latin.settings.SettingsValues;
+import com.bhuwan.argonboard.latin.utils.ResourceUtils;
+import com.bhuwan.argonboard.latin.utils.ViewLayoutUtils;
 
 import java.util.ArrayList;
 

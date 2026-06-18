@@ -1,16 +1,16 @@
-package helium314.keyboard.keyboard.internal.keyboard_parser.floris
+package com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris
 
 import android.view.inputmethod.EditorInfo
-import helium314.keyboard.keyboard.KeyboardId
-import helium314.keyboard.keyboard.internal.KeyboardCodesSet
-import helium314.keyboard.keyboard.internal.KeyboardIconsSet
-import helium314.keyboard.keyboard.internal.KeyboardParams
-import helium314.keyboard.keyboard.internal.keyboard_parser.floris.KeyData.Companion.replaceIconWithLabelIfNoDrawable
-import helium314.keyboard.latin.settings.Settings
-import helium314.keyboard.latin.utils.InputTypeUtils
-import helium314.keyboard.latin.utils.ToolbarKey
-import helium314.keyboard.latin.utils.getCodeForToolbarKey
-import helium314.keyboard.latin.utils.toolbarKeyStrings
+import com.bhuwan.argonboard.keyboard.KeyboardId
+import com.bhuwan.argonboard.keyboard.internal.KeyboardCodesSet
+import com.bhuwan.argonboard.keyboard.internal.KeyboardIconsSet
+import com.bhuwan.argonboard.keyboard.internal.KeyboardParams
+import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.KeyData.Companion.replaceIconWithLabelIfNoDrawable
+import com.bhuwan.argonboard.latin.settings.Settings
+import com.bhuwan.argonboard.latin.utils.InputTypeUtils
+import com.bhuwan.argonboard.latin.utils.ToolbarKey
+import com.bhuwan.argonboard.latin.utils.getCodeForToolbarKey
+import com.bhuwan.argonboard.latin.utils.toolbarKeyStrings
 import java.util.Locale
 
 /** labels for functional / special keys */
