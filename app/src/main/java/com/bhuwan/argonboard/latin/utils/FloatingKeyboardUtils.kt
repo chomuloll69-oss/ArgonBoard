@@ -1,4 +1,4 @@
-package helium314.keyboard.latin.utils
+package com.bhuwan.argonboard.latin.utils
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -11,11 +11,11 @@ import android.widget.ImageView
 import androidx.core.content.edit
 import androidx.core.view.isGone
 import androidx.core.view.isVisible
-import helium314.keyboard.keyboard.KeyboardSwitcher
-import helium314.keyboard.latin.R
-import helium314.keyboard.latin.define.DebugFlags
-import helium314.keyboard.latin.settings.Settings
-import helium314.keyboard.latin.settings.setFloatingSize
+import com.bhuwan.argonboard.keyboard.KeyboardSwitcher
+import com.bhuwan.argonboard.latin.R
+import com.bhuwan.argonboard.latin.define.DebugFlags
+import com.bhuwan.argonboard.latin.settings.Settings
+import com.bhuwan.argonboard.latin.settings.setFloatingSize
 
 // todo: add a frame around the keyboard (because other people care more about optics than I do)
 object FloatingKeyboardUtils {

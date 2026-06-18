@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package helium314.keyboard.settings
+package com.bhuwan.argonboard.settings
 
 import android.content.Context
 import android.content.Intent
@@ -46,11 +46,11 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
-import helium314.keyboard.latin.R
-import helium314.keyboard.latin.utils.JniUtils
-import helium314.keyboard.latin.utils.Theme
-import helium314.keyboard.latin.utils.UncachedInputMethodManagerUtils
-import helium314.keyboard.latin.utils.previewDark
+import com.bhuwan.argonboard.latin.R
+import com.bhuwan.argonboard.latin.utils.JniUtils
+import com.bhuwan.argonboard.latin.utils.Theme
+import com.bhuwan.argonboard.latin.utils.UncachedInputMethodManagerUtils
+import com.bhuwan.argonboard.latin.utils.previewDark
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

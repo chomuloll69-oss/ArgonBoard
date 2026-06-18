@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package helium314.keyboard.settings.screens
+package com.bhuwan.argonboard.settings.screens
 
 import android.content.Context
 import android.media.AudioManager
@@ -9,29 +9,29 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
-import helium314.keyboard.keyboard.KeyboardLayoutSet
-import helium314.keyboard.keyboard.KeyboardSwitcher
-import helium314.keyboard.latin.AudioAndHapticFeedbackManager
-import helium314.keyboard.latin.R
-import helium314.keyboard.latin.database.ClipboardDao
-import helium314.keyboard.latin.settings.Defaults
-import helium314.keyboard.latin.settings.Settings
-import helium314.keyboard.latin.utils.Log
-import helium314.keyboard.latin.utils.SubtypeSettings
-import helium314.keyboard.latin.utils.getActivity
-import helium314.keyboard.latin.utils.locale
-import helium314.keyboard.latin.utils.prefs
-import helium314.keyboard.settings.preferences.ListPreference
-import helium314.keyboard.settings.Setting
-import helium314.keyboard.settings.preferences.ReorderSwitchPreference
-import helium314.keyboard.settings.SearchSettingsScreen
-import helium314.keyboard.settings.SettingsActivity
-import helium314.keyboard.settings.preferences.SliderPreference
-import helium314.keyboard.settings.preferences.SwitchPreference
-import helium314.keyboard.latin.utils.Theme
-import helium314.keyboard.settings.initPreview
-import helium314.keyboard.settings.preferences.SwitchPreferenceWithEmojiDictWarning
-import helium314.keyboard.latin.utils.previewDark
+import com.bhuwan.argonboard.keyboard.KeyboardLayoutSet
+import com.bhuwan.argonboard.keyboard.KeyboardSwitcher
+import com.bhuwan.argonboard.latin.AudioAndHapticFeedbackManager
+import com.bhuwan.argonboard.latin.R
+import com.bhuwan.argonboard.latin.database.ClipboardDao
+import com.bhuwan.argonboard.latin.settings.Defaults
+import com.bhuwan.argonboard.latin.settings.Settings
+import com.bhuwan.argonboard.latin.utils.Log
+import com.bhuwan.argonboard.latin.utils.SubtypeSettings
+import com.bhuwan.argonboard.latin.utils.getActivity
+import com.bhuwan.argonboard.latin.utils.locale
+import com.bhuwan.argonboard.latin.utils.prefs
+import com.bhuwan.argonboard.settings.preferences.ListPreference
+import com.bhuwan.argonboard.settings.Setting
+import com.bhuwan.argonboard.settings.preferences.ReorderSwitchPreference
+import com.bhuwan.argonboard.settings.SearchSettingsScreen
+import com.bhuwan.argonboard.settings.SettingsActivity
+import com.bhuwan.argonboard.settings.preferences.SliderPreference
+import com.bhuwan.argonboard.settings.preferences.SwitchPreference
+import com.bhuwan.argonboard.latin.utils.Theme
+import com.bhuwan.argonboard.settings.initPreview
+import com.bhuwan.argonboard.settings.preferences.SwitchPreferenceWithEmojiDictWarning
+import com.bhuwan.argonboard.latin.utils.previewDark
 
 @Composable
 fun PreferencesScreen(

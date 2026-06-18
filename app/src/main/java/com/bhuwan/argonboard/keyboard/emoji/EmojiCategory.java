@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.keyboard.emoji;
+package com.bhuwan.argonboard.keyboard.emoji;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -13,18 +13,18 @@ import android.content.res.TypedArray;
 import android.graphics.Paint;
 import android.graphics.Rect;
 
-import helium314.keyboard.latin.settings.Defaults;
-import helium314.keyboard.latin.utils.KtxKt;
-import helium314.keyboard.latin.utils.Log;
+import com.bhuwan.argonboard.latin.settings.Defaults;
+import com.bhuwan.argonboard.latin.utils.KtxKt;
+import com.bhuwan.argonboard.latin.utils.Log;
 
 import androidx.core.graphics.PaintCompat;
-import helium314.keyboard.keyboard.Key;
-import helium314.keyboard.keyboard.Keyboard;
-import helium314.keyboard.keyboard.KeyboardId;
-import helium314.keyboard.keyboard.KeyboardLayoutSet;
-import helium314.keyboard.latin.R;
-import helium314.keyboard.latin.settings.Settings;
-import helium314.keyboard.latin.utils.ResourceUtils;
+import com.bhuwan.argonboard.keyboard.Key;
+import com.bhuwan.argonboard.keyboard.Keyboard;
+import com.bhuwan.argonboard.keyboard.KeyboardId;
+import com.bhuwan.argonboard.keyboard.KeyboardLayoutSet;
+import com.bhuwan.argonboard.latin.R;
+import com.bhuwan.argonboard.latin.settings.Settings;
+import com.bhuwan.argonboard.latin.utils.ResourceUtils;
 
 import java.util.ArrayList;
 import java.util.Collections;

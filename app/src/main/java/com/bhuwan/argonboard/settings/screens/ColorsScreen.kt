@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package helium314.keyboard.settings.screens
+package com.bhuwan.argonboard.settings.screens
 
 import android.app.Activity
 import android.content.ClipData
@@ -43,24 +43,24 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LocalLifecycleOwner
-import helium314.keyboard.keyboard.ColorSetting
-import helium314.keyboard.keyboard.KeyboardTheme
-import helium314.keyboard.latin.R
-import helium314.keyboard.latin.common.ColorType
-import helium314.keyboard.latin.common.default
-import helium314.keyboard.latin.common.encodeBase36
-import helium314.keyboard.latin.settings.Defaults
-import helium314.keyboard.latin.settings.Settings
-import helium314.keyboard.latin.utils.Log
-import helium314.keyboard.latin.utils.getActivity
-import helium314.keyboard.latin.utils.prefs
-import helium314.keyboard.latin.utils.CloseIcon
-import helium314.keyboard.settings.SearchScreen
-import helium314.keyboard.settings.SettingsActivity
-import helium314.keyboard.latin.utils.Theme
-import helium314.keyboard.settings.contentTextDirectionStyle
-import helium314.keyboard.settings.dialogs.ColorPickerDialog
-import helium314.keyboard.latin.utils.previewDark
+import com.bhuwan.argonboard.keyboard.ColorSetting
+import com.bhuwan.argonboard.keyboard.KeyboardTheme
+import com.bhuwan.argonboard.latin.R
+import com.bhuwan.argonboard.latin.common.ColorType
+import com.bhuwan.argonboard.latin.common.default
+import com.bhuwan.argonboard.latin.common.encodeBase36
+import com.bhuwan.argonboard.latin.settings.Defaults
+import com.bhuwan.argonboard.latin.settings.Settings
+import com.bhuwan.argonboard.latin.utils.Log
+import com.bhuwan.argonboard.latin.utils.getActivity
+import com.bhuwan.argonboard.latin.utils.prefs
+import com.bhuwan.argonboard.latin.utils.CloseIcon
+import com.bhuwan.argonboard.settings.SearchScreen
+import com.bhuwan.argonboard.settings.SettingsActivity
+import com.bhuwan.argonboard.latin.utils.Theme
+import com.bhuwan.argonboard.settings.contentTextDirectionStyle
+import com.bhuwan.argonboard.settings.dialogs.ColorPickerDialog
+import com.bhuwan.argonboard.latin.utils.previewDark
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 

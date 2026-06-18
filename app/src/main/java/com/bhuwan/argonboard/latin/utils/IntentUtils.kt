@@ -1,10 +1,10 @@
-package helium314.keyboard.latin.utils
+package com.bhuwan.argonboard.latin.utils
 
 import android.content.Context
 import android.content.Intent
-import helium314.keyboard.keyboard.internal.keyboard_parser.floris.KeyCode
-import helium314.keyboard.latin.inputlogic.InputLogic
-import helium314.keyboard.latin.utils.Log.i
+import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.KeyCode
+import com.bhuwan.argonboard.latin.inputlogic.InputLogic
+import com.bhuwan.argonboard.latin.utils.Log.i
 
 object IntentUtils {
     val TAG: String = InputLogic::class.java.simpleName

@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package helium314.keyboard.settings.preferences
+package com.bhuwan.argonboard.settings.preferences
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -12,15 +12,15 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
-import helium314.keyboard.latin.R
-import helium314.keyboard.latin.common.FileUtils
-import helium314.keyboard.latin.settings.Settings
-import helium314.keyboard.latin.utils.ChecksumCalculator
-import helium314.keyboard.latin.utils.JniUtils
-import helium314.keyboard.latin.utils.protectedPrefs
-import helium314.keyboard.settings.Setting
-import helium314.keyboard.settings.dialogs.ConfirmationDialog
-import helium314.keyboard.settings.filePicker
+import com.bhuwan.argonboard.latin.R
+import com.bhuwan.argonboard.latin.common.FileUtils
+import com.bhuwan.argonboard.latin.settings.Settings
+import com.bhuwan.argonboard.latin.utils.ChecksumCalculator
+import com.bhuwan.argonboard.latin.utils.JniUtils
+import com.bhuwan.argonboard.latin.utils.protectedPrefs
+import com.bhuwan.argonboard.settings.Setting
+import com.bhuwan.argonboard.settings.dialogs.ConfirmationDialog
+import com.bhuwan.argonboard.settings.filePicker
 import java.io.File
 import java.io.FileInputStream
 import java.io.FileOutputStream

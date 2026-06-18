@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
-package helium314.keyboard.keyboard.clipboard
+package com.bhuwan.argonboard.keyboard.clipboard
 
 import android.content.Context
 import android.view.View
 import android.widget.FrameLayout
 import androidx.recyclerview.widget.RecyclerView
-import helium314.keyboard.keyboard.internal.KeyboardParams
-import helium314.keyboard.latin.R
-import helium314.keyboard.latin.settings.Settings
-import helium314.keyboard.latin.utils.ResourceUtils
+import com.bhuwan.argonboard.keyboard.internal.KeyboardParams
+import com.bhuwan.argonboard.latin.R
+import com.bhuwan.argonboard.latin.settings.Settings
+import com.bhuwan.argonboard.latin.utils.ResourceUtils
 
 class ClipboardLayoutParams(ctx: Context) {
 

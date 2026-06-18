@@ -4,16 +4,16 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.latin.utils;
+package com.bhuwan.argonboard.latin.utils;
 
 import android.annotation.SuppressLint;
 import android.app.Application;
 import android.os.Build;
 import android.text.TextUtils;
 
-import helium314.keyboard.latin.App;
-import helium314.keyboard.latin.BuildConfig;
-import helium314.keyboard.latin.settings.Settings;
+import com.bhuwan.argonboard.latin.App;
+import com.bhuwan.argonboard.latin.BuildConfig;
+import com.bhuwan.argonboard.latin.settings.Settings;
 
 import java.io.File;
 

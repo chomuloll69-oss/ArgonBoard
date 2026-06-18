@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.dictionarypack
+package com.bhuwan.argonboard.dictionarypack
 
 /**
  * A class to group constants for dictionary pack usage.

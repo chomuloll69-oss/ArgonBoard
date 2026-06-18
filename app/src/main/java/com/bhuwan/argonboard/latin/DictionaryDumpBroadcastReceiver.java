@@ -4,12 +4,12 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.latin;
+package com.bhuwan.argonboard.latin;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import helium314.keyboard.latin.utils.Log;
+import com.bhuwan.argonboard.latin.utils.Log;
 
 public class DictionaryDumpBroadcastReceiver extends BroadcastReceiver {
   private static final String TAG = DictionaryDumpBroadcastReceiver.class.getSimpleName();

@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.latin.settings;
+package com.bhuwan.argonboard.latin.settings;
 
 import android.Manifest;
 import android.content.Context;
@@ -18,24 +18,24 @@ import android.view.inputmethod.InputMethodSubtype;
 import androidx.annotation.NonNull;
 import androidx.core.util.TypedValueCompat;
 
-import helium314.keyboard.compat.ConfigurationCompatKt;
-import helium314.keyboard.compat.IsLockedCompatKt;
-import helium314.keyboard.keyboard.KeyboardActionListener;
-import helium314.keyboard.keyboard.KeyboardTheme;
-import helium314.keyboard.keyboard.internal.keyboard_parser.LocaleKeyboardInfosKt;
-import helium314.keyboard.latin.InputAttributes;
-import helium314.keyboard.latin.PunctuationSuggestions;
-import helium314.keyboard.latin.R;
-import helium314.keyboard.latin.RichInputMethodManager;
-import helium314.keyboard.latin.common.Colors;
-import helium314.keyboard.latin.permissions.PermissionsUtil;
-import helium314.keyboard.latin.utils.FoldableUtils;
-import helium314.keyboard.latin.utils.InputTypeUtils;
-import helium314.keyboard.latin.utils.JniUtils;
-import helium314.keyboard.latin.utils.ScriptUtils;
-import helium314.keyboard.latin.utils.SubtypeSettings;
-import helium314.keyboard.latin.utils.SubtypeUtilsKt;
-import helium314.keyboard.latin.utils.ToolbarMode;
+import com.bhuwan.argonboard.compat.ConfigurationCompatKt;
+import com.bhuwan.argonboard.compat.IsLockedCompatKt;
+import com.bhuwan.argonboard.keyboard.KeyboardActionListener;
+import com.bhuwan.argonboard.keyboard.KeyboardTheme;
+import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.LocaleKeyboardInfosKt;
+import com.bhuwan.argonboard.latin.InputAttributes;
+import com.bhuwan.argonboard.latin.PunctuationSuggestions;
+import com.bhuwan.argonboard.latin.R;
+import com.bhuwan.argonboard.latin.RichInputMethodManager;
+import com.bhuwan.argonboard.latin.common.Colors;
+import com.bhuwan.argonboard.latin.permissions.PermissionsUtil;
+import com.bhuwan.argonboard.latin.utils.FoldableUtils;
+import com.bhuwan.argonboard.latin.utils.InputTypeUtils;
+import com.bhuwan.argonboard.latin.utils.JniUtils;
+import com.bhuwan.argonboard.latin.utils.ScriptUtils;
+import com.bhuwan.argonboard.latin.utils.SubtypeSettings;
+import com.bhuwan.argonboard.latin.utils.SubtypeUtilsKt;
+import com.bhuwan.argonboard.latin.utils.ToolbarMode;
 
 import java.util.List;
 import java.util.Locale;

@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-package helium314.keyboard.settings.preferences
+package com.bhuwan.argonboard.settings.preferences
 
 import android.content.Intent
 import android.content.SharedPreferences
@@ -15,26 +15,26 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
-import helium314.keyboard.dictionarypack.DictionaryPackConstants
-import helium314.keyboard.keyboard.KeyboardSwitcher
-import helium314.keyboard.keyboard.emoji.SupportedEmojis
-import helium314.keyboard.latin.R
-import helium314.keyboard.latin.common.FileUtils
-import helium314.keyboard.latin.database.Database
-import helium314.keyboard.latin.settings.Settings
-import helium314.keyboard.latin.utils.DeviceProtectedUtils
-import helium314.keyboard.latin.utils.ExecutorUtils
-import helium314.keyboard.latin.utils.LayoutUtilsCustom
-import helium314.keyboard.latin.utils.Log
-import helium314.keyboard.latin.utils.SubtypeSettings
-import helium314.keyboard.latin.utils.getActivity
-import helium314.keyboard.latin.utils.prefs
-import helium314.keyboard.latin.utils.protectedPrefs
-import helium314.keyboard.settings.Setting
-import helium314.keyboard.settings.SettingsActivity
-import helium314.keyboard.settings.dialogs.ConfirmationDialog
-import helium314.keyboard.settings.dialogs.InfoDialog
-import helium314.keyboard.settings.filePicker
+import com.bhuwan.argonboard.dictionarypack.DictionaryPackConstants
+import com.bhuwan.argonboard.keyboard.KeyboardSwitcher
+import com.bhuwan.argonboard.keyboard.emoji.SupportedEmojis
+import com.bhuwan.argonboard.latin.R
+import com.bhuwan.argonboard.latin.common.FileUtils
+import com.bhuwan.argonboard.latin.database.Database
+import com.bhuwan.argonboard.latin.settings.Settings
+import com.bhuwan.argonboard.latin.utils.DeviceProtectedUtils
+import com.bhuwan.argonboard.latin.utils.ExecutorUtils
+import com.bhuwan.argonboard.latin.utils.LayoutUtilsCustom
+import com.bhuwan.argonboard.latin.utils.Log
+import com.bhuwan.argonboard.latin.utils.SubtypeSettings
+import com.bhuwan.argonboard.latin.utils.getActivity
+import com.bhuwan.argonboard.latin.utils.prefs
+import com.bhuwan.argonboard.latin.utils.protectedPrefs
+import com.bhuwan.argonboard.settings.Setting
+import com.bhuwan.argonboard.settings.SettingsActivity
+import com.bhuwan.argonboard.settings.dialogs.ConfirmationDialog
+import com.bhuwan.argonboard.settings.dialogs.InfoDialog
+import com.bhuwan.argonboard.settings.filePicker
 import kotlinx.serialization.json.Json
 import java.io.File
 import java.io.FileInputStream
@@ -47,8 +47,8 @@ import java.util.zip.ZipEntry
 import java.util.zip.ZipInputStream
 import java.util.zip.ZipOutputStream
 import androidx.core.content.edit
-import helium314.keyboard.latin.checkVersionUpgrade
-import helium314.keyboard.latin.transferOldPinnedClips
+import com.bhuwan.argonboard.latin.checkVersionUpgrade
+import com.bhuwan.argonboard.latin.transferOldPinnedClips
 
 @Composable
 fun BackupRestorePreference(setting: Setting) {

@@ -4,10 +4,10 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.latin.makedict
+package com.bhuwan.argonboard.latin.makedict
 
-import helium314.keyboard.latin.common.LocaleUtils.constructLocale
-import helium314.keyboard.latin.makedict.FormatSpec.DictionaryOptions
+import com.bhuwan.argonboard.latin.common.LocaleUtils.constructLocale
+import com.bhuwan.argonboard.latin.makedict.FormatSpec.DictionaryOptions
 import java.text.DateFormat
 import java.util.Date
 import java.util.Locale

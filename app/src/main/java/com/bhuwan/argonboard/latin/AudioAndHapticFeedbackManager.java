@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.latin;
+package com.bhuwan.argonboard.latin;
 
 import android.content.Context;
 import android.media.AudioManager;
@@ -12,10 +12,10 @@ import android.os.Vibrator;
 import android.view.HapticFeedbackConstants;
 import android.view.View;
 
-import helium314.keyboard.event.HapticEvent;
-import helium314.keyboard.keyboard.internal.keyboard_parser.floris.KeyCode;
-import helium314.keyboard.latin.common.Constants;
-import helium314.keyboard.latin.settings.SettingsValues;
+import com.bhuwan.argonboard.event.HapticEvent;
+import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.KeyCode;
+import com.bhuwan.argonboard.latin.common.Constants;
+import com.bhuwan.argonboard.latin.settings.SettingsValues;
 
 /**
  * This class gathers audio feedback and haptic feedback functions.

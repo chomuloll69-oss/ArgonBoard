@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.latin;
+package com.bhuwan.argonboard.latin;
 
 import android.Manifest;
 import android.content.ContentResolver;
@@ -12,12 +12,12 @@ import android.content.Context;
 import android.database.ContentObserver;
 import android.os.SystemClock;
 import android.provider.ContactsContract.Contacts;
-import helium314.keyboard.latin.utils.Log;
+import com.bhuwan.argonboard.latin.utils.Log;
 
-import helium314.keyboard.latin.ContactsManager.ContactsChangedListener;
-import helium314.keyboard.latin.define.DebugFlags;
-import helium314.keyboard.latin.permissions.PermissionsUtil;
-import helium314.keyboard.latin.utils.ExecutorUtils;
+import com.bhuwan.argonboard.latin.ContactsManager.ContactsChangedListener;
+import com.bhuwan.argonboard.latin.define.DebugFlags;
+import com.bhuwan.argonboard.latin.permissions.PermissionsUtil;
+import com.bhuwan.argonboard.latin.utils.ExecutorUtils;
 
 import java.util.ArrayList;
 import java.util.concurrent.atomic.AtomicBoolean;

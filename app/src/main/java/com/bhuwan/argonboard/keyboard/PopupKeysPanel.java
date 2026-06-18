@@ -4,11 +4,11 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.keyboard;
+package com.bhuwan.argonboard.keyboard;
 
 import android.view.View;
 import android.view.ViewGroup;
-import helium314.keyboard.keyboard.emoji.EmojiViewCallback;
+import com.bhuwan.argonboard.keyboard.emoji.EmojiViewCallback;
 
 public interface PopupKeysPanel {
     interface Controller {

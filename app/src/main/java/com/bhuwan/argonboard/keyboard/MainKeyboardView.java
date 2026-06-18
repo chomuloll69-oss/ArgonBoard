@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.keyboard;
+package com.bhuwan.argonboard.keyboard;
 
 import android.animation.AnimatorInflater;
 import android.animation.ObjectAnimator;
@@ -28,37 +28,37 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import helium314.keyboard.accessibility.AccessibilityUtils;
-import helium314.keyboard.accessibility.MainKeyboardAccessibilityDelegate;
-import helium314.keyboard.compat.ConfigurationCompatKt;
-import helium314.keyboard.keyboard.internal.DrawingPreviewPlacerView;
-import helium314.keyboard.keyboard.internal.DrawingProxy;
-import helium314.keyboard.keyboard.internal.GestureFloatingTextDrawingPreview;
-import helium314.keyboard.keyboard.internal.GestureTrailsDrawingPreview;
-import helium314.keyboard.keyboard.internal.KeyDrawParams;
-import helium314.keyboard.keyboard.internal.KeyPreviewChoreographer;
-import helium314.keyboard.keyboard.internal.KeyPreviewDrawParams;
-import helium314.keyboard.keyboard.internal.KeyPreviewView;
-import helium314.keyboard.keyboard.internal.PopupKeySpec;
-import helium314.keyboard.keyboard.internal.NonDistinctMultitouchHelper;
-import helium314.keyboard.keyboard.internal.SlidingKeyInputDrawingPreview;
-import helium314.keyboard.keyboard.internal.TimerHandler;
-import helium314.keyboard.keyboard.internal.keyboard_parser.floris.KeyCode;
-import helium314.keyboard.latin.R;
-import helium314.keyboard.latin.RichInputMethodSubtype;
-import helium314.keyboard.latin.SuggestedWords;
-import helium314.keyboard.latin.common.ColorType;
-import helium314.keyboard.latin.common.Colors;
-import helium314.keyboard.latin.common.Constants;
-import helium314.keyboard.latin.common.CoordinateUtils;
-import helium314.keyboard.latin.define.DebugFlags;
-import helium314.keyboard.latin.settings.DebugSettings;
-import helium314.keyboard.latin.settings.Defaults;
-import helium314.keyboard.latin.settings.Settings;
-import helium314.keyboard.latin.utils.KtxKt;
-import helium314.keyboard.latin.utils.LanguageOnSpacebarUtils;
-import helium314.keyboard.latin.utils.Log;
-import helium314.keyboard.latin.utils.TypefaceUtils;
+import com.bhuwan.argonboard.accessibility.AccessibilityUtils;
+import com.bhuwan.argonboard.accessibility.MainKeyboardAccessibilityDelegate;
+import com.bhuwan.argonboard.compat.ConfigurationCompatKt;
+import com.bhuwan.argonboard.keyboard.internal.DrawingPreviewPlacerView;
+import com.bhuwan.argonboard.keyboard.internal.DrawingProxy;
+import com.bhuwan.argonboard.keyboard.internal.GestureFloatingTextDrawingPreview;
+import com.bhuwan.argonboard.keyboard.internal.GestureTrailsDrawingPreview;
+import com.bhuwan.argonboard.keyboard.internal.KeyDrawParams;
+import com.bhuwan.argonboard.keyboard.internal.KeyPreviewChoreographer;
+import com.bhuwan.argonboard.keyboard.internal.KeyPreviewDrawParams;
+import com.bhuwan.argonboard.keyboard.internal.KeyPreviewView;
+import com.bhuwan.argonboard.keyboard.internal.PopupKeySpec;
+import com.bhuwan.argonboard.keyboard.internal.NonDistinctMultitouchHelper;
+import com.bhuwan.argonboard.keyboard.internal.SlidingKeyInputDrawingPreview;
+import com.bhuwan.argonboard.keyboard.internal.TimerHandler;
+import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.KeyCode;
+import com.bhuwan.argonboard.latin.R;
+import com.bhuwan.argonboard.latin.RichInputMethodSubtype;
+import com.bhuwan.argonboard.latin.SuggestedWords;
+import com.bhuwan.argonboard.latin.common.ColorType;
+import com.bhuwan.argonboard.latin.common.Colors;
+import com.bhuwan.argonboard.latin.common.Constants;
+import com.bhuwan.argonboard.latin.common.CoordinateUtils;
+import com.bhuwan.argonboard.latin.define.DebugFlags;
+import com.bhuwan.argonboard.latin.settings.DebugSettings;
+import com.bhuwan.argonboard.latin.settings.Defaults;
+import com.bhuwan.argonboard.latin.settings.Settings;
+import com.bhuwan.argonboard.latin.utils.KtxKt;
+import com.bhuwan.argonboard.latin.utils.LanguageOnSpacebarUtils;
+import com.bhuwan.argonboard.latin.utils.Log;
+import com.bhuwan.argonboard.latin.utils.TypefaceUtils;
 
 import java.util.ArrayList;
 import java.util.List;

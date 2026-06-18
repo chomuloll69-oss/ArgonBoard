@@ -4,13 +4,13 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.latin.utils;
+package com.bhuwan.argonboard.latin.utils;
 
-import helium314.keyboard.latin.makedict.DictionaryHeader;
-import helium314.keyboard.latin.makedict.NgramProperty;
-import helium314.keyboard.latin.makedict.ProbabilityInfo;
-import helium314.keyboard.latin.makedict.WeightedString;
-import helium314.keyboard.latin.makedict.WordProperty;
+import com.bhuwan.argonboard.latin.makedict.DictionaryHeader;
+import com.bhuwan.argonboard.latin.makedict.NgramProperty;
+import com.bhuwan.argonboard.latin.makedict.ProbabilityInfo;
+import com.bhuwan.argonboard.latin.makedict.WeightedString;
+import com.bhuwan.argonboard.latin.makedict.WordProperty;
 
 import java.util.HashMap;
 

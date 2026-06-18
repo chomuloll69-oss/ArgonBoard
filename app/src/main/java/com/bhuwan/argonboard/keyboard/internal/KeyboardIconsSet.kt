@@ -1,17 +1,17 @@
-package helium314.keyboard.keyboard.internal
+package com.bhuwan.argonboard.keyboard.internal
 
 import android.content.Context
 import android.content.res.Resources
 import android.graphics.drawable.Drawable
 import androidx.core.content.ContextCompat
-import helium314.keyboard.keyboard.KeyboardTheme
-import helium314.keyboard.latin.R
-import helium314.keyboard.latin.settings.customIconIds
-import helium314.keyboard.latin.settings.Defaults
-import helium314.keyboard.latin.settings.Settings
-import helium314.keyboard.latin.utils.Log
-import helium314.keyboard.latin.utils.ToolbarKey
-import helium314.keyboard.latin.utils.prefs
+import com.bhuwan.argonboard.keyboard.KeyboardTheme
+import com.bhuwan.argonboard.latin.R
+import com.bhuwan.argonboard.latin.settings.customIconIds
+import com.bhuwan.argonboard.latin.settings.Defaults
+import com.bhuwan.argonboard.latin.settings.Settings
+import com.bhuwan.argonboard.latin.utils.Log
+import com.bhuwan.argonboard.latin.utils.ToolbarKey
+import com.bhuwan.argonboard.latin.utils.prefs
 import java.util.Locale
 
 class KeyboardIconsSet private constructor() {

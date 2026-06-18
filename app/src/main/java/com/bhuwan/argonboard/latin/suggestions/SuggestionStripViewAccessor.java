@@ -4,9 +4,9 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package helium314.keyboard.latin.suggestions;
+package com.bhuwan.argonboard.latin.suggestions;
 
-import helium314.keyboard.latin.SuggestedWords;
+import com.bhuwan.argonboard.latin.SuggestedWords;
 
 /**
  * An object that gives basic control of a suggestion strip and some info on it.

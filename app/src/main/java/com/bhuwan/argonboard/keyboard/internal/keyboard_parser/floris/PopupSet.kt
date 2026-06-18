@@ -3,11 +3,11 @@
  * modified
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
-package helium314.keyboard.keyboard.internal.keyboard_parser.floris
+package com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris
 
 import kotlinx.serialization.Serializable
-import helium314.keyboard.keyboard.internal.KeyboardParams
-import helium314.keyboard.latin.utils.addCollections
+import com.bhuwan.argonboard.keyboard.internal.KeyboardParams
+import com.bhuwan.argonboard.latin.utils.addCollections
 
 // only the constructor and name remain from FlorisBoard
 // we don't care about the difference between main and relevant (at least for now)
