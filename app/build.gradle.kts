@@ -118,7 +118,7 @@ android {
         includeInBundle = false
     }
 
-    namespace = com.bhuwan.argonboard.latin"
+    namespace = "com.bhuwan.argonboard.latin"
     lint {
         abortOnError = true
     }
