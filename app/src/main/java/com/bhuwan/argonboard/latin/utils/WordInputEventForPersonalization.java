@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.android.inputmethod.latin.utils;
+package com.bhuwan.argonboard.latin.utils;
 
 import helium314.keyboard.latin.utils.Log;
 

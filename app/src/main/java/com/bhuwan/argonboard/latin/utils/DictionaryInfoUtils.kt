@@ -7,7 +7,7 @@ package com.bhuwan.argonboard.latin.utils
 
 import android.content.Context
 import android.text.TextUtils
-import com.android.inputmethod.latin.utils.BinaryDictionaryUtils
+import com.bhuwan.argonboard.latin.utils.BinaryDictionaryUtils
 import com.bhuwan.argonboard.latin.dictionary.Dictionary
 import com.bhuwan.argonboard.latin.common.FileUtils
 import com.bhuwan.argonboard.latin.common.LocaleUtils.constructLocale

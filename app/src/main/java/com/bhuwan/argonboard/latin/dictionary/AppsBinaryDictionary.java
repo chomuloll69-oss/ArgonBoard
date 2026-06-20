@@ -3,7 +3,7 @@
 package com.bhuwan.argonboard.latin.dictionary;
 
 import android.content.Context;
-import com.android.inputmethod.latin.BinaryDictionary;
+import com.bhuwan.argonboard.latin.dictionary.BinaryDictionary;
 import java.io.File;
 import java.util.Locale;
 import com.bhuwan.argonboard.latin.AppsManager;

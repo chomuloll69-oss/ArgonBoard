@@ -13,7 +13,7 @@ import com.bhuwan.argonboard.latin.utils.Log;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.android.inputmethod.latin.BinaryDictionary;
+import com.bhuwan.argonboard.latin.dictionary.BinaryDictionary;
 
 import com.bhuwan.argonboard.latin.SuggestedWords.SuggestedWordInfo;
 import com.bhuwan.argonboard.latin.common.ComposedData;

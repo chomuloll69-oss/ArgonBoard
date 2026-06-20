@@ -11,7 +11,7 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.android.inputmethod.latin.BinaryDictionary;
+import com.bhuwan.argonboard.latin.dictionary.BinaryDictionary;
 import com.bhuwan.argonboard.latin.dictionary.Dictionary;
 import com.bhuwan.argonboard.latin.dictionary.ExpandableBinaryDictionary;
 import com.bhuwan.argonboard.latin.NgramContext;

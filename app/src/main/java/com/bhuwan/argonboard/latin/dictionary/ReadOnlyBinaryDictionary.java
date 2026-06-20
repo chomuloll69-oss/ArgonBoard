@@ -6,7 +6,7 @@
 
 package com.bhuwan.argonboard.latin.dictionary;
 
-import com.android.inputmethod.latin.BinaryDictionary;
+import com.bhuwan.argonboard.latin.dictionary.BinaryDictionary;
 
 import com.bhuwan.argonboard.latin.NgramContext;
 import com.bhuwan.argonboard.latin.SuggestedWords.SuggestedWordInfo;

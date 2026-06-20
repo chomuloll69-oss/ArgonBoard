@@ -6,7 +6,7 @@
 
 package com.bhuwan.argonboard.latin.makedict;
 
-import com.android.inputmethod.latin.BinaryDictionary;
+import com.bhuwan.argonboard.latin.dictionary.BinaryDictionary;
 import com.bhuwan.argonboard.latin.utils.CombinedFormatUtils;
 
 import java.util.Arrays;

@@ -4,7 +4,7 @@ package com.bhuwan.argonboard.latin.utils
 import android.content.Context
 import android.text.InputType
 import android.view.inputmethod.EditorInfo
-import com.android.inputmethod.latin.BinaryDictionary
+import com.bhuwan.argonboard.latin.dictionary.BinaryDictionary
 import com.bhuwan.argonboard.keyboard.Keyboard
 import com.bhuwan.argonboard.keyboard.KeyboardSwitcher
 import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.floris.KeyCode

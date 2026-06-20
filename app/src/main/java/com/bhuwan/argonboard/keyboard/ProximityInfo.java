@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.android.inputmethod.keyboard;
+package com.bhuwan.argonboard.keyboard;
 
 import android.graphics.Rect;
 import helium314.keyboard.latin.utils.Log;

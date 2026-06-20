@@ -32,7 +32,7 @@ import com.bhuwan.argonboard.latin.common.Constants;
 import com.bhuwan.argonboard.latin.common.LocaleUtils;
 import com.bhuwan.argonboard.latin.common.StringUtils;
 import com.bhuwan.argonboard.latin.define.DebugFlags;
-import com.android.inputmethod.latin.utils.BinaryDictionaryUtils;
+import com.bhuwan.argonboard.latin.utils.BinaryDictionaryUtils;
 
 import com.bhuwan.argonboard.latin.utils.ScriptUtils;
 import com.bhuwan.argonboard.latin.utils.StatsUtils;

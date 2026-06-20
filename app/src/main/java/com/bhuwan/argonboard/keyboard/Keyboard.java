@@ -11,7 +11,7 @@ import android.util.SparseArray;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.android.inputmethod.keyboard.ProximityInfo;
+import com.bhuwan.argonboard.keyboard.ProximityInfo;
 
 import com.bhuwan.argonboard.keyboard.internal.KeyVisualAttributes;
 import com.bhuwan.argonboard.keyboard.internal.KeyboardIconsSet;

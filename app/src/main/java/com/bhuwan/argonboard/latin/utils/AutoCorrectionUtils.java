@@ -6,7 +6,7 @@
 
 package com.bhuwan.argonboard.latin.utils;
 
-import com.android.inputmethod.latin.utils.BinaryDictionaryUtils;
+import com.bhuwan.argonboard.latin.utils.BinaryDictionaryUtils;
 
 import com.bhuwan.argonboard.latin.SuggestedWords.SuggestedWordInfo;
 import com.bhuwan.argonboard.latin.define.DebugFlags;

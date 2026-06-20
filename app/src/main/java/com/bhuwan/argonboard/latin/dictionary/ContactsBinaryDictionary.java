@@ -19,7 +19,7 @@ import com.bhuwan.argonboard.latin.utils.Log;
 
 import androidx.annotation.NonNull;
 
-import com.android.inputmethod.latin.BinaryDictionary;
+import com.bhuwan.argonboard.latin.dictionary.BinaryDictionary;
 
 import com.bhuwan.argonboard.latin.ContactsManager.ContactsChangedListener;
 import com.bhuwan.argonboard.latin.common.StringUtils;

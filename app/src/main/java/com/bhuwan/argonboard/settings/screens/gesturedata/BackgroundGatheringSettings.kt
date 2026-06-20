@@ -72,7 +72,7 @@ import com.bhuwan.argonboard.settings.dialogs.ThreeButtonAlertDialog
 import kotlinx.coroutines.launch
 import kotlin.collections.plus
 import androidx.core.graphics.toColorInt
-import com.android.inputmethod.latin.BinaryDictionary
+import com.bhuwan.argonboard.latin.dictionary.BinaryDictionary
 import com.bhuwan.argonboard.keyboard.KeyboardSwitcher
 import com.bhuwan.argonboard.latin.common.Constants.Separators
 import com.bhuwan.argonboard.latin.common.Links

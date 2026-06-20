@@ -14,7 +14,7 @@ import android.net.Uri;
 import android.provider.UserDictionary.Words;
 import android.text.TextUtils;
 
-import com.android.inputmethod.latin.BinaryDictionary;
+import com.bhuwan.argonboard.latin.dictionary.BinaryDictionary;
 
 import com.bhuwan.argonboard.latin.utils.Log;
 import com.bhuwan.argonboard.latin.utils.SubtypeLocaleUtils;

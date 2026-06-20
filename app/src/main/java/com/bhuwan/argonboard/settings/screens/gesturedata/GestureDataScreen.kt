@@ -72,7 +72,7 @@ import androidx.compose.ui.text.intl.LocaleList
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.android.inputmethod.latin.BinaryDictionary
+import com.bhuwan.argonboard.latin.dictionary.BinaryDictionary
 import com.bhuwan.argonboard.compat.locale
 import com.bhuwan.argonboard.keyboard.Keyboard
 import com.bhuwan.argonboard.latin.NgramContext

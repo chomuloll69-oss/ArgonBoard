@@ -9,7 +9,7 @@ package com.bhuwan.argonboard.latin.makedict;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.android.inputmethod.latin.BinaryDictionary;
+import com.bhuwan.argonboard.latin.dictionary.BinaryDictionary;
 import com.bhuwan.argonboard.latin.dictionary.Dictionary;
 import com.bhuwan.argonboard.latin.NgramContext;
 import com.bhuwan.argonboard.latin.NgramContext.WordInfo;

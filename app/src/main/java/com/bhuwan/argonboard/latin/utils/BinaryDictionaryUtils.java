@@ -4,9 +4,9 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.android.inputmethod.latin.utils;
+package com.bhuwan.argonboard.latin.utils;
 
-import com.android.inputmethod.latin.BinaryDictionary;
+import com.bhuwan.argonboard.latin.dictionary.BinaryDictionary;
 import helium314.keyboard.latin.common.StringUtils;
 import helium314.keyboard.latin.makedict.DictionaryHeader;
 import helium314.keyboard.latin.makedict.UnsupportedFormatException;

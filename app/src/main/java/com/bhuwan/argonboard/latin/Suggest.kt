@@ -6,7 +6,7 @@
 package com.bhuwan.argonboard.latin
 
 import android.text.TextUtils
-import com.android.inputmethod.latin.utils.BinaryDictionaryUtils
+import com.bhuwan.argonboard.latin.utils.BinaryDictionaryUtils
 import com.bhuwan.argonboard.keyboard.Keyboard
 import com.bhuwan.argonboard.keyboard.internal.keyboard_parser.getEmojiDefaultVersion
 import com.bhuwan.argonboard.latin.SuggestedWords.SuggestedWordInfo

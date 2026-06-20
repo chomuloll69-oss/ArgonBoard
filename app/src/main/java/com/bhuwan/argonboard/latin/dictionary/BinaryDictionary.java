@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
  */
 
-package com.android.inputmethod.latin;
+package com.bhuwan.argonboard.latin.dictionary;
 
 import android.text.TextUtils;
 import helium314.keyboard.latin.utils.ChecksumCalculator;
@@ -26,9 +26,9 @@ import helium314.keyboard.latin.makedict.FormatSpec.DictionaryOptions;
 import helium314.keyboard.latin.makedict.UnsupportedFormatException;
 import helium314.keyboard.latin.makedict.WordProperty;
 import helium314.keyboard.latin.settings.SettingsValuesForSuggestion;
-import com.android.inputmethod.latin.utils.BinaryDictionaryUtils;
+import com.bhuwan.argonboard.latin.utils.BinaryDictionaryUtils;
 import helium314.keyboard.latin.utils.JniUtils;
-import com.android.inputmethod.latin.utils.WordInputEventForPersonalization;
+import com.bhuwan.argonboard.latin.utils.WordInputEventForPersonalization;
 
 import java.io.File;
 import java.util.ArrayList;
