@@ -54,7 +54,7 @@ import com.bhuwan.argonboard.latin.settings.SettingsValues;
 import com.bhuwan.argonboard.latin.utils.DictionaryInfoUtils;
 import com.bhuwan.argonboard.latin.utils.ResourceUtils;
 
-import static helium314.keyboard.latin.common.Constants.NOT_A_COORDINATE;
+import static com.bhuwan.argonboard.latin.common.Constants.NOT_A_COORDINATE;
 
 /**
  * View class to implement Emoji palettes.

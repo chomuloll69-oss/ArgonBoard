@@ -8,7 +8,7 @@ import com.bhuwan.argonboard.latin.utils.Log.i
 
 object IntentUtils {
     val TAG: String = InputLogic::class.java.simpleName
-    private const val ACTION_SEND_INTENT = "helium314.keyboard.latin.ACTION_SEND_INTENT"
+    private const val ACTION_SEND_INTENT = "com.bhuwan.argonboard.latin.ACTION_SEND_INTENT"
     private const val EXTRA_NUMBER = "EXTRA_NUMBER"
 
     @JvmStatic

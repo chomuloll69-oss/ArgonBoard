@@ -6,7 +6,7 @@
 
 package com.bhuwan.argonboard.latin.inputlogic;
 
-import static helium314.keyboard.latin.common.SuggestionSpanUtilsKt.getTextWithSuggestionSpan;
+import static com.bhuwan.argonboard.latin.common.SuggestionSpanUtilsKt.getTextWithSuggestionSpan;
 
 import android.graphics.Color;
 import android.os.SystemClock;
@@ -276,7 +276,7 @@ public final class InputLogic {
      * @param settingsValues the current values of the settings.
      * @param suggestionInfo the suggestion info.
      * @param keyboardShiftState the shift state of the keyboard, as returned by
-     *     {@link helium314.keyboard.keyboard.KeyboardSwitcher#getKeyboardShiftMode()}
+     *     {@link com.bhuwan.argonboard.keyboard.KeyboardSwitcher#getKeyboardShiftMode()}
      * @return the complete transaction object
      */
     // Called from {@link SuggestionStripView} through the {@link SuggestionStripView#Listener}
@@ -461,7 +461,7 @@ public final class InputLogic {
      * @param settingsValues the current settings values.
      * @param event the event to handle.
      * @param keyboardShiftMode the current shift mode of the keyboard, as returned by
-     *     {@link helium314.keyboard.keyboard.KeyboardSwitcher#getKeyboardShiftMode()}
+     *     {@link com.bhuwan.argonboard.keyboard.KeyboardSwitcher#getKeyboardShiftMode()}
      * @return the complete transaction object
      */
     public InputTransaction onCodeInput(final SettingsValues settingsValues,
@@ -2164,10 +2164,10 @@ public final class InputLogic {
     }
 
     /**
-     * Make a {@link helium314.keyboard.latin.SuggestedWords} object containing a typed word
+     * Make a {@link com.bhuwan.argonboard.latin.SuggestedWords} object containing a typed word
      * and obsolete suggestions.
-     * See {@link helium314.keyboard.latin.SuggestedWords#getTypedWordAndPreviousSuggestions(
-     *      SuggestedWordInfo, helium314.keyboard.latin.SuggestedWords)}.
+     * See {@link com.bhuwan.argonboard.latin.SuggestedWords#getTypedWordAndPreviousSuggestions(
+     *      SuggestedWordInfo, com.bhuwan.argonboard.latin.SuggestedWords)}.
      * @param typedWordInfo The typed word as a SuggestedWordInfo.
      * @param previousSuggestedWords The previously suggested words.
      * @return Obsolete suggestions with the newly typed word.

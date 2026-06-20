@@ -7,14 +7,14 @@
 package com.bhuwan.argonboard.keyboard;
 
 import android.graphics.Rect;
-import helium314.keyboard.latin.utils.Log;
+import com.bhuwan.argonboard.latin.utils.Log;
 
 import androidx.annotation.NonNull;
 
-import helium314.keyboard.keyboard.Key;
-import helium314.keyboard.keyboard.internal.TouchPositionCorrection;
-import helium314.keyboard.latin.common.Constants;
-import helium314.keyboard.latin.utils.JniUtils;
+import com.bhuwan.argonboard.keyboard.Key;
+import com.bhuwan.argonboard.keyboard.internal.TouchPositionCorrection;
+import com.bhuwan.argonboard.latin.common.Constants;
+import com.bhuwan.argonboard.latin.utils.JniUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -6,13 +6,13 @@
 
 package com.bhuwan.argonboard.latin.utils;
 
-import helium314.keyboard.latin.utils.Log;
+import com.bhuwan.argonboard.latin.utils.Log;
 
-import helium314.keyboard.latin.NgramContext;
-import helium314.keyboard.latin.common.StringUtils;
-import helium314.keyboard.latin.define.DecoderSpecificConstants;
-import helium314.keyboard.latin.settings.SpacingAndPunctuations;
-import helium314.keyboard.latin.utils.DictionaryInfoUtils;
+import com.bhuwan.argonboard.latin.NgramContext;
+import com.bhuwan.argonboard.latin.common.StringUtils;
+import com.bhuwan.argonboard.latin.define.DecoderSpecificConstants;
+import com.bhuwan.argonboard.latin.settings.SpacingAndPunctuations;
+import com.bhuwan.argonboard.latin.utils.DictionaryInfoUtils;
 
 import java.util.ArrayList;
 import java.util.List;
