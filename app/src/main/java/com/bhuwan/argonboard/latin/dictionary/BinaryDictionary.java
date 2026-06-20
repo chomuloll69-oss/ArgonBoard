@@ -15,6 +15,7 @@ import androidx.annotation.NonNull;
 
 import com.bhuwan.argonboard.latin.dictionary.Dictionary;
 import com.bhuwan.argonboard.latin.NgramContext;
+import com.bhuwan.argonboard.latin.DicTraverseSession;
 import com.bhuwan.argonboard.latin.SuggestedWords.SuggestedWordInfo;
 import com.bhuwan.argonboard.latin.common.ComposedData;
 import com.bhuwan.argonboard.latin.common.Constants;
