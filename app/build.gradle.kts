@@ -12,7 +12,7 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "helium314.keyboard"
+        applicationId = "com.bhuwan.argonboard"
         minSdk = 21
         targetSdk = 36
         versionCode = 4002
@@ -118,7 +118,7 @@ android {
         includeInBundle = false
     }
 
-    namespace = "helium314.keyboard.latin"
+    namespace = com.bhuwan.argonboard.latin"
     lint {
         abortOnError = true
     }
