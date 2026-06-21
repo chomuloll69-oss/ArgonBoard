@@ -11,7 +11,6 @@ import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
 import androidx.core.graphics.ColorUtils
-import kotlin.math.roundToInt
 
 @RequiresApi(Build.VERSION_CODES.S)
 object FrostedGlass {
@@ -19,10 +18,8 @@ object FrostedGlass {
     fun create(
         context: Context,
         isNight: Boolean,
-        alpha: Int = 42,
-        borderWidthDp: Float = 3f
+        alpha: Int = 42
     ): Drawable {
-        val borderWidthPx = (borderWidthDp * context.resources.displayMetrics.density).roundToInt()
         val base = ContextCompat.getColor(
             context,
             if (isNight) android.R.color.system_neutral1_900 else android.R.color.system_neutral1_50
@@ -48,13 +45,7 @@ object FrostedGlass {
             shape = GradientDrawable.RECTANGLE
         }
 
-        val edgeLayer = GradientDrawable().apply {
-            shape = GradientDrawable.RECTANGLE
-            setStroke(borderWidthPx, ColorUtils.setAlphaComponent(accentTint, if (isNight) 140 else 160))
-            setColor(Color.TRANSPARENT)
-        }
-
-        return LayerDrawable(arrayOf(glassLayer, sheenLayer, edgeLayer))
+        return LayerDrawable(arrayOf(glassLayer, sheenLayer))
     }
 
     fun isSupported(): Boolean = Build.VERSION.SDK_INT >= Build.VERSION_CODES.S
