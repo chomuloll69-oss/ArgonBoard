@@ -11,18 +11,25 @@ import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
 import androidx.core.graphics.ColorUtils
+import kotlin.math.roundToInt
 
 @RequiresApi(Build.VERSION_CODES.S)
 object FrostedGlass {
 
-    fun create(context: Context, isNight: Boolean, alpha: Int = 235): Drawable {
+    fun create(
+        context: Context,
+        isNight: Boolean,
+        alpha: Int = 42,
+        borderWidthDp: Float = 3f
+    ): Drawable {
+        val borderWidthPx = (borderWidthDp * context.resources.displayMetrics.density).roundToInt()
         val base = ContextCompat.getColor(
             context,
             if (isNight) android.R.color.system_neutral1_900 else android.R.color.system_neutral1_50
         )
         val accentTint = ContextCompat.getColor(
             context,
-            if (isNight) android.R.color.system_accent1_700 else android.R.color.system_accent1_100
+            if (isNight) android.R.color.system_accent1_300 else android.R.color.system_accent1_400
         )
 
         val glassLayer = GradientDrawable().apply {
@@ -33,7 +40,7 @@ object FrostedGlass {
         val sheenLayer = GradientDrawable(
             GradientDrawable.Orientation.TL_BR,
             intArrayOf(
-                ColorUtils.setAlphaComponent(accentTint, if (isNight) 28 else 40),
+                ColorUtils.setAlphaComponent(accentTint, if (isNight) 14 else 18),
                 Color.TRANSPARENT,
                 Color.TRANSPARENT
             )
@@ -43,7 +50,7 @@ object FrostedGlass {
 
         val edgeLayer = GradientDrawable().apply {
             shape = GradientDrawable.RECTANGLE
-            setStroke(1, ColorUtils.setAlphaComponent(Color.WHITE, if (isNight) 18 else 60))
+            setStroke(borderWidthPx, ColorUtils.setAlphaComponent(accentTint, if (isNight) 140 else 160))
             setColor(Color.TRANSPARENT)
         }
 
