@@ -717,7 +717,7 @@ static const JNINativeMethod sMethods[] = {
     {
         const_cast<char *>("updateEntriesForInputEventsNative"),
         const_cast<char *>(
-                "(J[Lcom/android/inputmethod/latin/utils/WordInputEventForPersonalization;I)I"),
+                "(J[Lcom/bhuwan/argonboard/latin/utils/WordInputEventForPersonalization;I)I"),
         reinterpret_cast<void *>(latinime_BinaryDictionary_updateEntriesForInputEvents)
     },
     {
