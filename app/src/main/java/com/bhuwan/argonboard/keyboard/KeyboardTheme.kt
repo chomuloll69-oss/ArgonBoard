@@ -20,6 +20,7 @@ import com.bhuwan.argonboard.latin.common.ColorType
 import com.bhuwan.argonboard.latin.common.Colors
 import com.bhuwan.argonboard.latin.common.DefaultColors
 import com.bhuwan.argonboard.latin.common.DynamicColors
+import com.bhuwan.argonboard.latin.common.FrostedGlass
 import com.bhuwan.argonboard.latin.settings.Defaults
 import com.bhuwan.argonboard.latin.settings.Settings
 import com.bhuwan.argonboard.latin.utils.ResourceUtils
@@ -149,8 +150,10 @@ private constructor(val themeId: Int, @JvmField val mStyleId: Int) {
             val backgroundImage = Settings.readUserBackgroundImage(context, isNight)
             return when (themeName) {
                 THEME_DYNAMIC -> {
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) DynamicColors(context, themeStyle, hasBorders, backgroundImage)
-                    else getThemeColors(THEME_LIGHT, themeStyle, context, prefs, isNight)
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+                        val frostedOrUserBg = backgroundImage ?: FrostedGlass.create(context, isNight)
+                        DynamicColors(context, themeStyle, hasBorders, frostedOrUserBg)
+                    } else getThemeColors(THEME_LIGHT, themeStyle, context, prefs, isNight)
                 }
                 THEME_LIGHT -> DefaultColors(
                     themeStyle,
