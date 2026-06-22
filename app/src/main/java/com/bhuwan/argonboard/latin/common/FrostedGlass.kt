@@ -18,7 +18,7 @@ object FrostedGlass {
     fun create(
         context: Context,
         isNight: Boolean,
-        alpha: Int = 42
+        alpha: Int = 150
     ): Drawable {
         val base = ContextCompat.getColor(
             context,
